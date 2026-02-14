@@ -83,7 +83,11 @@ export default function LandingPage() {
       icon: "🧪",
       color: "bg-pink-100 dark:bg-pink-950",
     },
-    { name: "Biología", icon: "🧬", color: "bg-emerald-100 dark:bg-emerald-950" },
+    {
+      name: "Biología",
+      icon: "🧬",
+      color: "bg-emerald-100 dark:bg-emerald-950",
+    },
     { name: "Historia", icon: "📜", color: "bg-amber-100 dark:bg-amber-950" },
     {
       name: "Literatura",
@@ -146,10 +150,10 @@ export default function LandingPage() {
               layout
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ 
-                duration: 0.5, 
+              transition={{
+                duration: 0.5,
                 delay: 0.1,
-                layout: { duration: 0.5, ease: [0.4, 0, 0.2, 1] }
+                layout: { duration: 0.5, ease: [0.4, 0, 0.2, 1] },
               }}
               className="text-5xl sm:text-6xl lg:text-7xl font-black tracking-tight mb-6"
             >
@@ -157,7 +161,9 @@ export default function LandingPage() {
               <motion.span
                 layout
                 className="inline-block relative"
-                transition={{ layout: { duration: 0.5, ease: [0.4, 0, 0.2, 1] } }}
+                transition={{
+                  layout: { duration: 0.5, ease: [0.4, 0, 0.2, 1] },
+                }}
               >
                 <AnimatePresence mode="wait">
                   <motion.span

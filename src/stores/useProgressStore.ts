@@ -1,10 +1,10 @@
 "use client";
 
-import type { UserLessonProgress } from "@/lib/types";
 import {
   saveLessonProgress,
   saveTopicProgress,
 } from "@/lib/services/supabase-sync";
+import type { UserLessonProgress } from "@/lib/types";
 import { create } from "zustand";
 
 interface ProgressState {

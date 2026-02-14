@@ -1,7 +1,6 @@
 "use client";
 
 import { useSupabaseSync } from "@/hooks/useSupabaseSync";
-import { useEffect } from "react";
 
 export function SupabaseSyncProvider({
   children,

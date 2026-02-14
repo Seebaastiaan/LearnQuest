@@ -23,8 +23,8 @@ import {
   Volume2,
   VolumeX,
 } from "lucide-react";
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
@@ -148,6 +148,12 @@ export function Navbar() {
                   <Link href="/profile" className="cursor-pointer">
                     <User className="w-4 h-4 mr-2" />
                     {locale === "es" ? "Mi Perfil" : "My Profile"}
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link href="/review" className="cursor-pointer">
+                    <BookOpen className="w-4 h-4 mr-2" />
+                    {locale === "es" ? "Repasar" : "Review"}
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />

@@ -1,17 +1,17 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { useGameStore, useProgressStore } from "@/stores";
 import {
+  ensureUserProfile,
   getCurrentUser,
   loadGameState,
   loadLessonProgress,
   loadTopicProgress,
-  ensureUserProfile,
   saveGameState,
 } from "@/lib/services/supabase-sync";
-import { DEFAULT_GAME_CONFIG } from "@/lib/types";
 import type { UserLessonProgress } from "@/lib/types";
+import { DEFAULT_GAME_CONFIG } from "@/lib/types";
+import { useGameStore, useProgressStore } from "@/stores";
+import { useEffect, useState } from "react";
 
 export function useSupabaseSync() {
   const [isLoading, setIsLoading] = useState(true);
@@ -102,12 +102,7 @@ export function useSupabaseSync() {
     }
 
     syncData();
-  }, [
-    setGameUserId,
-    loadGameFromDB,
-    setProgressUserId,
-    loadProgressFromDB,
-  ]);
+  }, [setGameUserId, loadGameFromDB, setProgressUserId, loadProgressFromDB]);
 
   return { isLoading, isAuthenticated };
 }

@@ -1,10 +1,7 @@
 "use client";
 
+import { addXPHistory, saveGameState } from "@/lib/services/supabase-sync";
 import { DEFAULT_GAME_CONFIG, type XPGainEvent } from "@/lib/types";
-import {
-  addXPHistory,
-  saveGameState,
-} from "@/lib/services/supabase-sync";
 import { create } from "zustand";
 
 interface GameState {
@@ -36,7 +33,7 @@ interface GameState {
   addXp: (
     amount: number,
     reason: XPGainEvent["reason"],
-    lessonId?: string
+    lessonId?: string,
   ) => void;
   loseHeart: () => void;
   regenerateHearts: () => void;
@@ -142,13 +139,13 @@ export const useGameStore = create<GameState>()((set, get) => ({
     const lastRefill = new Date(heartsLastRefill);
     const minutesPassed = (now.getTime() - lastRefill.getTime()) / 60000;
     const heartsToRegen = Math.floor(
-      minutesPassed / DEFAULT_GAME_CONFIG.heartRegenMinutes
+      minutesPassed / DEFAULT_GAME_CONFIG.heartRegenMinutes,
     );
 
     if (heartsToRegen > 0) {
       const newHearts = Math.min(
         hearts + heartsToRegen,
-        DEFAULT_GAME_CONFIG.maxHearts
+        DEFAULT_GAME_CONFIG.maxHearts,
       );
       set({
         hearts: newHearts,
