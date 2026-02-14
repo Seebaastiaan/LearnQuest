@@ -69,7 +69,8 @@ export function Navbar() {
   const handleLogout = async () => {
     const supabase = createClient();
     await supabase.auth.signOut();
-    router.push("/login");
+    // Forzar recarga completa para limpiar todo el estado del cliente
+    window.location.href = "/";
   };
 
   return (
