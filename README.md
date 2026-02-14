@@ -78,7 +78,7 @@ LearnQuest is a gamified learning platform designed to help students prepare for
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/learnquest.git
+git clone https://github.com/Seebaastiaan/LearnQuest.git
 cd learnquest
 ```
 
@@ -236,7 +236,7 @@ This project is private and intended for educational purposes.
 
 ## 💖 Credits
 
-Built with love by [Your Name] for Eve.
+Built with love by Sebitas for Eve.
 
 Special thanks to:
 
@@ -249,5 +249,5 @@ Special thanks to:
 <div align="center">
   <strong>Ready to start your learning quest? 🚀</strong>
   <br />
-  <a href="">Try LearnQuest Now</a>
+  <a href="https://learn-quest-theta.vercel.app">Try LearnQuest Now</a>
 </div>
