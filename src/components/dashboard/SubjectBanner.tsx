@@ -1,11 +1,16 @@
 "use client";
 
+import { GlossaryDialog } from "@/components/glossary/GlossaryDialog";
+import {
+  biologyGlossary,
+  geographyGlossary,
+  mathGlossary,
+  type GlossaryEntry,
+} from "@/lib/data/glossary";
+import type { LocalizedString } from "@/lib/types";
 import { useSettingsStore } from "@/stores";
 import { BookOpen } from "lucide-react";
-import type { LocalizedString } from "@/lib/types";
 import { useState } from "react";
-import { GlossaryDialog } from "@/components/glossary/GlossaryDialog";
-import { mathGlossary, biologyGlossary, geographyGlossary, type GlossaryEntry } from "@/lib/data/glossary";
 
 interface SubjectBannerProps {
   /** Subject gradient class (e.g. "from-sky-500 to-blue-600") */

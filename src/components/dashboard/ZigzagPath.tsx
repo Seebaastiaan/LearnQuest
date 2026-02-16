@@ -1,16 +1,13 @@
 "use client";
 
+import {
+  PathCharacter,
+  SUBJECT_CHARACTERS,
+} from "@/components/learning-path/PathCharacter";
 import type { Topic } from "@/lib/types";
 import type { UserLessonProgress } from "@/lib/types/user";
 import { useSettingsStore } from "@/stores";
-import { PathCharacter, SUBJECT_CHARACTERS } from "@/components/learning-path/PathCharacter";
-import {
-  CheckCircle2,
-  Crown,
-  Gift,
-  Lock,
-  Star,
-} from "lucide-react";
+import { CheckCircle2, Crown, Gift, Lock, Star } from "lucide-react";
 import { motion } from "motion/react";
 import Link from "next/link";
 import { useMemo } from "react";
@@ -201,7 +198,8 @@ function getCharacterForNode(
   let char: { src: string; label: string };
 
   if (isEncouragement) {
-    const encIndex = Math.floor(placementIndex / 3) % charSet.encouragement.length;
+    const encIndex =
+      Math.floor(placementIndex / 3) % charSet.encouragement.length;
     char = charSet.encouragement[encIndex];
   } else {
     const themedPlacement = placementIndex - Math.floor(placementIndex / 3);
@@ -240,7 +238,11 @@ const TRAIL_CURRENT = "#1CB0F6";
 const TRAIL_LOCKED = "#E5E5E5";
 const TRAIL_LOCKED_DARK = "#475569";
 
-export function ZigzagPath({ topics, lessonProgress, subjectId = "default" }: ZigzagPathProps) {
+export function ZigzagPath({
+  topics,
+  lessonProgress,
+  subjectId = "default",
+}: ZigzagPathProps) {
   const locale = useSettingsStore((s) => s.locale);
   const nodes = useMemo(
     () => buildPathNodes(topics, lessonProgress, locale),
@@ -255,7 +257,12 @@ export function ZigzagPath({ topics, lessonProgress, subjectId = "default" }: Zi
 
   // Pre-compute trail segments with colors
   const segments = useMemo(() => {
-    const segs: { path: string; color: string; colorDark: string; dashed: boolean }[] = [];
+    const segs: {
+      path: string;
+      color: string;
+      colorDark: string;
+      dashed: boolean;
+    }[] = [];
     for (let i = 0; i < nodes.length - 1; i++) {
       const fromState = nodes[i].state;
       const toState = nodes[i + 1].state;
@@ -301,11 +308,8 @@ export function ZigzagPath({ topics, lessonProgress, subjectId = "default" }: Zi
     <div className="relative w-full flex justify-center py-6">
       {/* Decorative background gradient (Duolingo style) */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-50/30 to-transparent dark:via-blue-950/10 pointer-events-none" />
-      
-      <div
-        className="relative"
-        style={{ width: svgWidth, height: svgHeight }}
-      >
+
+      <div className="relative" style={{ width: svgWidth, height: svgHeight }}>
         {/* SVG trail layer */}
         <svg
           className="absolute inset-0"
@@ -316,7 +320,13 @@ export function ZigzagPath({ topics, lessonProgress, subjectId = "default" }: Zi
         >
           <defs>
             {/* Shadow filter for trail */}
-            <filter id="trail-shadow" x="-50%" y="-50%" width="200%" height="200%">
+            <filter
+              id="trail-shadow"
+              x="-50%"
+              y="-50%"
+              width="200%"
+              height="200%"
+            >
               <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
               <feOffset dx="0" dy="2" result="offsetblur" />
               <feComponentTransfer>
@@ -347,7 +357,9 @@ export function ZigzagPath({ topics, lessonProgress, subjectId = "default" }: Zi
                 <path
                   d={seg.path}
                   stroke={seg.color}
-                  className={seg.color === TRAIL_LOCKED ? "dark:stroke-slate-600" : ""}
+                  className={
+                    seg.color === TRAIL_LOCKED ? "dark:stroke-slate-600" : ""
+                  }
                   strokeWidth={TRAIL_WIDTH}
                   strokeLinecap="round"
                   strokeDasharray={seg.dashed ? "8 12" : "none"}
@@ -363,7 +375,12 @@ export function ZigzagPath({ topics, lessonProgress, subjectId = "default" }: Zi
         {nodes.map((node, i) => {
           const nodeX = originX + getNodeX(i);
           const nodeY = svgPadding + i * NODE_SPACING_Y;
-          const character = getCharacterForNode(i, nodes.length, node.type, subjectId);
+          const character = getCharacterForNode(
+            i,
+            nodes.length,
+            node.type,
+            subjectId,
+          );
 
           return (
             <div

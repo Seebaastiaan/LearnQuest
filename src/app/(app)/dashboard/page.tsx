@@ -7,8 +7,8 @@ import { subjects } from "@/lib/data/subjects";
 import { allTopics } from "@/lib/data/topics";
 import { allBiologyTopics } from "@/lib/data/topics/biologia";
 import { allGeographyTopics } from "@/lib/data/topics/geografia";
-import type { Subject } from "@/lib/types/subject";
 import type { Topic } from "@/lib/types";
+import type { Subject } from "@/lib/types/subject";
 import { useGameStore, useProgressStore, useSettingsStore } from "@/stores";
 import { useEffect } from "react";
 
@@ -35,7 +35,9 @@ export default function DashboardPage() {
   const activeSubject =
     (currentSubjectData
       ? subjects.find((s) => s.name === currentSubjectData.name)
-      : null) ?? subjects.find((s) => s.available) ?? subjects[0];
+      : null) ??
+    subjects.find((s) => s.available) ??
+    subjects[0];
 
   const topics = topicsBySubject[activeSubject.id] ?? [];
 
@@ -81,7 +83,11 @@ export default function DashboardPage() {
       />
 
       {/* Zigzag learning path */}
-      <ZigzagPath topics={topics} lessonProgress={lessonProgress} subjectId={activeSubject.id} />
+      <ZigzagPath
+        topics={topics}
+        lessonProgress={lessonProgress}
+        subjectId={activeSubject.id}
+      />
     </div>
   );
 }

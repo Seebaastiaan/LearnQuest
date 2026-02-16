@@ -55,7 +55,10 @@ export function RightSidebar() {
       id: "daily-xp",
       titleEs: "Gana 50 XP",
       titleEn: "Earn 50 XP",
-      current: Math.min(totalXp % 50 === 0 && totalXp > 0 ? 50 : totalXp % 50, 50),
+      current: Math.min(
+        totalXp % 50 === 0 && totalXp > 0 ? 50 : totalXp % 50,
+        50,
+      ),
       target: 50,
       xpReward: 15,
     },
@@ -103,8 +106,6 @@ export function RightSidebar() {
           </div>
         </div>
 
-
-
         {/* ─── Misiones Diarias ─── */}
         <WidgetCard>
           <h3 className="text-base font-extrabold text-[#4B4B4B] dark:text-white mb-3">
@@ -113,9 +114,10 @@ export function RightSidebar() {
 
           <div className="space-y-3">
             {missions.map((mission) => {
-              const progress = mission.target > 0
-                ? (mission.current / mission.target) * 100
-                : 0;
+              const progress =
+                mission.target > 0
+                  ? (mission.current / mission.target) * 100
+                  : 0;
               const isComplete = mission.current >= mission.target;
 
               return (
@@ -126,7 +128,9 @@ export function RightSidebar() {
                     </span>
                     <span
                       className={`text-xs font-bold ${
-                        isComplete ? "text-[#58CC02]" : "text-[#AFAFAF] dark:text-slate-500"
+                        isComplete
+                          ? "text-[#58CC02]"
+                          : "text-[#AFAFAF] dark:text-slate-500"
                       }`}
                     >
                       {mission.current}/{mission.target}
@@ -135,9 +139,7 @@ export function RightSidebar() {
                   <div className="h-3 bg-[#E5E5E5] dark:bg-slate-800 rounded-full overflow-hidden">
                     <motion.div
                       className={`h-full rounded-full ${
-                        isComplete
-                          ? "bg-[#58CC02]"
-                          : "bg-[#FFC800]"
+                        isComplete ? "bg-[#58CC02]" : "bg-[#FFC800]"
                       }`}
                       initial={{ width: 0 }}
                       animate={{ width: `${Math.min(progress, 100)}%` }}
@@ -146,7 +148,8 @@ export function RightSidebar() {
                   </div>
                   {isComplete && (
                     <p className="text-xs text-[#58CC02] font-bold mt-1">
-                      +{mission.xpReward} XP {locale === "es" ? "ganados" : "earned"}
+                      +{mission.xpReward} XP{" "}
+                      {locale === "es" ? "ganados" : "earned"}
                     </p>
                   )}
                 </div>

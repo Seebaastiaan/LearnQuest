@@ -12,14 +12,14 @@ import { useRef } from "react";
  * These are concrete values so Tailwind v4 can pick them up at build time.
  */
 const shadowBySubject: Record<string, string> = {
-  matematicas: "#2563eb",  // blue-600
-  fisica: "#7c3aed",       // violet-600
-  quimica: "#e11d48",      // rose-600
-  biologia: "#059669",     // emerald-600
-  historia: "#d97706",     // amber-600
-  geografia: "#0891b2",    // cyan-600
-  literatura: "#7c3aed",   // violet-600
-  espanol: "#059669",      // emerald-600
+  matematicas: "#2563eb", // blue-600
+  fisica: "#7c3aed", // violet-600
+  quimica: "#e11d48", // rose-600
+  biologia: "#059669", // emerald-600
+  historia: "#d97706", // amber-600
+  geografia: "#0891b2", // cyan-600
+  literatura: "#7c3aed", // violet-600
+  espanol: "#059669", // emerald-600
 };
 
 /**
@@ -45,24 +45,30 @@ export function SubjectTabs({ activeSubjectId, onSelect }: SubjectTabsProps) {
   const locale = useSettingsStore((s) => s.locale);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
-  const availableSubjects = subjects.filter(s => s.available);
-  const currentIndex = availableSubjects.findIndex(s => s.id === activeSubjectId);
+  const availableSubjects = subjects.filter((s) => s.available);
+  const currentIndex = availableSubjects.findIndex(
+    (s) => s.id === activeSubjectId,
+  );
   const canScrollLeft = currentIndex > 0;
   const canScrollRight = currentIndex < availableSubjects.length - 1;
 
-  const scrollToSubject = (direction: 'left' | 'right') => {
+  const scrollToSubject = (direction: "left" | "right") => {
     const container = scrollContainerRef.current;
     if (!container) return;
 
-    const newIndex = direction === 'left' ? currentIndex - 1 : currentIndex + 1;
+    const newIndex = direction === "left" ? currentIndex - 1 : currentIndex + 1;
     if (newIndex >= 0 && newIndex < availableSubjects.length) {
       onSelect(availableSubjects[newIndex]);
-      
+
       // Smooth scroll to the selected tab
       const tabs = container.children;
       const targetTab = tabs[newIndex] as HTMLElement;
       if (targetTab) {
-        targetTab.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        targetTab.scrollIntoView({
+          behavior: "smooth",
+          block: "nearest",
+          inline: "center",
+        });
       }
     }
   };
@@ -72,9 +78,9 @@ export function SubjectTabs({ activeSubjectId, onSelect }: SubjectTabsProps) {
       {/* Left arrow - only visible on larger screens */}
       <button
         type="button"
-        onClick={() => scrollToSubject('left')}
+        onClick={() => scrollToSubject("left")}
         disabled={!canScrollLeft}
-        className={`absolute left-0 top-1/2 -translate-y-1/2 z-10 w-8 h-8 rounded-full bg-white dark:bg-slate-800 shadow-lg border-2 border-[#E5E5E5] dark:border-white/10 sm:inline-flex hidden items-center justify-center hover:bg-[#F7F7F7] dark:hover:bg-slate-700 transition-all ${!canScrollLeft ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}
+        className={`absolute left-0 top-1/2 -translate-y-1/2 z-10 w-8 h-8 rounded-full bg-white dark:bg-slate-800 shadow-lg border-2 border-[#E5E5E5] dark:border-white/10 sm:inline-flex hidden items-center justify-center hover:bg-[#F7F7F7] dark:hover:bg-slate-700 transition-all ${!canScrollLeft ? "opacity-0 pointer-events-none" : "opacity-100"}`}
         aria-label="Previous subject"
       >
         <ChevronLeft className="w-5 h-5 text-[#4B4B4B] dark:text-white" />
@@ -83,16 +89,16 @@ export function SubjectTabs({ activeSubjectId, onSelect }: SubjectTabsProps) {
       {/* Right arrow - only visible on larger screens */}
       <button
         type="button"
-        onClick={() => scrollToSubject('right')}
+        onClick={() => scrollToSubject("right")}
         disabled={!canScrollRight}
-        className={`absolute right-0 top-1/2 -translate-y-1/2 z-10 w-8 h-8 rounded-full bg-white dark:bg-slate-800 shadow-lg border-2 border-[#E5E5E5] dark:border-white/10 sm:inline-flex hidden items-center justify-center hover:bg-[#F7F7F7] dark:hover:bg-slate-700 transition-all ${!canScrollRight ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}
+        className={`absolute right-0 top-1/2 -translate-y-1/2 z-10 w-8 h-8 rounded-full bg-white dark:bg-slate-800 shadow-lg border-2 border-[#E5E5E5] dark:border-white/10 sm:inline-flex hidden items-center justify-center hover:bg-[#F7F7F7] dark:hover:bg-slate-700 transition-all ${!canScrollRight ? "opacity-0 pointer-events-none" : "opacity-100"}`}
         aria-label="Next subject"
       >
         <ChevronRight className="w-5 h-5 text-[#4B4B4B] dark:text-white" />
       </button>
 
       {/* Scrollable container */}
-      <div 
+      <div
         ref={scrollContainerRef}
         className="flex gap-2 overflow-x-auto pb-1 scrollbar-hide -mx-1 px-1 sm:px-10"
       >
@@ -141,7 +147,9 @@ export function SubjectTabs({ activeSubjectId, onSelect }: SubjectTabsProps) {
                   : { boxShadow: "0 4px 0 0 #E5E5E5" }
               }
             >
-              <Icon className={`w-5 h-5 ${isActive ? "text-white" : "text-[#AFAFAF] dark:text-slate-400"}`} />
+              <Icon
+                className={`w-5 h-5 ${isActive ? "text-white" : "text-[#AFAFAF] dark:text-slate-400"}`}
+              />
               <span className="whitespace-nowrap">
                 {locale === "es" ? subject.name : subject.nameEn}
               </span>

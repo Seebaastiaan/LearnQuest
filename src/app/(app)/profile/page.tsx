@@ -3,14 +3,14 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { allTopics } from "@/lib/data/topics";
+import { createClient } from "@/lib/supabase/client";
 import type { Lesson, Topic } from "@/lib/types";
 import { getLevelProgress } from "@/lib/utils/xp-calculator";
 import { useGameStore, useProgressStore, useSettingsStore } from "@/stores";
 import { BookOpen, Flame, Star, Trophy, Zap } from "lucide-react";
 import { motion } from "motion/react";
-import { createClient } from "@/lib/supabase/client";
-import { useEffect, useState } from "react";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 export default function ProfilePage() {
   const locale = useSettingsStore((s) => s.locale);

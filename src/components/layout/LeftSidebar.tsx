@@ -1,11 +1,7 @@
 "use client";
 
 import { useSettingsStore } from "@/stores";
-import {
-  BookOpen,
-  GraduationCap,
-  User,
-} from "lucide-react";
+import { BookOpen, GraduationCap, User } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 

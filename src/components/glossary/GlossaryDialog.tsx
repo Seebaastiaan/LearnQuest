@@ -1,11 +1,16 @@
 "use client";
 
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
-import { useSettingsStore } from "@/stores";
-import type { GlossaryEntry } from "@/lib/data/glossary";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
+import type { GlossaryEntry } from "@/lib/data/glossary";
+import { useSettingsStore } from "@/stores";
 import { Search } from "lucide-react";
-import { useState, useMemo } from "react";
+import { useMemo, useState } from "react";
 
 interface GlossaryDialogProps {
   isOpen: boolean;
@@ -27,7 +32,7 @@ export function GlossaryDialog({
   const uniqueTerms = useMemo(() => {
     const seen = new Set<string>();
     const terms: Array<{ key: string; entry: GlossaryEntry }> = [];
-    
+
     Object.entries(glossary).forEach(([key, entry]) => {
       const termText = entry.term[locale] || entry.term.es;
       if (!seen.has(termText)) {
@@ -35,7 +40,7 @@ export function GlossaryDialog({
         terms.push({ key, entry });
       }
     });
-    
+
     return terms.sort((a, b) => {
       const aText = a.entry.term[locale] || a.entry.term.es;
       const bText = b.entry.term[locale] || b.entry.term.es;
@@ -46,11 +51,13 @@ export function GlossaryDialog({
   // Filter terms based on search query
   const filteredTerms = useMemo(() => {
     if (!searchQuery.trim()) return uniqueTerms;
-    
+
     const query = searchQuery.toLowerCase();
     return uniqueTerms.filter(({ entry }) => {
       const term = (entry.term[locale] || entry.term.es).toLowerCase();
-      const definition = (entry.definition[locale] || entry.definition.es).toLowerCase();
+      const definition = (
+        entry.definition[locale] || entry.definition.es
+      ).toLowerCase();
       return term.includes(query) || definition.includes(query);
     });
   }, [uniqueTerms, searchQuery, locale]);
@@ -60,7 +67,8 @@ export function GlossaryDialog({
       <DialogContent className="max-w-2xl max-h-[80vh] flex flex-col">
         <DialogHeader>
           <DialogTitle className="text-2xl font-bold">
-            {locale === "es" ? "Guía de estudio" : "Study guide"} - {subjectName}
+            {locale === "es" ? "Guía de estudio" : "Study guide"} -{" "}
+            {subjectName}
           </DialogTitle>
         </DialogHeader>
 
@@ -69,7 +77,9 @@ export function GlossaryDialog({
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
           <Input
             type="text"
-            placeholder={locale === "es" ? "Buscar término..." : "Search term..."}
+            placeholder={
+              locale === "es" ? "Buscar término..." : "Search term..."
+            }
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="pl-9"
@@ -80,8 +90,8 @@ export function GlossaryDialog({
         <div className="flex-1 overflow-y-auto space-y-4 pr-2">
           {filteredTerms.length === 0 ? (
             <p className="text-center text-muted-foreground py-8">
-              {locale === "es" 
-                ? "No se encontraron términos" 
+              {locale === "es"
+                ? "No se encontraron términos"
                 : "No terms found"}
             </p>
           ) : (
@@ -108,8 +118,8 @@ export function GlossaryDialog({
 
         {/* Footer with count */}
         <div className="text-sm text-muted-foreground text-center pt-2 border-t">
-          {locale === "es" 
-            ? `${filteredTerms.length} término${filteredTerms.length !== 1 ? "s" : ""}` 
+          {locale === "es"
+            ? `${filteredTerms.length} término${filteredTerms.length !== 1 ? "s" : ""}`
             : `${filteredTerms.length} term${filteredTerms.length !== 1 ? "s" : ""}`}
         </div>
       </DialogContent>

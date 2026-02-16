@@ -17,6 +17,7 @@ import { useSettingsStore } from "@/stores";
 import {
   BookOpen,
   Globe,
+  Lock,
   LogOut,
   Map,
   User,
@@ -25,7 +26,7 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 export function Navbar() {
@@ -33,7 +34,6 @@ export function Navbar() {
   const soundEnabled = useSettingsStore((s) => s.soundEnabled);
   const toggleSound = useSettingsStore((s) => s.toggleSound);
   const setLocale = useSettingsStore((s) => s.setLocale);
-  const router = useRouter();
 
   const [user, setUser] = useState<{
     name: string;
@@ -181,37 +181,65 @@ export function BottomNav() {
     {
       href: "/dashboard",
       icon: Map,
-      label: locale === "es" ? "Mapa" : "Map",
+      label: locale === "es" ? "Aprender" : "Learn",
+      disabled: false,
     },
     {
-      href: "/review",
-      icon: BookOpen,
-      label: locale === "es" ? "Repasar" : "Review",
+      href: "/coming-soon?feature=curriculum",
+      icon: Lock,
+      label: locale === "es" ? "Temario" : "Curriculum",
+      disabled: true,
+    },
+    {
+      href: "/coming-soon?feature=leagues",
+      icon: Lock,
+      label: locale === "es" ? "Ligas" : "Leagues",
+      disabled: true,
+    },
+    {
+      href: "/coming-soon?feature=missions",
+      icon: Lock,
+      label: locale === "es" ? "Misiones" : "Missions",
+      disabled: true,
     },
     {
       href: "/profile",
       icon: User,
       label: locale === "es" ? "Perfil" : "Profile",
+      disabled: false,
     },
   ];
 
   return (
     <nav className="fixed bottom-0 left-0 right-0 z-50 border-t border-border/40 bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60 sm:hidden">
-      <div className="flex items-center justify-around h-16">
+      <div className="flex items-center justify-around h-16 px-1">
         {links.map((link) => {
-          const isActive = pathname === link.href;
+          const isActive = pathname === link.href && !link.disabled;
           return (
             <Link
               key={link.href}
-              href={link.href}
-              className={`flex flex-col items-center gap-1 px-4 py-2 rounded-xl transition-colors
-                ${isActive ? "text-primary" : "text-muted-foreground hover:text-foreground"}
+              href={link.disabled ? "#" : link.href}
+              onClick={(e) => {
+                if (link.disabled) {
+                  e.preventDefault();
+                }
+              }}
+              className={`flex flex-col items-center gap-1 px-2 py-2 rounded-xl transition-colors flex-1 max-w-20 relative
+                ${
+                  link.disabled
+                    ? "text-[#AFAFAF] dark:text-slate-600 cursor-default pointer-events-none"
+                    : isActive
+                      ? "text-primary"
+                      : "text-muted-foreground hover:text-foreground"
+                }
               `}
             >
               <link.icon
-                className={`w-5 h-5 ${isActive ? "text-primary" : ""}`}
+                className={`w-6 h-6 ${isActive ? "text-primary" : link.disabled ? "text-[#AFAFAF] dark:text-slate-600" : ""}`}
               />
-              <span className="text-[10px] font-medium">{link.label}</span>
+              <span className="text-[9px] font-medium leading-tight text-center">
+                {link.label}
+              </span>
             </Link>
           );
         })}
