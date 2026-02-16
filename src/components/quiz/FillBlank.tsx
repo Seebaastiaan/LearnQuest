@@ -28,24 +28,35 @@ export function FillBlank({
   const [hasAnswered, setHasAnswered] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
 
+  // Detect if answer is numeric for appropriate keyboard
+  const isNumericAnswer = !isNaN(parseFloat(correctAnswer)) && isFinite(parseFloat(correctAnswer));
+
   const handleSubmit = () => {
     if (!value.trim() || hasAnswered || disabled) return;
 
     const trimmed = value.trim();
-    // Normalize: remove spaces, convert commas to dots for decimals
-    const normalized = trimmed.replace(/\s/g, "").replace(",", ".");
-    const correctNormalized = correctAnswer
-      .replace(/\s/g, "")
-      .replace(",", ".");
+    
+    // For numeric answers, do numerical comparison
+    if (isNumericAnswer) {
+      const normalized = trimmed.replace(/\s/g, "").replace(",", ".");
+      const correctNormalized = correctAnswer
+        .replace(/\s/g, "")
+        .replace(",", ".");
 
-    // Check exact match or numerical equivalence
-    const correct =
-      normalized === correctNormalized ||
-      parseFloat(normalized) === parseFloat(correctNormalized);
+      const correct =
+        normalized === correctNormalized ||
+        parseFloat(normalized) === parseFloat(correctNormalized);
 
-    setIsCorrect(correct);
-    setHasAnswered(true);
-    onAnswer(trimmed, correct);
+      setIsCorrect(correct);
+      setHasAnswered(true);
+      onAnswer(trimmed, correct);
+    } else {
+      // For text answers, do case-insensitive comparison
+      const correct = trimmed.toLowerCase() === correctAnswer.toLowerCase();
+      setIsCorrect(correct);
+      setHasAnswered(true);
+      onAnswer(trimmed, correct);
+    }
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
@@ -77,7 +88,7 @@ export function FillBlank({
         <div className="relative">
           <Input
             type="text"
-            inputMode="decimal"
+            inputMode={isNumericAnswer ? "decimal" : "text"}
             value={value}
             onChange={(e) => setValue(e.target.value)}
             onKeyDown={handleKeyDown}

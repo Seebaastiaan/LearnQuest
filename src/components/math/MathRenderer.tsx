@@ -16,18 +16,18 @@ interface MathRendererProps {
 function containsMath(text: string): boolean {
   // Check for common LaTeX patterns
   const mathPatterns = [
-    /\\\w+/,           // LaTeX commands like \frac, \sqrt
-    /\^\{/,            // Superscripts
-    /\_\{/,            // Subscripts
-    /\$\$/,            // Display math markers
-    /\$/,              // Inline math markers
-    /\\frac/,          // Fractions
-    /\\sqrt/,          // Square roots
-    /\\text/,          // Text in math mode
-    /\{.*\}/,          // Curly braces (common in LaTeX)
+    /\\\w+/, // LaTeX commands like \frac, \sqrt
+    /\^\{/, // Superscripts
+    /\_\{/, // Subscripts
+    /\$\$/, // Display math markers
+    /\$/, // Inline math markers
+    /\\frac/, // Fractions
+    /\\sqrt/, // Square roots
+    /\\text/, // Text in math mode
+    /\{.*\}/, // Curly braces (common in LaTeX)
   ];
-  
-  return mathPatterns.some(pattern => pattern.test(text));
+
+  return mathPatterns.some((pattern) => pattern.test(text));
 }
 
 export function MathRenderer({
