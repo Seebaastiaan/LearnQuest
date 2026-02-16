@@ -7,10 +7,20 @@ interface SettingsState {
   soundEnabled: boolean;
   locale: "es" | "en";
   theme: "light" | "dark" | "system";
+  currentSubject: {
+    name: string;
+    nameEn: string;
+    icon: string;
+  } | null;
 
   toggleSound: () => void;
   setLocale: (locale: "es" | "en") => void;
   setTheme: (theme: "light" | "dark" | "system") => void;
+  setCurrentSubject: (subject: {
+    name: string;
+    nameEn: string;
+    icon: string;
+  }) => void;
 }
 
 export const useSettingsStore = create<SettingsState>()(
@@ -19,10 +29,12 @@ export const useSettingsStore = create<SettingsState>()(
       soundEnabled: true,
       locale: "es",
       theme: "light",
+      currentSubject: null,
 
       toggleSound: () => set({ soundEnabled: !get().soundEnabled }),
       setLocale: (locale) => set({ locale }),
       setTheme: (theme) => set({ theme }),
+      setCurrentSubject: (subject) => set({ currentSubject: subject }),
     }),
     {
       name: "learnquest-settings",

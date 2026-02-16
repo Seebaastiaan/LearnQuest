@@ -1,0 +1,96 @@
+import {
+  Atom,
+  Beaker,
+  BookMarked,
+  BookOpen,
+  Dna,
+  Globe2,
+  Landmark,
+  Languages,
+} from "lucide-react";
+import type { Subject } from "../types/subject";
+
+export const subjects: Subject[] = [
+  {
+    id: "matematicas",
+    name: "Matemáticas",
+    nameEn: "Mathematics",
+    icon: BookOpen,
+    emoji: "📐",
+    gradient: "from-sky-500 to-blue-600",
+    available: true,
+    lessonCount: 30,
+    exerciseCount: 305,
+  },
+  {
+    id: "fisica",
+    name: "Física",
+    nameEn: "Physics",
+    icon: Atom,
+    emoji: "⚛️",
+    gradient: "from-purple-500 to-violet-600",
+    available: false,
+  },
+  {
+    id: "quimica",
+    name: "Química",
+    nameEn: "Chemistry",
+    icon: Beaker,
+    emoji: "🧪",
+    gradient: "from-pink-500 to-rose-600",
+    available: false,
+  },
+  {
+    id: "biologia",
+    name: "Biología",
+    nameEn: "Biology",
+    icon: Dna,
+    emoji: "🧬",
+    gradient: "from-emerald-500 to-green-600",
+    available: true,
+    lessonCount: 25,
+    exerciseCount: 275,
+  },
+  {
+    id: "historia",
+    name: "Historia",
+    nameEn: "History",
+    icon: Landmark,
+    emoji: "🏛️",
+    gradient: "from-amber-500 to-orange-600",
+    available: false,
+  },
+  {
+    id: "geografia",
+    name: "Geografía",
+    nameEn: "Geography",
+    icon: Globe2,
+    emoji: "🌍",
+    gradient: "from-teal-500 to-cyan-600",
+    available: true,
+    lessonCount: 15,
+    exerciseCount: 150,
+  },
+  {
+    id: "literatura",
+    name: "Literatura",
+    nameEn: "Literature",
+    icon: BookMarked,
+    emoji: "📚",
+    gradient: "from-indigo-500 to-purple-600",
+    available: false,
+  },
+  {
+    id: "espanol",
+    name: "Español",
+    nameEn: "Spanish",
+    icon: Languages,
+    emoji: "🗣️",
+    gradient: "from-green-500 to-emerald-600",
+    available: false,
+  },
+];
+
+export function getSubjectById(id: string): Subject | undefined {
+  return subjects.find((s) => s.id === id);
+}

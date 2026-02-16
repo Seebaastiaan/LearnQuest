@@ -8,11 +8,45 @@ import { getLevelProgress } from "@/lib/utils/xp-calculator";
 import { useGameStore, useProgressStore, useSettingsStore } from "@/stores";
 import { BookOpen, Flame, Star, Trophy, Zap } from "lucide-react";
 import { motion } from "motion/react";
+import { createClient } from "@/lib/supabase/client";
+import { useEffect, useState } from "react";
+import Image from "next/image";
 
 export default function ProfilePage() {
   const locale = useSettingsStore((s) => s.locale);
   const { totalXp, level, currentStreak, longestStreak } = useGameStore();
   const { completedTopics, lessonProgress } = useProgressStore();
+
+  const [user, setUser] = useState<{
+    name: string;
+    email: string;
+    avatar: string;
+  } | null>(null);
+
+  useEffect(() => {
+    async function loadUser() {
+      const supabase = createClient();
+      const {
+        data: { user: authUser },
+      } = await supabase.auth.getUser();
+
+      if (authUser) {
+        setUser({
+          name:
+            authUser.user_metadata?.full_name ||
+            authUser.user_metadata?.name ||
+            authUser.email?.split("@")[0] ||
+            "Usuario",
+          email: authUser.email || "",
+          avatar:
+            authUser.user_metadata?.avatar_url ||
+            authUser.user_metadata?.picture ||
+            `https://ui-avatars.com/api/?name=${encodeURIComponent(authUser.email || "U")}&background=0ea5e9&color=fff`,
+        });
+      }
+    }
+    loadUser();
+  }, []);
 
   const levelProgress = getLevelProgress(totalXp);
 
@@ -80,12 +114,32 @@ export default function ProfilePage() {
         className="text-center mb-8"
       >
         {/* Avatar */}
-        <div className="w-20 h-20 rounded-full bg-linear-to-br from-sky-400 to-blue-600 flex items-center justify-center mx-auto mb-4 shadow-lg">
-          <span className="text-3xl text-white font-black">{level}</span>
+        <div className="relative w-20 h-20 mx-auto mb-4">
+          {user?.avatar ? (
+            <div className="relative w-20 h-20">
+              <Image
+                src={user.avatar}
+                alt={user.name}
+                width={80}
+                height={80}
+                className="w-20 h-20 rounded-full object-cover shadow-lg border-4 border-white dark:border-slate-800"
+              />
+              <div className="absolute -bottom-1 -right-1 w-8 h-8 rounded-full bg-linear-to-br from-amber-400 to-amber-500 flex items-center justify-center shadow-md border-2 border-white dark:border-slate-800">
+                <span className="text-xs text-white font-black">{level}</span>
+              </div>
+            </div>
+          ) : (
+            <div className="w-20 h-20 rounded-full bg-linear-to-br from-sky-400 to-blue-600 flex items-center justify-center shadow-lg">
+              <span className="text-3xl text-white font-black">{level}</span>
+            </div>
+          )}
         </div>
         <h1 className="text-2xl font-black">
-          {locale === "es" ? "Tu Perfil" : "Your Profile"}
+          {user?.name || (locale === "es" ? "Tu Perfil" : "Your Profile")}
         </h1>
+        {user?.email && (
+          <p className="text-sm text-muted-foreground mt-1">{user.email}</p>
+        )}
 
         {/* Level progress */}
         <div className="max-w-xs mx-auto mt-4">

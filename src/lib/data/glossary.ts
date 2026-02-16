@@ -679,6 +679,334 @@ export const mathGlossary: Record<string, GlossaryEntry> = {
   },
 };
 
+// Biology Glossary
+export const biologyGlossary: Record<string, GlossaryEntry> = {
+  célula: {
+    term: {
+      es: "Célula",
+      en: "Cell",
+    },
+    definition: {
+      es: "Unidad básica estructural y funcional de todos los organismos vivos. Puede ser procariota (sin núcleo definido) o eucariota (con núcleo).",
+      en: "Basic structural and functional unit of all living organisms. Can be prokaryotic (without defined nucleus) or eukaryotic (with nucleus).",
+    },
+  },
+  cell: {
+    term: {
+      es: "Célula",
+      en: "Cell",
+    },
+    definition: {
+      es: "Unidad básica estructural y funcional de todos los organismos vivos. Puede ser procariota (sin núcleo definido) o eucariota (con núcleo).",
+      en: "Basic structural and functional unit of all living organisms. Can be prokaryotic (without defined nucleus) or eukaryotic (with nucleus).",
+    },
+  },
+  ADN: {
+    term: {
+      es: "ADN (Ácido Desoxirribonucleico)",
+      en: "DNA (Deoxyribonucleic Acid)",
+    },
+    definition: {
+      es: "Molécula que contiene la información genética de los organismos. Tiene estructura de doble hélice formada por nucleótidos.",
+      en: "Molecule containing the genetic information of organisms. Has a double helix structure made up of nucleotides.",
+    },
+  },
+  DNA: {
+    term: {
+      es: "ADN (Ácido Desoxirribonucleico)",
+      en: "DNA (Deoxyribonucleic Acid)",
+    },
+    definition: {
+      es: "Molécula que contiene la información genética de los organismos. Tiene estructura de doble hélice formada por nucleótidos.",
+      en: "Molecule containing the genetic information of organisms. Has a double helix structure made up of nucleotides.",
+    },
+  },
+  mitocondria: {
+    term: {
+      es: "Mitocondria",
+      en: "Mitochondria",
+    },
+    definition: {
+      es: "Orgánulo celular encargado de producir energía (ATP) mediante respiración celular. Conocida como la 'central energética' de la célula.",
+      en: "Cell organelle responsible for producing energy (ATP) through cellular respiration. Known as the 'powerhouse' of the cell.",
+    },
+  },
+  mitochondria: {
+    term: {
+      es: "Mitocondria",
+      en: "Mitochondria",
+    },
+    definition: {
+      es: "Orgánulo celular encargado de producir energía (ATP) mediante respiración celular. Conocida como la 'central energética' de la célula.",
+      en: "Cell organelle responsible for producing energy (ATP) through cellular respiration. Known as the 'powerhouse' of the cell.",
+    },
+  },
+  fotosíntesis: {
+    term: {
+      es: "Fotosíntesis",
+      en: "Photosynthesis",
+    },
+    definition: {
+      es: "Proceso mediante el cual las plantas convierten la luz solar, agua y dióxido de carbono en glucosa y oxígeno. Fórmula: 6CO₂ + 6H₂O + luz → C₆H₁₂O₆ + 6O₂.",
+      en: "Process by which plants convert sunlight, water, and carbon dioxide into glucose and oxygen. Formula: 6CO₂ + 6H₂O + light → C₆H₁₂O₆ + 6O₂.",
+    },
+  },
+  photosynthesis: {
+    term: {
+      es: "Fotosíntesis",
+      en: "Photosynthesis",
+    },
+    definition: {
+      es: "Proceso mediante el cual las plantas convierten la luz solar, agua y dióxido de carbono en glucosa y oxígeno. Fórmula: 6CO₂ + 6H₂O + luz → C₆H₁₂O₆ + 6O₂.",
+      en: "Process by which plants convert sunlight, water, and carbon dioxide into glucose and oxygen. Formula: 6CO₂ + 6H₂O + light → C₆H₁₂O₆ + 6O₂.",
+    },
+  },
+  núcleo: {
+    term: {
+      es: "Núcleo celular",
+      en: "Cell nucleus",
+    },
+    definition: {
+      es: "Orgánulo que contiene el material genético (ADN) de la célula eucariota. Está rodeado por una membrana nuclear y controla las actividades celulares.",
+      en: "Organelle containing the genetic material (DNA) of eukaryotic cells. Surrounded by a nuclear membrane and controls cellular activities.",
+    },
+  },
+  nucleus: {
+    term: {
+      es: "Núcleo celular",
+      en: "Cell nucleus",
+    },
+    definition: {
+      es: "Orgánulo que contiene el material genético (ADN) de la célula eucariota. Está rodeado por una membrana nuclear y controla las actividades celulares.",
+      en: "Organelle containing the genetic material (DNA) of eukaryotic cells. Surrounded by a nuclear membrane and controls cellular activities.",
+    },
+  },
+  ecosistema: {
+    term: {
+      es: "Ecosistema",
+      en: "Ecosystem",
+    },
+    definition: {
+      es: "Sistema formado por organismos vivos (componente biótico) y su ambiente físico (componente abiótico) que interactúan entre sí.",
+      en: "System formed by living organisms (biotic component) and their physical environment (abiotic component) that interact with each other.",
+    },
+  },
+  ecosystem: {
+    term: {
+      es: "Ecosistema",
+      en: "Ecosystem",
+    },
+    definition: {
+      es: "Sistema formado por organismos vivos (componente biótico) y su ambiente físico (componente abiótico) que interactúan entre sí.",
+      en: "System formed by living organisms (biotic component) and their physical environment (abiotic component) that interact with each other.",
+    },
+  },
+  mutación: {
+    term: {
+      es: "Mutación",
+      en: "Mutation",
+    },
+    definition: {
+      es: "Cambio permanente en la secuencia de ADN. Puede ocurrir de forma espontánea o inducida, y es fuente de variabilidad genética.",
+      en: "Permanent change in DNA sequence. Can occur spontaneously or be induced, and is a source of genetic variability.",
+    },
+  },
+  mutation: {
+    term: {
+      es: "Mutación",
+      en: "Mutation",
+    },
+    definition: {
+      es: "Cambio permanente en la secuencia de ADN. Puede ocurrir de forma espontánea o inducida, y es fuente de variabilidad genética.",
+      en: "Permanent change in DNA sequence. Can occur spontaneously or be induced, and is a source of genetic variability.",
+    },
+  },
+  "selección natural": {
+    term: {
+      es: "Selección natural",
+      en: "Natural selection",
+    },
+    definition: {
+      es: "Mecanismo de evolución propuesto por Darwin donde los organismos mejor adaptados a su ambiente tienen mayor probabilidad de sobrevivir y reproducirse.",
+      en: "Evolution mechanism proposed by Darwin where organisms better adapted to their environment have a higher probability of surviving and reproducing.",
+    },
+  },
+  "natural selection": {
+    term: {
+      es: "Selección natural",
+      en: "Natural selection",
+    },
+    definition: {
+      es: "Mecanismo de evolución propuesto por Darwin donde los organismos mejor adaptados a su ambiente tienen mayor probabilidad de sobrevivir y reproducirse.",
+      en: "Evolution mechanism proposed by Darwin where organisms better adapted to their environment have a higher probability of surviving and reproducing.",
+    },
+  },
+};
+
+// Geography Glossary
+export const geographyGlossary: Record<string, GlossaryEntry> = {
+  latitud: {
+    term: {
+      es: "Latitud",
+      en: "Latitude",
+    },
+    definition: {
+      es: "Distancia angular medida en grados desde el ecuador (0°) hacia los polos (90° norte o sur). Determina las zonas climáticas.",
+      en: "Angular distance measured in degrees from the equator (0°) to the poles (90° north or south). Determines climate zones.",
+    },
+  },
+  latitude: {
+    term: {
+      es: "Latitud",
+      en: "Latitude",
+    },
+    definition: {
+      es: "Distancia angular medida en grados desde el ecuador (0°) hacia los polos (90° norte o sur). Determina las zonas climáticas.",
+      en: "Angular distance measured in degrees from the equator (0°) to the poles (90° north or south). Determines climate zones.",
+    },
+  },
+  longitud: {
+    term: {
+      es: "Longitud",
+      en: "Longitude",
+    },
+    definition: {
+      es: "Distancia angular medida en grados desde el meridiano de Greenwich (0°) hacia el este u oeste (hasta 180°). Define los husos horarios.",
+      en: "Angular distance measured in degrees from the Greenwich meridian (0°) east or west (up to 180°). Defines time zones.",
+    },
+  },
+  longitude: {
+    term: {
+      es: "Longitud",
+      en: "Longitude",
+    },
+    definition: {
+      es: "Distancia angular medida en grados desde el meridiano de Greenwich (0°) hacia el este u oeste (hasta 180°). Define los husos horarios.",
+      en: "Angular distance measured in degrees from the Greenwich meridian (0°) east or west (up to 180°). Defines time zones.",
+    },
+  },
+  ecuador: {
+    term: {
+      es: "Ecuador",
+      en: "Equator",
+    },
+    definition: {
+      es: "Línea imaginaria que divide la Tierra en hemisferio norte y sur. Marca la latitud 0° y recibe la mayor radiación solar.",
+      en: "Imaginary line dividing Earth into northern and southern hemispheres. Marks 0° latitude and receives the most solar radiation.",
+    },
+  },
+  equator: {
+    term: {
+      es: "Ecuador",
+      en: "Equator",
+    },
+    definition: {
+      es: "Línea imaginaria que divide la Tierra en hemisferio norte y sur. Marca la latitud 0° y recibe la mayor radiación solar.",
+      en: "Imaginary line dividing Earth into northern and southern hemispheres. Marks 0° latitude and receives the most solar radiation.",
+    },
+  },
+  "tectónica de placas": {
+    term: {
+      es: "Tectónica de placas",
+      en: "Plate tectonics",
+    },
+    definition: {
+      es: "Teoría que explica el movimiento de las placas litosféricas de la Tierra. Causa terremotos, volcanes y formación de montañas.",
+      en: "Theory explaining the movement of Earth's lithospheric plates. Causes earthquakes, volcanoes, and mountain formation.",
+    },
+  },
+  "plate tectonics": {
+    term: {
+      es: "Tectónica de placas",
+      en: "Plate tectonics",
+    },
+    definition: {
+      es: "Teoría que explica el movimiento de las placas litosféricas de la Tierra. Causa terremotos, volcanes y formación de montañas.",
+      en: "Theory explaining the movement of Earth's lithospheric plates. Causes earthquakes, volcanoes, and mountain formation.",
+    },
+  },
+  erosión: {
+    term: {
+      es: "Erosión",
+      en: "Erosion",
+    },
+    definition: {
+      es: "Proceso de desgaste y transporte de materiales terrestres causado por agua, viento, hielo o gravedad. Modifica el relieve.",
+      en: "Process of wear and transport of earth materials caused by water, wind, ice, or gravity. Modifies relief.",
+    },
+  },
+  erosion: {
+    term: {
+      es: "Erosión",
+      en: "Erosion",
+    },
+    definition: {
+      es: "Proceso de desgaste y transporte de materiales terrestres causado por agua, viento, hielo o gravedad. Modifica el relieve.",
+      en: "Process of wear and transport of earth materials caused by water, wind, ice, or gravity. Modifies relief.",
+    },
+  },
+  clima: {
+    term: {
+      es: "Clima",
+      en: "Climate",
+    },
+    definition: {
+      es: "Conjunto de condiciones atmosféricas que caracterizan una región durante un período prolongado (décadas). Se diferencia del tiempo meteorológico.",
+      en: "Set of atmospheric conditions characterizing a region over an extended period (decades). Differs from weather.",
+    },
+  },
+  climate: {
+    term: {
+      es: "Clima",
+      en: "Climate",
+    },
+    definition: {
+      es: "Conjunto de condiciones atmosféricas que caracterizan una región durante un período prolongado (décadas). Se diferencia del tiempo meteorológico.",
+      en: "Set of atmospheric conditions characterizing a region over an extended period (decades). Differs from weather.",
+    },
+  },
+  relieve: {
+    term: {
+      es: "Relieve",
+      en: "Relief/Terrain",
+    },
+    definition: {
+      es: "Conjunto de formas y accidentes que presenta la superficie terrestre: montañas, valles, llanuras, mesetas, etc.",
+      en: "Set of forms and features present on Earth's surface: mountains, valleys, plains, plateaus, etc.",
+    },
+  },
+  relief: {
+    term: {
+      es: "Relieve",
+      en: "Relief/Terrain",
+    },
+    definition: {
+      es: "Conjunto de formas y accidentes que presenta la superficie terrestre: montañas, valles, llanuras, mesetas, etc.",
+      en: "Set of forms and features present on Earth's surface: mountains, valleys, plains, plateaus, etc.",
+    },
+  },
+  meridiano: {
+    term: {
+      es: "Meridiano",
+      en: "Meridian",
+    },
+    definition: {
+      es: "Línea imaginaria que va de polo a polo. El meridiano de Greenwich (0°) es la referencia para medir la longitud.",
+      en: "Imaginary line running from pole to pole. The Greenwich meridian (0°) is the reference for measuring longitude.",
+    },
+  },
+  meridian: {
+    term: {
+      es: "Meridiano",
+      en: "Meridian",
+    },
+    definition: {
+      es: "Línea imaginaria que va de polo a polo. El meridiano de Greenwich (0°) es la referencia para medir la longitud.",
+      en: "Imaginary line running from pole to pole. The Greenwich meridian (0°) is the reference for measuring longitude.",
+    },
+  },
+};
+
 // Helper function to find glossary terms in text
 export function findGlossaryTerms(text: string): string[] {
   const terms: string[] = [];

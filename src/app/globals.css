@@ -240,6 +240,15 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Hide scrollbar but allow scrolling */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 /* KaTeX overrides for better mobile display */
 .katex-display {
   margin: 0.5em 0 !important;
