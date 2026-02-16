@@ -2,15 +2,24 @@
 
 import { QuizEngine } from "@/components/quiz/QuizEngine";
 import { allTopics } from "@/lib/data/topics";
+import { allBiologyTopics } from "@/lib/data/topics/biologia";
+import { allGeographyTopics } from "@/lib/data/topics/geografia";
 import type { Lesson, Topic } from "@/lib/types";
 import { useProgressStore, useSettingsStore } from "@/stores";
 import { useRouter } from "next/navigation";
 import { use, useCallback } from "react";
 
+// Combine all topics from all subjects
+const allSubjectTopics = [
+  ...allTopics,
+  ...allBiologyTopics,
+  ...allGeographyTopics,
+];
+
 function findLessonById(
   lessonId: string,
 ): { topic: Topic; lesson: Lesson } | null {
-  for (const topic of allTopics) {
+  for (const topic of allSubjectTopics) {
     const lesson = topic.lessons.find((l: Lesson) => l.id === lessonId);
     if (lesson) return { topic, lesson };
   }
@@ -21,7 +30,7 @@ function findNextLessonId(
   topicId: string,
   currentLessonId: string,
 ): string | null {
-  const topic = allTopics.find((t: Topic) => t.id === topicId);
+  const topic = allSubjectTopics.find((t: Topic) => t.id === topicId);
   if (!topic) return null;
 
   const currentIndex = topic.lessons.findIndex(

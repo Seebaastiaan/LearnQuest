@@ -841,6 +841,386 @@ export const biologyGlossary: Record<string, GlossaryEntry> = {
       en: "Evolution mechanism proposed by Darwin where organisms better adapted to their environment have a higher probability of surviving and reproducing.",
     },
   },
+  cloroplasto: {
+    term: {
+      es: "Cloroplasto",
+      en: "Chloroplast",
+    },
+    definition: {
+      es: "Orgánulo vegetal donde ocurre la fotosíntesis. Contiene clorofila que captura la luz solar y le da el color verde a las plantas.",
+      en: "Plant organelle where photosynthesis occurs. Contains chlorophyll that captures sunlight and gives plants their green color.",
+    },
+  },
+  chloroplast: {
+    term: {
+      es: "Cloroplasto",
+      en: "Chloroplast",
+    },
+    definition: {
+      es: "Orgánulo vegetal donde ocurre la fotosíntesis. Contiene clorofila que captura la luz solar y le da el color verde a las plantas.",
+      en: "Plant organelle where photosynthesis occurs. Contains chlorophyll that captures sunlight and gives plants their green color.",
+    },
+  },
+  ribosoma: {
+    term: {
+      es: "Ribosoma",
+      en: "Ribosome",
+    },
+    definition: {
+      es: "Orgánulo celular responsable de la síntesis de proteínas. Lee el ARN mensajero y ensambla aminoácidos en cadenas proteicas.",
+      en: "Cell organelle responsible for protein synthesis. Reads messenger RNA and assembles amino acids into protein chains.",
+    },
+  },
+  ribosome: {
+    term: {
+      es: "Ribosoma",
+      en: "Ribosome",
+    },
+    definition: {
+      es: "Orgánulo celular responsable de la síntesis de proteínas. Lee el ARN mensajero y ensambla aminoácidos en cadenas proteicas.",
+      en: "Cell organelle responsible for protein synthesis. Reads messenger RNA and assembles amino acids into protein chains.",
+    },
+  },
+  "membrana celular": {
+    term: {
+      es: "Membrana celular",
+      en: "Cell membrane",
+    },
+    definition: {
+      es: "Barrera selectivamente permeable que rodea la célula. Regula el paso de sustancias y protege el contenido celular.",
+      en: "Selectively permeable barrier surrounding the cell. Regulates passage of substances and protects cellular contents.",
+    },
+  },
+  "cell membrane": {
+    term: {
+      es: "Membrana celular",
+      en: "Cell membrane",
+    },
+    definition: {
+      es: "Barrera selectivamente permeable que rodea la célula. Regula el paso de sustancias y protege el contenido celular.",
+      en: "Selectively permeable barrier surrounding the cell. Regulates passage of substances and protects cellular contents.",
+    },
+  },
+  cromosoma: {
+    term: {
+      es: "Cromosoma",
+      en: "Chromosome",
+    },
+    definition: {
+      es: "Estructura formada por ADN y proteínas que contiene genes. Los humanos tienen 46 cromosomas (23 pares) en cada célula.",
+      en: "Structure made of DNA and proteins containing genes. Humans have 46 chromosomes (23 pairs) in each cell.",
+    },
+  },
+  chromosome: {
+    term: {
+      es: "Cromosoma",
+      en: "Chromosome",
+    },
+    definition: {
+      es: "Estructura formada por ADN y proteínas que contiene genes. Los humanos tienen 46 cromosomas (23 pares) en cada célula.",
+      en: "Structure made of DNA and proteins containing genes. Humans have 46 chromosomes (23 pairs) in each cell.",
+    },
+  },
+  gen: {
+    term: {
+      es: "Gen",
+      en: "Gene",
+    },
+    definition: {
+      es: "Unidad básica de herencia que codifica información para una característica específica. Segmento de ADN en un cromosoma.",
+      en: "Basic unit of heredity encoding information for a specific trait. Segment of DNA on a chromosome.",
+    },
+  },
+  gene: {
+    term: {
+      es: "Gen",
+      en: "Gene",
+    },
+    definition: {
+      es: "Unidad básica de herencia que codifica información para una característica específica. Segmento de ADN en un cromosoma.",
+      en: "Basic unit of heredity encoding information for a specific trait. Segment of DNA on a chromosome.",
+    },
+  },
+  mitosis: {
+    term: {
+      es: "Mitosis",
+      en: "Mitosis",
+    },
+    definition: {
+      es: "División celular que produce dos células hijas idénticas con el mismo número de cromosomas que la célula madre. Importante para crecimiento y reparación.",
+      en: "Cell division producing two identical daughter cells with the same number of chromosomes as the parent. Important for growth and repair.",
+    },
+  },
+  meiosis: {
+    term: {
+      es: "Meiosis",
+      en: "Meiosis",
+    },
+    definition: {
+      es: "División celular que reduce el número de cromosomas a la mitad, produciendo gametos (óvulos o espermatozoides) para reproducción sexual.",
+      en: "Cell division reducing chromosome number by half, producing gametes (eggs or sperm) for sexual reproduction.",
+    },
+  },
+  "respiración celular": {
+    term: {
+      es: "Respiración celular",
+      en: "Cellular respiration",
+    },
+    definition: {
+      es: "Proceso que libera energía de la glucosa para producir ATP. Ocurre en las mitocondrias. Fórmula: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP.",
+      en: "Process releasing energy from glucose to produce ATP. Occurs in mitochondria. Formula: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP.",
+    },
+  },
+  "cellular respiration": {
+    term: {
+      es: "Respiración celular",
+      en: "Cellular respiration",
+    },
+    definition: {
+      es: "Proceso que libera energía de la glucosa para producir ATP. Ocurre en las mitocondrias. Fórmula: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP.",
+      en: "Process releasing energy from glucose to produce ATP. Occurs in mitochondria. Formula: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP.",
+    },
+  },
+  ATP: {
+    term: {
+      es: "ATP (Adenosín Trifosfato)",
+      en: "ATP (Adenosine Triphosphate)",
+    },
+    definition: {
+      es: "Molécula que almacena y transporta energía química en las células. Es la 'moneda energética' celular.",
+      en: "Molecule storing and transporting chemical energy in cells. The cellular 'energy currency'.",
+    },
+  },
+  fenotipo: {
+    term: {
+      es: "Fenotipo",
+      en: "Phenotype",
+    },
+    definition: {
+      es: "Características observables de un organismo resultantes de la interacción entre su genotipo y el ambiente (color de ojos, altura, etc.).",
+      en: "Observable characteristics of an organism resulting from interaction between genotype and environment (eye color, height, etc.).",
+    },
+  },
+  phenotype: {
+    term: {
+      es: "Fenotipo",
+      en: "Phenotype",
+    },
+    definition: {
+      es: "Características observables de un organismo resultantes de la interacción entre su genotipo y el ambiente (color de ojos, altura, etc.).",
+      en: "Observable characteristics of an organism resulting from interaction between genotype and environment (eye color, height, etc.).",
+    },
+  },
+  genotipo: {
+    term: {
+      es: "Genotipo",
+      en: "Genotype",
+    },
+    definition: {
+      es: "Conjunto completo de genes de un organismo. Información genética heredada de los progenitores que determina características.",
+      en: "Complete set of genes in an organism. Genetic information inherited from parents determining characteristics.",
+    },
+  },
+  genotype: {
+    term: {
+      es: "Genotipo",
+      en: "Genotype",
+    },
+    definition: {
+      es: "Conjunto completo de genes de un organismo. Información genética heredada de los progenitores que determina características.",
+      en: "Complete set of genes in an organism. Genetic information inherited from parents determining characteristics.",
+    },
+  },
+  "cadena alimentaria": {
+    term: {
+      es: "Cadena alimentaria",
+      en: "Food chain",
+    },
+    definition: {
+      es: "Secuencia lineal de organismos donde cada uno se alimenta del anterior: productores → consumidores primarios → consumidores secundarios → descomponedores.",
+      en: "Linear sequence of organisms where each feeds on the previous: producers → primary consumers → secondary consumers → decomposers.",
+    },
+  },
+  "food chain": {
+    term: {
+      es: "Cadena alimentaria",
+      en: "Food chain",
+    },
+    definition: {
+      es: "Secuencia lineal de organismos donde cada uno se alimenta del anterior: productores → consumidores primarios → consumidores secundarios → descomponedores.",
+      en: "Linear sequence of organisms where each feeds on the previous: producers → primary consumers → secondary consumers → decomposers.",
+    },
+  },
+  productor: {
+    term: {
+      es: "Productor",
+      en: "Producer",
+    },
+    definition: {
+      es: "Organismo autótrofo que produce su propio alimento mediante fotosíntesis o quimiosíntesis (plantas, algas). Base de la cadena alimentaria.",
+      en: "Autotrophic organism producing its own food through photosynthesis or chemosynthesis (plants, algae). Base of the food chain.",
+    },
+  },
+  producer: {
+    term: {
+      es: "Productor",
+      en: "Producer",
+    },
+    definition: {
+      es: "Organismo autótrofo que produce su propio alimento mediante fotosíntesis o quimiosíntesis (plantas, algas). Base de la cadena alimentaria.",
+      en: "Autotrophic organism producing its own food through photosynthesis or chemosynthesis (plants, algae). Base of the food chain.",
+    },
+  },
+  consumidor: {
+    term: {
+      es: "Consumidor",
+      en: "Consumer",
+    },
+    definition: {
+      es: "Organismo heterótrofo que obtiene energía alimentándose de otros organismos. Puede ser primario (herbívoro), secundario (carnívoro) o terciario.",
+      en: "Heterotrophic organism obtaining energy by feeding on other organisms. Can be primary (herbivore), secondary (carnivore), or tertiary.",
+    },
+  },
+  consumer: {
+    term: {
+      es: "Consumidor",
+      en: "Consumer",
+    },
+    definition: {
+      es: "Organismo heterótrofo que obtiene energía alimentándose de otros organismos. Puede ser primario (herbívoro), secundario (carnívoro) o terciario.",
+      en: "Heterotrophic organism obtaining energy by feeding on other organisms. Can be primary (herbivore), secondary (carnivore), or tertiary.",
+    },
+  },
+  descomponedor: {
+    term: {
+      es: "Descomponedor",
+      en: "Decomposer",
+    },
+    definition: {
+      es: "Organismo que descompone materia orgánica muerta, reciclando nutrientes al ecosistema (hongos, bacterias). Esenciales para ciclos biogeoquímicos.",
+      en: "Organism decomposing dead organic matter, recycling nutrients to ecosystem (fungi, bacteria). Essential for biogeochemical cycles.",
+    },
+  },
+  decomposer: {
+    term: {
+      es: "Descomponedor",
+      en: "Decomposer",
+    },
+    definition: {
+      es: "Organismo que descompone materia orgánica muerta, reciclando nutrientes al ecosistema (hongos, bacterias). Esenciales para ciclos biogeoquímicos.",
+      en: "Organism decomposing dead organic matter, recycling nutrients to ecosystem (fungi, bacteria). Essential for biogeochemical cycles.",
+    },
+  },
+  biodiversidad: {
+    term: {
+      es: "Biodiversidad",
+      en: "Biodiversity",
+    },
+    definition: {
+      es: "Variedad de vida en la Tierra: diversidad genética, de especies y de ecosistemas. Indicador de salud ambiental.",
+      en: "Variety of life on Earth: genetic, species, and ecosystem diversity. Indicator of environmental health.",
+    },
+  },
+  biodiversity: {
+    term: {
+      es: "Biodiversidad",
+      en: "Biodiversity",
+    },
+    definition: {
+      es: "Variedad de vida en la Tierra: diversidad genética, de especies y de ecosistemas. Indicador de salud ambiental.",
+      en: "Variety of life on Earth: genetic, species, and ecosystem diversity. Indicator of environmental health.",
+    },
+  },
+  homeostasis: {
+    term: {
+      es: "Homeostasis",
+      en: "Homeostasis",
+    },
+    definition: {
+      es: "Capacidad de mantener condiciones internas estables (temperatura, pH, glucosa) pese a cambios externos. Fundamental para la supervivencia.",
+      en: "Ability to maintain stable internal conditions (temperature, pH, glucose) despite external changes. Fundamental for survival.",
+    },
+  },
+  enzima: {
+    term: {
+      es: "Enzima",
+      en: "Enzyme",
+    },
+    definition: {
+      es: "Proteína catalizadora que acelera reacciones químicas en organismos vivos sin consumirse. Específica para cada sustrato.",
+      en: "Catalytic protein accelerating chemical reactions in living organisms without being consumed. Specific for each substrate.",
+    },
+  },
+  enzyme: {
+    term: {
+      es: "Enzima",
+      en: "Enzyme",
+    },
+    definition: {
+      es: "Proteína catalizadora que acelera reacciones químicas en organismos vivos sin consumirse. Específica para cada sustrato.",
+      en: "Catalytic protein accelerating chemical reactions in living organisms without being consumed. Specific for each substrate.",
+    },
+  },
+  proteína: {
+    term: {
+      es: "Proteína",
+      en: "Protein",
+    },
+    definition: {
+      es: "Macromolécula formada por cadenas de aminoácidos. Realiza funciones estructurales, enzimáticas, de transporte y defensa en organismos.",
+      en: "Macromolecule formed by amino acid chains. Performs structural, enzymatic, transport, and defense functions in organisms.",
+    },
+  },
+  protein: {
+    term: {
+      es: "Proteína",
+      en: "Protein",
+    },
+    definition: {
+      es: "Macromolécula formada por cadenas de aminoácidos. Realiza funciones estructurales, enzimáticas, de transporte y defensa en organismos.",
+      en: "Macromolecule formed by amino acid chains. Performs structural, enzymatic, transport, and defense functions in organisms.",
+    },
+  },
+  ARN: {
+    term: {
+      es: "ARN (Ácido Ribonucleico)",
+      en: "RNA (Ribonucleic Acid)",
+    },
+    definition: {
+      es: "Molécula que transfiere información genética del ADN para síntesis de proteínas. Tipos: ARN mensajero, de transferencia y ribosomal.",
+      en: "Molecule transferring genetic information from DNA for protein synthesis. Types: messenger, transfer, and ribosomal RNA.",
+    },
+  },
+  RNA: {
+    term: {
+      es: "ARN (Ácido Ribonucleico)",
+      en: "RNA (Ribonucleic Acid)",
+    },
+    definition: {
+      es: "Molécula que transfiere información genética del ADN para síntesis de proteínas. Tipos: ARN mensajero, de transferencia y ribosomal.",
+      en: "Molecule transferring genetic information from DNA for protein synthesis. Types: messenger, transfer, and ribosomal RNA.",
+    },
+  },
+  virus: {
+    term: {
+      es: "Virus",
+      en: "Virus",
+    },
+    definition: {
+      es: "Agente infeccioso microscópico que necesita células vivas para reproducirse. Compuesto por material genético (ADN o ARN) y cápside proteica.",
+      en: "Microscopic infectious agent requiring living cells to reproduce. Composed of genetic material (DNA or RNA) and protein capsid.",
+    },
+  },
+  bacteria: {
+    term: {
+      es: "Bacteria",
+      en: "Bacteria",
+    },
+    definition: {
+      es: "Microorganismo unicelular procariota sin núcleo definido. Pueden ser beneficiosas (digestión, producción) o patógenas (enfermedades).",
+      en: "Unicellular prokaryotic microorganism without defined nucleus. Can be beneficial (digestion, production) or pathogenic (diseases).",
+    },
+  },
 };
 
 // Geography Glossary
@@ -1003,6 +1383,376 @@ export const geographyGlossary: Record<string, GlossaryEntry> = {
     definition: {
       es: "Línea imaginaria que va de polo a polo. El meridiano de Greenwich (0°) es la referencia para medir la longitud.",
       en: "Imaginary line running from pole to pole. The Greenwich meridian (0°) is the reference for measuring longitude.",
+    },
+  },
+  volcán: {
+    term: {
+      es: "Volcán",
+      en: "Volcano",
+    },
+    definition: {
+      es: "Abertura en la corteza terrestre por donde sale magma, gases y cenizas. Se forma por actividad tectónica y puntos calientes.",
+      en: "Opening in Earth's crust where magma, gases, and ash emerge. Formed by tectonic activity and hotspots.",
+    },
+  },
+  volcano: {
+    term: {
+      es: "Volcán",
+      en: "Volcano",
+    },
+    definition: {
+      es: "Abertura en la corteza terrestre por donde sale magma, gases y cenizas. Se forma por actividad tectónica y puntos calientes.",
+      en: "Opening in Earth's crust where magma, gases, and ash emerge. Formed by tectonic activity and hotspots.",
+    },
+  },
+  terremoto: {
+    term: {
+      es: "Terremoto",
+      en: "Earthquake",
+    },
+    definition: {
+      es: "Vibración de la Tierra causada por liberación súbita de energía en la corteza. Medido por escala de Richter o magnitud de momento.",
+      en: "Vibration of Earth caused by sudden release of energy in the crust. Measured by Richter scale or moment magnitude.",
+    },
+  },
+  earthquake: {
+    term: {
+      es: "Terremoto",
+      en: "Earthquake",
+    },
+    definition: {
+      es: "Vibración de la Tierra causada por liberación súbita de energía en la corteza. Medido por escala de Richter o magnitud de momento.",
+      en: "Vibration of Earth caused by sudden release of energy in the crust. Measured by Richter scale or moment magnitude.",
+    },
+  },
+  tsunami: {
+    term: {
+      es: "Tsunami",
+      en: "Tsunami",
+    },
+    definition: {
+      es: "Serie de olas gigantes causadas por terremotos submarinos, erupciones volcánicas o deslizamientos. Pueden alcanzar alturas devastadoras.",
+      en: "Series of giant waves caused by underwater earthquakes, volcanic eruptions, or landslides. Can reach devastating heights.",
+    },
+  },
+  glaciar: {
+    term: {
+      es: "Glaciar",
+      en: "Glacier",
+    },
+    definition: {
+      es: "Masa de hielo en movimiento formada por acumulación y compactación de nieve durante años. Modela el relieve por erosión.",
+      en: "Moving ice mass formed by accumulation and compaction of snow over years. Shapes relief through erosion.",
+    },
+  },
+  glacier: {
+    term: {
+      es: "Glaciar",
+      en: "Glacier",
+    },
+    definition: {
+      es: "Masa de hielo en movimiento formada por acumulación y compactación de nieve durante años. Modela el relieve por erosión.",
+      en: "Moving ice mass formed by accumulation and compaction of snow over years. Shapes relief through erosion.",
+    },
+  },
+  "clima tropical": {
+    term: {
+      es: "Clima tropical",
+      en: "Tropical climate",
+    },
+    definition: {
+      es: "Clima cálido cerca del ecuador con temperaturas altas todo el año (>18°C) y abundantes precipitaciones. Incluye selvas tropicales.",
+      en: "Warm climate near equator with high temperatures year-round (>18°C) and abundant rainfall. Includes rainforests.",
+    },
+  },
+  "tropical climate": {
+    term: {
+      es: "Clima tropical",
+      en: "Tropical climate",
+    },
+    definition: {
+      es: "Clima cálido cerca del ecuador con temperaturas altas todo el año (>18°C) y abundantes precipitaciones. Incluye selvas tropicales.",
+      en: "Warm climate near equator with high temperatures year-round (>18°C) and abundant rainfall. Includes rainforests.",
+    },
+  },
+  "clima desértico": {
+    term: {
+      es: "Clima desértico",
+      en: "Desert climate",
+    },
+    definition: {
+      es: "Clima árido con precipitaciones muy escasas (<250mm/año). Grandes variaciones térmicas entre día y noche. Vegetación escasa adaptada.",
+      en: "Arid climate with very scarce precipitation (<250mm/year). Large temperature variations between day and night. Scarce adapted vegetation.",
+    },
+  },
+  "desert climate": {
+    term: {
+      es: "Clima desértico",
+      en: "Desert climate",
+    },
+    definition: {
+      es: "Clima árido con precipitaciones muy escasas (<250mm/año). Grandes variaciones térmicas entre día y noche. Vegetación escasa adaptada.",
+      en: "Arid climate with very scarce precipitation (<250mm/year). Large temperature variations between day and night. Scarce adapted vegetation.",
+    },
+  },
+  sabana: {
+    term: {
+      es: "Sabana",
+      en: "Savanna",
+    },
+    definition: {
+      es: "Bioma tropical con estación seca y lluviosa. Praderas con árboles dispersos. Hogar de grandes herbívoros (África, Sudamérica).",
+      en: "Tropical biome with dry and rainy seasons. Grasslands with scattered trees. Home to large herbivores (Africa, South America).",
+    },
+  },
+  savanna: {
+    term: {
+      es: "Sabana",
+      en: "Savanna",
+    },
+    definition: {
+      es: "Bioma tropical con estación seca y lluviosa. Praderas con árboles dispersos. Hogar de grandes herbívoros (África, Sudamérica).",
+      en: "Tropical biome with dry and rainy seasons. Grasslands with scattered trees. Home to large herbivores (Africa, South America).",
+    },
+  },
+  tundra: {
+    term: {
+      es: "Tundra",
+      en: "Tundra",
+    },
+    definition: {
+      es: "Bioma frío cerca de los polos con temperaturas bajas, suelo permanentemente congelado (permafrost) y vegetación baja (musgos, líquenes).",
+      en: "Cold biome near poles with low temperatures, permanently frozen soil (permafrost), and low vegetation (mosses, lichens).",
+    },
+  },
+  "recursos renovables": {
+    term: {
+      es: "Recursos renovables",
+      en: "Renewable resources",
+    },
+    definition: {
+      es: "Recursos naturales que se regeneran naturalmente en tiempo humano (energía solar, eólica, mareas, biomasa). No se agotan con uso sostenible.",
+      en: "Natural resources regenerating naturally within human timeframe (solar, wind, tidal energy, biomass). Don't deplete with sustainable use.",
+    },
+  },
+  "renewable resources": {
+    term: {
+      es: "Recursos renovables",
+      en: "Renewable resources",
+    },
+    definition: {
+      es: "Recursos naturales que se regeneran naturalmente en tiempo humano (energía solar, eólica, mareas, biomasa). No se agotan con uso sostenible.",
+      en: "Natural resources regenerating naturally within human timeframe (solar, wind, tidal energy, biomass). Don't deplete with sustainable use.",
+    },
+  },
+  "recursos no renovables": {
+    term: {
+      es: "Recursos no renovables",
+      en: "Non-renewable resources",
+    },
+    definition: {
+      es: "Recursos limitados que no se regeneran en tiempo humano (petróleo, carbón, gas natural, minerales). Su extracción causa agotamiento.",
+      en: "Limited resources not regenerating within human timeframe (oil, coal, natural gas, minerals). Their extraction causes depletion.",
+    },
+  },
+  "non-renewable resources": {
+    term: {
+      es: "Recursos no renovables",
+      en: "Non-renewable resources",
+    },
+    definition: {
+      es: "Recursos limitados que no se regeneran en tiempo humano (petróleo, carbón, gas natural, minerales). Su extracción causa agotamiento.",
+      en: "Limited resources not regenerating within human timeframe (oil, coal, natural gas, minerals). Their extraction causes depletion.",
+    },
+  },
+  urbanización: {
+    term: {
+      es: "Urbanización",
+      en: "Urbanization",
+    },
+    definition: {
+      es: "Proceso de crecimiento de ciudades y concentración de población en áreas urbanas. Transforma paisajes naturales en urbanos.",
+      en: "Process of city growth and population concentration in urban areas. Transforms natural landscapes into urban ones.",
+    },
+  },
+  urbanization: {
+    term: {
+      es: "Urbanización",
+      en: "Urbanization",
+    },
+    definition: {
+      es: "Proceso de crecimiento de ciudades y concentración de población en áreas urbanas. Transforma paisajes naturales en urbanos.",
+      en: "Process of city growth and population concentration in urban areas. Transforms natural landscapes into urban ones.",
+    },
+  },
+  migración: {
+    term: {
+      es: "Migración",
+      en: "Migration",
+    },
+    definition: {
+      es: "Desplazamiento de población de un lugar a otro, temporal o permanente. Puede ser interna (dentro del país) o internacional.",
+      en: "Population displacement from one place to another, temporary or permanent. Can be internal (within country) or international.",
+    },
+  },
+  migration: {
+    term: {
+      es: "Migración",
+      en: "Migration",
+    },
+    definition: {
+      es: "Desplazamiento de población de un lugar a otro, temporal o permanente. Puede ser interna (dentro del país) o internacional.",
+      en: "Population displacement from one place to another, temporary or permanent. Can be internal (within country) or international.",
+    },
+  },
+  "densidad de población": {
+    term: {
+      es: "Densidad de población",
+      en: "Population density",
+    },
+    definition: {
+      es: "Número de habitantes por unidad de superficie (hab/km²). Indica nivel de concentración poblacional en un territorio.",
+      en: "Number of inhabitants per surface unit (pop/km²). Indicates level of population concentration in a territory.",
+    },
+  },
+  "population density": {
+    term: {
+      es: "Densidad de población",
+      en: "Population density",
+    },
+    definition: {
+      es: "Número de habitantes por unidad de superficie (hab/km²). Indica nivel de concentración poblacional en un territorio.",
+      en: "Number of inhabitants per surface unit (pop/km²). Indicates level of population concentration in a territory.",
+    },
+  },
+  "desarrollo sostenible": {
+    term: {
+      es: "Desarrollo sostenible",
+      en: "Sustainable development",
+    },
+    definition: {
+      es: "Desarrollo que satisface necesidades presentes sin comprometer capacidad de futuras generaciones. Equilibrio económico, social y ambiental.",
+      en: "Development meeting present needs without compromising future generations' capacity. Economic, social, and environmental balance.",
+    },
+  },
+  "sustainable development": {
+    term: {
+      es: "Desarrollo sostenible",
+      en: "Sustainable development",
+    },
+    definition: {
+      es: "Desarrollo que satisface necesidades presentes sin comprometer capacidad de futuras generaciones. Equilibrio económico, social y ambiental.",
+      en: "Development meeting present needs without compromising future generations' capacity. Economic, social, and environmental balance.",
+    },
+  },
+  cordillera: {
+    term: {
+      es: "Cordillera",
+      en: "Mountain range",
+    },
+    definition: {
+      es: "Cadena de montañas conectadas formada por plegamientos tectónicos. Ejemplos: Andes, Himalaya, Alpes, Rocosas.",
+      en: "Chain of connected mountains formed by tectonic folding. Examples: Andes, Himalayas, Alps, Rockies.",
+    },
+  },
+  "mountain range": {
+    term: {
+      es: "Cordillera",
+      en: "Mountain range",
+    },
+    definition: {
+      es: "Cadena de montañas conectadas formada por plegamientos tectónicos. Ejemplos: Andes, Himalaya, Alpes, Rocosas.",
+      en: "Chain of connected mountains formed by tectonic folding. Examples: Andes, Himalayas, Alps, Rockies.",
+    },
+  },
+  delta: {
+    term: {
+      es: "Delta",
+      en: "Delta",
+    },
+    definition: {
+      es: "Formación sedimentaria triangular en desembocadura de ríos donde depositan sedimentos. Suelos muy fértiles para agricultura.",
+      en: "Triangular sedimentary formation at river mouths where sediments deposit. Very fertile soils for agriculture.",
+    },
+  },
+  archipiélago: {
+    term: {
+      es: "Archipiélago",
+      en: "Archipelago",
+    },
+    definition: {
+      es: "Conjunto de islas agrupadas en una zona marina. Pueden ser de origen volcánico, coralino o continental. Ejemplos: Filipinas, Japón, Hawái.",
+      en: "Group of islands clustered in a marine area. Can be volcanic, coral reef, or continental origin. Examples: Philippines, Japan, Hawaii.",
+    },
+  },
+  archipelago: {
+    term: {
+      es: "Archipiélago",
+      en: "Archipelago",
+    },
+    definition: {
+      es: "Conjunto de islas agrupadas en una zona marina. Pueden ser de origen volcánico, coralino o continental. Ejemplos: Filipinas, Japón, Hawái.",
+      en: "Group of islands clustered in a marine area. Can be volcanic, coral reef, or continental origin. Examples: Philippines, Japan, Hawaii.",
+    },
+  },
+  "efecto invernadero": {
+    term: {
+      es: "Efecto invernadero",
+      en: "Greenhouse effect",
+    },
+    definition: {
+      es: "Fenómeno natural que retiene calor en atmósfera mediante gases (CO₂, metano). Intensificado por actividad humana, causa calentamiento global.",
+      en: "Natural phenomenon retaining heat in atmosphere through gases (CO₂, methane). Intensified by human activity, causes global warming.",
+    },
+  },
+  "greenhouse effect": {
+    term: {
+      es: "Efecto invernadero",
+      en: "Greenhouse effect",
+    },
+    definition: {
+      es: "Fenómeno natural que retiene calor en atmósfera mediante gases (CO₂, metano). Intensificado por actividad humana, causa calentamiento global.",
+      en: "Natural phenomenon retaining heat in atmosphere through gases (CO₂, methane). Intensified by human activity, causes global warming.",
+    },
+  },
+  huracán: {
+    term: {
+      es: "Huracán",
+      en: "Hurricane",
+    },
+    definition: {
+      es: "Ciclón tropical intenso con vientos >119 km/h que se forma en océanos cálidos. Clasificado por escala Saffir-Simpson (categorías 1-5).",
+      en: "Intense tropical cyclone with winds >119 km/h forming in warm oceans. Classified by Saffir-Simpson scale (categories 1-5).",
+    },
+  },
+  hurricane: {
+    term: {
+      es: "Huracán",
+      en: "Hurricane",
+    },
+    definition: {
+      es: "Ciclón tropical intenso con vientos >119 km/h que se forma en océanos cálidos. Clasificado por escala Saffir-Simpson (categorías 1-5).",
+      en: "Intense tropical cyclone with winds >119 km/h forming in warm oceans. Classified by Saffir-Simpson scale (categories 1-5).",
+    },
+  },
+  monzón: {
+    term: {
+      es: "Monzón",
+      en: "Monsoon",
+    },
+    definition: {
+      es: "Viento estacional que cambia de dirección causando estación seca y húmeda. Predominante en Asia meridional y sudeste asiático.",
+      en: "Seasonal wind changing direction causing dry and wet seasons. Predominant in South Asia and Southeast Asia.",
+    },
+  },
+  monsoon: {
+    term: {
+      es: "Monzón",
+      en: "Monsoon",
+    },
+    definition: {
+      es: "Viento estacional que cambia de dirección causando estación seca y húmeda. Predominante en Asia meridional y sudeste asiático.",
+      en: "Seasonal wind changing direction causing dry and wet seasons. Predominant in South Asia and Southeast Asia.",
     },
   },
 };
