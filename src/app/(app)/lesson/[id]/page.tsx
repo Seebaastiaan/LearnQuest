@@ -4,6 +4,8 @@ import { QuizEngine } from "@/components/quiz/QuizEngine";
 import { allTopics } from "@/lib/data/topics";
 import { allBiologyTopics } from "@/lib/data/topics/biologia";
 import { allGeographyTopics } from "@/lib/data/topics/geografia";
+import { allSpanishTopics } from "@/lib/data/topics/espanol";
+import { literaturaTopics } from "@/lib/data/topics/literatura";
 import type { Lesson, Topic } from "@/lib/types";
 import { useProgressStore, useSettingsStore } from "@/stores";
 import { useRouter } from "next/navigation";
@@ -14,6 +16,8 @@ const allSubjectTopics = [
   ...allTopics,
   ...allBiologyTopics,
   ...allGeographyTopics,
+  ...allSpanishTopics,
+  ...literaturaTopics,
 ];
 
 function findLessonById(

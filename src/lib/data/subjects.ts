@@ -78,7 +78,9 @@ export const subjects: Subject[] = [
     icon: BookMarked,
     emoji: "📚",
     gradient: "from-indigo-500 to-purple-600",
-    available: false,
+    available: true,
+    lessonCount: 9,
+    exerciseCount: 42,
   },
   {
     id: "espanol",
@@ -87,7 +89,9 @@ export const subjects: Subject[] = [
     icon: Languages,
     emoji: "🗣️",
     gradient: "from-green-500 to-emerald-600",
-    available: false,
+    available: true,
+    lessonCount: 18,
+    exerciseCount: 90,
   },
 ];
 

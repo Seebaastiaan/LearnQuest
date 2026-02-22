@@ -4,7 +4,9 @@ import { GlossaryDialog } from "@/components/glossary/GlossaryDialog";
 import {
   biologyGlossary,
   geographyGlossary,
+  literatureGlossary,
   mathGlossary,
+  spanishGlossary,
   type GlossaryEntry,
 } from "@/lib/data/glossary";
 import type { LocalizedString } from "@/lib/types";
@@ -28,6 +30,8 @@ const glossariesBySubject: Record<string, Record<string, GlossaryEntry>> = {
   matematicas: mathGlossary,
   biologia: biologyGlossary,
   geografia: geographyGlossary,
+  espanol: spanishGlossary,
+  literatura: literatureGlossary,
 };
 
 export function SubjectBanner({

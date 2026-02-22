@@ -7,6 +7,8 @@ import { subjects } from "@/lib/data/subjects";
 import { allTopics } from "@/lib/data/topics";
 import { allBiologyTopics } from "@/lib/data/topics/biologia";
 import { allGeographyTopics } from "@/lib/data/topics/geografia";
+import { allSpanishTopics } from "@/lib/data/topics/espanol";
+import { literaturaTopics } from "@/lib/data/topics/literatura";
 import type { Topic } from "@/lib/types";
 import type { Subject } from "@/lib/types/subject";
 import { useGameStore, useProgressStore, useSettingsStore } from "@/stores";
@@ -17,6 +19,8 @@ const topicsBySubject: Record<string, Topic[]> = {
   matematicas: allTopics,
   biologia: allBiologyTopics,
   geografia: allGeographyTopics,
+  espanol: allSpanishTopics,
+  literatura: literaturaTopics,
 };
 
 export default function DashboardPage() {

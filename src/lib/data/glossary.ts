@@ -1757,13 +1757,710 @@ export const geographyGlossary: Record<string, GlossaryEntry> = {
   },
 };
 
+export const spanishGlossary: Record<string, GlossaryEntry> = {
+  "función referencial": {
+    term: {
+      es: "Función referencial",
+      en: "Referential function",
+    },
+    definition: {
+      es: "Función del lenguaje centrada en el contexto o referente. Transmite información objetiva y verificable sobre la realidad. También se llama función informativa o representativa. Predomina en textos científicos, periodísticos y enciclopédicos.",
+      en: "Language function focused on the context or referent. Transmits objective and verifiable information about reality. Also called informative or representative function. Predominates in scientific, journalistic and encyclopedic texts.",
+    },
+  },
+  "función apelativa": {
+    term: {
+      es: "Función apelativa",
+      en: "Appellative function",
+    },
+    definition: {
+      es: "Función del lenguaje centrada en el receptor. Busca influir en su conducta, provocar una reacción o persuadirlo. También se llama función conativa. Es propia del modo imperativo y predomina en publicidad, propaganda y discursos persuasivos.",
+      en: "Language function focused on the receiver. Seeks to influence their behavior, provoke a reaction or persuade them. Also called conative function. Characteristic of the imperative mood and predominates in advertising, propaganda and persuasive speeches.",
+    },
+  },
+  "función poética": {
+    term: {
+      es: "Función poética",
+      en: "Poetic function",
+    },
+    definition: {
+      es: "Función del lenguaje centrada en el mensaje mismo, en su forma y estructura. Busca producir un efecto estético mediante figuras retóricas, ritmo, sonoridad y otros recursos literarios. También se llama función estética. Predomina en la poesía y la literatura.",
+      en: "Language function focused on the message itself, on its form and structure. Seeks to produce an aesthetic effect through rhetorical figures, rhythm, sound and other literary devices. Also called aesthetic function. Predominates in poetry and literature.",
+    },
+  },
+  "discurso descriptivo": {
+    term: {
+      es: "Discurso descriptivo",
+      en: "Descriptive discourse",
+    },
+    definition: {
+      es: "Forma del discurso que presenta las características, cualidades y rasgos de personas, objetos, lugares o situaciones. Predominan los adjetivos calificativos y los detalles sensoriales. Puede ser objetivo (científico) o subjetivo (literario).",
+      en: "Form of discourse that presents the characteristics, qualities and features of people, objects, places or situations. Qualifying adjectives and sensory details predominate. Can be objective (scientific) or subjective (literary).",
+    },
+  },
+  "discurso narrativo": {
+    term: {
+      es: "Discurso narrativo",
+      en: "Narrative discourse",
+    },
+    definition: {
+      es: "Forma del discurso que relata una sucesión de hechos o acciones en el tiempo. Sus elementos son: narrador, personajes, espacio, tiempo y acción. Tiene una estructura de planteamiento, nudo y desenlace.",
+      en: "Form of discourse that relates a succession of events or actions in time. Its elements are: narrator, characters, space, time and action. Has a structure of exposition, climax and resolution.",
+    },
+  },
+  "discurso argumentativo": {
+    term: {
+      es: "Discurso argumentativo",
+      en: "Argumentative discourse",
+    },
+    definition: {
+      es: "Forma del discurso que defiende una postura o idea mediante razones y evidencias. Su estructura es: tesis (idea que se defiende), argumentos (razones que la sustentan) y conclusión (cierre que reafirma la tesis). Busca convencer o persuadir al receptor.",
+      en: "Form of discourse that defends a position or idea through reasons and evidence. Its structure is: thesis (idea being defended), arguments (reasons that support it) and conclusion (closure that reaffirms the thesis). Seeks to convince or persuade the receiver.",
+    },
+  },
+  "idea principal": {
+    term: {
+      es: "Idea principal",
+      en: "Main idea",
+    },
+    definition: {
+      es: "Es la idea más importante de un texto o párrafo; contiene el mensaje central que el autor quiere comunicar. Responde a la pregunta: ¿de qué trata fundamentalmente el texto?",
+      en: "The most important idea in a text or paragraph; contains the central message that the author wants to communicate. Answers the question: what is the text fundamentally about?",
+    },
+  },
+  "idea secundaria": {
+    term: {
+      es: "Idea secundaria",
+      en: "Secondary idea",
+    },
+    definition: {
+      es: "Ideas que complementan, amplían, ejemplifican o respaldan la idea principal. Proporcionan detalles, datos o ejemplos que desarrollan el tema central.",
+      en: "Ideas that complement, expand, exemplify or support the main idea. Provide details, data or examples that develop the central theme.",
+    },
+  },
+  inferencia: {
+    term: {
+      es: "Inferencia",
+      en: "Inference",
+    },
+    definition: {
+      es: "Proceso de deducir o concluir información que no está expresada directamente en el texto, pero que se puede derivar lógicamente de los datos, pistas y relaciones que sí aparecen en él.",
+      en: "Process of deducing or concluding information that is not directly expressed in the text, but that can be logically derived from the data, clues and relationships that do appear in it.",
+    },
+  },
+  oración: {
+    term: {
+      es: "Oración",
+      en: "Sentence",
+    },
+    definition: {
+      es: "Unidad lingüística con sentido completo que contiene al menos un verbo conjugado. Se compone de sujeto (de quién se habla) y predicado (lo que se dice del sujeto). Puede ser simple (un verbo) o compuesta (más de un verbo).",
+      en: "Linguistic unit with complete meaning that contains at least one conjugated verb. Composed of subject (who is being spoken about) and predicate (what is said about the subject). Can be simple (one verb) or compound (more than one verb).",
+    },
+  },
+  sujeto: {
+    term: {
+      es: "Sujeto",
+      en: "Subject",
+    },
+    definition: {
+      es: "Parte de la oración que indica de quién o de qué se habla. Puede ser explícito (aparece en la oración), tácito (se deduce del verbo) o no existir (oraciones impersonales). Su núcleo es un sustantivo o pronombre.",
+      en: "Part of the sentence that indicates who or what is being talked about. Can be explicit (appears in the sentence), tacit (deduced from the verb) or non-existent (impersonal sentences). Its nucleus is a noun or pronoun.",
+    },
+  },
+  predicado: {
+    term: {
+      es: "Predicado",
+      en: "Predicate",
+    },
+    definition: {
+      es: "Parte de la oración que expresa lo que se dice del sujeto. Su núcleo es el verbo conjugado. Puede ser nominal (con verbo copulativo + atributo) o verbal (con verbo que expresa acción).",
+      en: "Part of the sentence that expresses what is said about the subject. Its nucleus is the conjugated verb. Can be nominal (with copulative verb + attribute) or verbal (with verb expressing action).",
+    },
+  },
+  "objeto directo": {
+    term: {
+      es: "Objeto directo",
+      en: "Direct object",
+    },
+    definition: {
+      es: "Complemento del verbo que indica lo que recibe directamente la acción. Responde a las preguntas ¿qué? o ¿a quién? y puede sustituirse por los pronombres lo, la, los, las.",
+      en: "Verb complement that indicates what directly receives the action. Answers the questions what? or whom? and can be replaced by the pronouns it, him, her, them.",
+    },
+  },
+  "objeto indirecto": {
+    term: {
+      es: "Objeto indirecto",
+      en: "Indirect object",
+    },
+    definition: {
+      es: "Complemento del verbo que indica el destinatario o beneficiario de la acción. Responde a las preguntas ¿a quién? o ¿para quién? y puede sustituirse por los pronombres le, les.",
+      en: "Verb complement that indicates the recipient or beneficiary of the action. Answers the questions to whom? or for whom? and can be replaced by the pronouns le, les.",
+    },
+  },
+  coherencia: {
+    term: {
+      es: "Coherencia textual",
+      en: "Textual coherence",
+    },
+    definition: {
+      es: "Propiedad del texto que se refiere a la relación lógica entre las ideas. Un texto coherente presenta ideas que se relacionan entre sí y se organizan de manera lógica en torno a un tema central.",
+      en: "Property of text that refers to the logical relationship between ideas. A coherent text presents ideas that relate to each other and are organized logically around a central theme.",
+    },
+  },
+  cohesión: {
+    term: {
+      es: "Cohesión textual",
+      en: "Textual cohesion",
+    },
+    definition: {
+      es: "Propiedad del texto que se refiere a los mecanismos lingüísticos que conectan las oraciones y párrafos: conectores, pronombres, sinónimos, repeticiones y otros recursos que dan fluidez al texto.",
+      en: "Property of text that refers to the linguistic mechanisms that connect sentences and paragraphs: connectors, pronouns, synonyms, repetitions and other resources that give fluency to the text.",
+    },
+  },
+  dequeísmo: {
+    term: {
+      es: "Dequeísmo",
+      en: "Dequeism",
+    },
+    definition: {
+      es: "Error que consiste en añadir la preposición \"de\" antes de \"que\" cuando no es necesaria. Ejemplo incorrecto: \"Dijo de que vendría\" (correcto: \"Dijo que vendría\").",
+      en: "Error consisting of adding the preposition \"de\" before \"que\" when it is not necessary. Incorrect example: \"He said of that he would come\" (correct: \"He said that he would come\").",
+    },
+  },
+  queísmo: {
+    term: {
+      es: "Queísmo",
+      en: "Queism",
+    },
+    definition: {
+      es: "Error que consiste en omitir la preposición \"de\" antes de \"que\" cuando sí es necesaria. Ejemplo incorrecto: \"Estoy seguro que vendrá\" (correcto: \"Estoy seguro de que vendrá\").",
+      en: "Error consisting of omitting the preposition \"de\" before \"que\" when it is necessary. Incorrect example: \"I am sure that he will come\" (correct: \"I am sure of that he will come\").",
+    },
+  },
+  analogía: {
+    term: {
+      es: "Analogía",
+      en: "Analogy",
+    },
+    definition: {
+      es: "Relación de semejanza entre dos pares de palabras. La relación que existe entre el primer par debe ser la misma que existe entre el segundo. Tipos comunes: causa-efecto, parte-todo, sinonimia, herramienta-profesional, objeto-lugar.",
+      en: "Relationship of similarity between two pairs of words. The relationship that exists between the first pair must be the same as exists between the second. Common types: cause-effect, part-whole, synonymy, tool-professional, object-place.",
+    },
+  },
+  sinónimos: {
+    term: {
+      es: "Sinónimos",
+      en: "Synonyms",
+    },
+    definition: {
+      es: "Palabras que tienen un significado igual o muy similar. Ejemplos: bello/hermoso, comenzar/iniciar, casa/hogar. Pueden diferir en matices o registros de uso.",
+      en: "Words that have the same or very similar meaning. Examples: beautiful/lovely, begin/start, house/home. May differ in nuances or usage registers.",
+    },
+  },
+  antónimos: {
+    term: {
+      es: "Antónimos",
+      en: "Antonyms",
+    },
+    definition: {
+      es: "Palabras que tienen significados opuestos o contrarios. Ejemplos: grande/pequeño, blanco/negro, amor/odio. Pueden ser graduales (frío-tibio-caliente), complementarios (vivo-muerto) o recíprocos (comprar-vender).",
+      en: "Words that have opposite or contrary meanings. Examples: big/small, white/black, love/hate. Can be gradual (cold-warm-hot), complementary (alive-dead) or reciprocal (buy-sell).",
+    },
+  },
+  homófonos: {
+    term: {
+      es: "Homófonos",
+      en: "Homophones",
+    },
+    definition: {
+      es: "Palabras que suenan igual pero se escriben diferente y tienen significados distintos. Ejemplos: tubo/tuvo, haya/halla/aya, echo/hecho, vaya/valla, hierba/hierva.",
+      en: "Words that sound the same but are spelled differently and have different meanings. Examples: two/too/to, there/their/they're, hear/here, break/brake.",
+    },
+  },
+  "tilde diacrítica": {
+    term: {
+      es: "Tilde diacrítica",
+      en: "Diacritical accent",
+    },
+    definition: {
+      es: "Acento gráfico que se usa para distinguir palabras que se escriben igual pero tienen diferente significado o función gramatical. Ejemplos: él/el, tú/tu, mí/mi, sé/se, sí/si, dé/de, té/te, más/mas, aún/aun.",
+      en: "Graphic accent used to distinguish words that are spelled the same but have different meaning or grammatical function. Examples: he/the, you/your, me/my, I know/oneself, yes/if.",
+    },
+  },
+  hiato: {
+    term: {
+      es: "Hiato",
+      en: "Hiatus",
+    },
+    definition: {
+      es: "Secuencia de dos vocales que pertenecen a sílabas distintas. Cuando la vocal débil (i, u) es tónica y está junto a una vocal fuerte (a, e, o), se acentúa para romper el diptongo: día, río, baúl, maíz.",
+      en: "Sequence of two vowels that belong to different syllables. When the weak vowel (i, u) is stressed and is next to a strong vowel (a, e, o), it is accented to break the diphthong: día, río, baúl, maíz.",
+    },
+  },
+  diptongo: {
+    term: {
+      es: "Diptongo",
+      en: "Diphthong",
+    },
+    definition: {
+      es: "Secuencia de dos vocales que se pronuncian en una misma sílaba. Se forma con: vocal abierta (a, e, o) + vocal cerrada átona (i, u) o viceversa, o dos vocales cerradas distintas. Ejemplos: aire, cielo, puede, ruido.",
+      en: "Sequence of two vowels pronounced in the same syllable. Formed with: open vowel (a, e, o) + unstressed closed vowel (i, u) or vice versa, or two different closed vowels. Examples: air, sky, can, noise.",
+    },
+  },
+  "palabra aguda": {
+    term: {
+      es: "Palabra aguda",
+      en: "Oxytone word",
+    },
+    definition: {
+      es: "Palabra cuya sílaba tónica es la última. Lleva tilde cuando termina en n, s o vocal. Ejemplos con tilde: canción, compás, café. Ejemplos sin tilde: reloj, pared, feliz.",
+      en: "Word whose stressed syllable is the last one. Has accent when it ends in n, s or vowel. Examples with accent: canción, compás, café. Examples without accent: reloj, pared, feliz.",
+    },
+  },
+  "palabra grave": {
+    term: {
+      es: "Palabra grave",
+      en: "Paroxytone word",
+    },
+    definition: {
+      es: "Palabra cuya sílaba tónica es la penúltima. Lleva tilde cuando NO termina en n, s o vocal. Ejemplos con tilde: árbol, útil, lápiz. Ejemplos sin tilde: casa, examen, joven.",
+      en: "Word whose stressed syllable is the penultimate one. Has accent when it does NOT end in n, s or vowel. Examples with accent: árbol, útil, lápiz. Examples without accent: casa, examen, joven.",
+    },
+  },
+  "palabra esdrújula": {
+    term: {
+      es: "Palabra esdrújula",
+      en: "Proparoxytone word",
+    },
+    definition: {
+      es: "Palabra cuya sílaba tónica es la antepenúltima. Siempre lleva tilde. Ejemplos: teléfono, música, matemáticas, brújula, histórico.",
+      en: "Word whose stressed syllable is the third-to-last. Always has accent. Examples: teléfono, música, matemáticas, brújula, histórico.",
+    },
+  },
+  // Claves alternativas sin tilde para facilitar búsquedas
+  "funcion referencial": {
+    term: {
+      es: "Función referencial",
+      en: "Referential function",
+    },
+    definition: {
+      es: "Función del lenguaje centrada en el contexto o referente. Transmite información objetiva y verificable sobre la realidad. También se llama función informativa o representativa. Predomina en textos científicos, periodísticos y enciclopédicos.",
+      en: "Language function focused on the context or referent. Transmits objective and verifiable information about reality. Also called informative or representative function. Predominates in scientific, journalistic and encyclopedic texts.",
+    },
+  },
+  "funcion apelativa": {
+    term: {
+      es: "Función apelativa",
+      en: "Appellative function",
+    },
+    definition: {
+      es: "Función del lenguaje centrada en el receptor. Busca influir en su conducta, provocar una reacción o persuadirlo. También se llama función conativa. Es propia del modo imperativo y predomina en publicidad, propaganda y discursos persuasivos.",
+      en: "Language function focused on the receiver. Seeks to influence their behavior, provoke a reaction or persuade them. Also called conative function. Characteristic of the imperative mood and predominates in advertising, propaganda and persuasive speeches.",
+    },
+  },
+  "funcion poetica": {
+    term: {
+      es: "Función poética",
+      en: "Poetic function",
+    },
+    definition: {
+      es: "Función del lenguaje centrada en el mensaje mismo, en su forma y estructura. Busca producir un efecto estético mediante figuras retóricas, ritmo, sonoridad y otros recursos literarios. También se llama función estética. Predomina en la poesía y la literatura.",
+      en: "Language function focused on the message itself, on its form and structure. Seeks to produce an aesthetic effect through rhetorical figures, rhythm, sound and other literary devices. Also called aesthetic function. Predominates in poetry and literature.",
+    },
+  },
+  sinonimos: {
+    term: {
+      es: "Sinónimos",
+      en: "Synonyms",
+    },
+    definition: {
+      es: "Palabras que tienen un significado igual o muy similar. Ejemplos: bello/hermoso, comenzar/iniciar, casa/hogar. Pueden diferir en matices o registros de uso.",
+      en: "Words that have the same or very similar meaning. Examples: beautiful/lovely, begin/start, house/home. May differ in nuances or usage registers.",
+    },
+  },
+  antonimos: {
+    term: {
+      es: "Antónimos",
+      en: "Antonyms",
+    },
+    definition: {
+      es: "Palabras que tienen significados opuestos o contrarios. Ejemplos: grande/pequeño, blanco/negro, amor/odio. Pueden ser graduales (frío-tibio-caliente), complementarios (vivo-muerto) o recíprocos (comprar-vender).",
+      en: "Words that have opposite or contrary meanings. Examples: big/small, white/black, love/hate. Can be gradual (cold-warm-hot), complementary (alive-dead) or reciprocal (buy-sell).",
+    },
+  },
+  homofonos: {
+    term: {
+      es: "Homófonos",
+      en: "Homophones",
+    },
+    definition: {
+      es: "Palabras que suenan igual pero se escriben diferente y tienen significados distintos. Ejemplos: tubo/tuvo, haya/halla/aya, echo/hecho, vaya/valla, hierba/hierva.",
+      en: "Words that sound the same but are spelled differently and have different meanings. Examples: two/too/to, there/their/they're, hear/here, break/brake.",
+    },
+  },
+  "analogia": {
+    term: {
+      es: "Analogía",
+      en: "Analogy",
+    },
+    definition: {
+      es: "Relación de semejanza entre dos pares de palabras. La relación que existe entre el primer par debe ser la misma que existe entre el segundo. Tipos comunes: causa-efecto, parte-todo, sinonimia, herramienta-profesional, objeto-lugar.",
+      en: "Relationship of similarity between two pairs of words. The relationship that exists between the first pair must be the same as exists between the second. Common types: cause-effect, part-whole, synonymy, tool-professional, object-place.",
+    },
+  },
+};
+
+export const literatureGlossary: Record<string, GlossaryEntry> = {
+  "pirámide invertida": {
+    term: {
+      es: "Pirámide invertida",
+      en: "Inverted pyramid",
+    },
+    definition: {
+      es: "Estructura periodística que coloca la información más importante al inicio del texto.",
+      en: "Journalistic structure that places the most important information at the beginning of the text.",
+    },
+  },
+  acotación: {
+    term: {
+      es: "Acotación",
+      en: "Stage direction",
+    },
+    definition: {
+      es: "Indicación en el texto dramático sobre movimientos, gestos o ambientación escénica.",
+      en: "Indication in dramatic text about movements, gestures or stage setting.",
+    },
+  },
+  aliteración: {
+    term: {
+      es: "Aliteración",
+      en: "Alliteration",
+    },
+    definition: {
+      es: "Recurso poético que consiste en la repetición de sonidos consonánticos para crear efectos sonoros.",
+      en: "Poetic device consisting of the repetition of consonant sounds to create sound effects.",
+    },
+  },
+  "género lírico": {
+    term: {
+      es: "Género lírico",
+      en: "Lyric genre",
+    },
+    definition: {
+      es: "Género literario que expresa sentimientos y emociones del hablante lírico, generalmente en verso.",
+      en: "Literary genre that expresses feelings and emotions of the lyric speaker, usually in verse.",
+    },
+  },
+  "género épico": {
+    term: {
+      es: "Género épico",
+      en: "Epic genre",
+    },
+    definition: {
+      es: "Género narrativo que cuenta historias con presencia de un narrador.",
+      en: "Narrative genre that tells stories with the presence of a narrator.",
+    },
+  },
+  epopeya: {
+    term: {
+      es: "Epopeya",
+      en: "Epic poem",
+    },
+    definition: {
+      es: "Poema narrativo extenso que relata hazañas heroicas en verso.",
+      en: "Extensive narrative poem that narrates heroic deeds in verse.",
+    },
+  },
+  barroco: {
+    term: {
+      es: "Barroco",
+      en: "Baroque",
+    },
+    definition: {
+      es: "Movimiento literario caracterizado por el recargamiento ornamental, el artificio y la complejidad formal.",
+      en: "Literary movement characterized by ornamental excess, artifice and formal complexity.",
+    },
+  },
+  romanticismo: {
+    term: {
+      es: "Romanticismo",
+      en: "Romanticism",
+    },
+    definition: {
+      es: "Movimiento que valora la emoción, la pasión y la imaginación sobre la razón ilustrada.",
+      en: "Movement that values emotion, passion and imagination over enlightened reason.",
+    },
+  },
+  realismo: {
+    term: {
+      es: "Realismo",
+      en: "Realism",
+    },
+    definition: {
+      es: "Corriente literaria que retrata objetivamente la sociedad contemporánea sin idealización.",
+      en: "Literary current that objectively portrays contemporary society without idealization.",
+    },
+  },
+  modernismo: {
+    term: {
+      es: "Modernismo",
+      en: "Modernism",
+    },
+    definition: {
+      es: "Movimiento hispanoamericano que renueva la estética con musicalidad, exotismo y refinamiento verbal.",
+      en: "Hispanic American movement that renews aesthetics with musicality, exoticism and verbal refinement.",
+    },
+  },
+  "narrador omnisciente": {
+    term: {
+      es: "Narrador omnisciente",
+      en: "Omniscient narrator",
+    },
+    definition: {
+      es: "Narrador que tiene conocimiento total de la historia, personajes y sus pensamientos.",
+      en: "Narrator who has total knowledge of the story, characters and their thoughts.",
+    },
+  },
+  "in medias res": {
+    term: {
+      es: "In medias res",
+      en: "In medias res",
+    },
+    definition: {
+      es: "Técnica narrativa que inicia la historia en medio de la acción.",
+      en: "Narrative technique that begins the story in the middle of the action.",
+    },
+  },
+  analepsis: {
+    term: {
+      es: "Analepsis",
+      en: "Analepsis",
+    },
+    definition: {
+      es: "Retrospección o flashback, recurso que evoca acontecimientos del pasado.",
+      en: "Retrospection or flashback, a device that evokes past events.",
+    },
+  },
+  resumen: {
+    term: {
+      es: "Resumen",
+      en: "Summary",
+    },
+    definition: {
+      es: "Síntesis de un texto que conserva solo las ideas principales, eliminando detalles secundarios.",
+      en: "Synthesis of a text that preserves only the main ideas, eliminating secondary details.",
+    },
+  },
+  paráfrasis: {
+    term: {
+      es: "Paráfrasis",
+      en: "Paraphrase",
+    },
+    definition: {
+      es: "Reformulación de un texto con palabras propias manteniendo el sentido original.",
+      en: "Reformulation of a text in own words while maintaining the original meaning.",
+    },
+  },
+  "cita textual": {
+    term: {
+      es: "Cita textual",
+      en: "Direct quotation",
+    },
+    definition: {
+      es: "Reproducción exacta de las palabras de otro autor, marcada entre comillas y con referencia.",
+      en: "Exact reproduction of another author's words, marked in quotation marks and with reference.",
+    },
+  },
+  plagio: {
+    term: {
+      es: "Plagio",
+      en: "Plagiarism",
+    },
+    definition: {
+      es: "Presentar como propias ideas o palabras ajenas sin dar crédito adecuado a la fuente.",
+      en: "Presenting others' ideas or words as one's own without giving proper credit to the source.",
+    },
+  },
+  "género dramático": {
+    term: {
+      es: "Género dramático",
+      en: "Dramatic genre",
+    },
+    definition: {
+      es: "Género literario escrito para ser representado en escena, presenta conflictos mediante diálogos y acotaciones escénicas.",
+      en: "Literary genre written to be performed on stage, presents conflicts through dialogues and stage directions.",
+    },
+  },
+  metáfora: {
+    term: {
+      es: "Metáfora",
+      en: "Metaphor",
+    },
+    definition: {
+      es: "Figura retórica que consiste en identificar dos términos entre los cuales existe alguna semejanza, sustituyendo uno por otro.",
+      en: "Rhetorical figure consisting of identifying two terms between which there is some similarity, substituting one for the other.",
+    },
+  },
+  "narrador protagonista": {
+    term: {
+      es: "Narrador protagonista",
+      en: "Protagonist narrator",
+    },
+    definition: {
+      es: "Narrador en primera persona que cuenta su propia historia como personaje principal de los hechos narrados.",
+      en: "First-person narrator who tells their own story as the main character of the narrated events.",
+    },
+  },
+  "narrador testigo": {
+    term: {
+      es: "Narrador testigo",
+      en: "Witness narrator",
+    },
+    definition: {
+      es: "Narrador en primera persona que cuenta una historia de la que fue testigo pero no es el protagonista.",
+      en: "First-person narrator who tells a story they witnessed but is not the protagonist.",
+    },
+  },
+  "formato APA": {
+    term: {
+      es: "Formato APA",
+      en: "APA format",
+    },
+    definition: {
+      es: "Sistema de citación de la American Psychological Association usado para referencias bibliográficas en ciencias sociales y educación.",
+      en: "Citation system of the American Psychological Association used for bibliographic references in social sciences and education.",
+    },
+  },
+  "formato MLA": {
+    term: {
+      es: "Formato MLA",
+      en: "MLA format",
+    },
+    definition: {
+      es: "Sistema de citación de la Modern Language Association, estándar en literatura y humanidades.",
+      en: "Citation system of the Modern Language Association, standard in literature and humanities.",
+    },
+  },
+  "ficha bibliográfica": {
+    term: {
+      es: "Ficha bibliográfica",
+      en: "Bibliographic card",
+    },
+    definition: {
+      es: "Registro organizado de los datos de una fuente: autor, título, editorial, año, lugar de publicación.",
+      en: "Organized record of source data: author, title, publisher, year, place of publication.",
+    },
+  },
+  // Claves alternativas sin tilde
+  "piramide invertida": {
+    term: {
+      es: "Pirámide invertida",
+      en: "Inverted pyramid",
+    },
+    definition: {
+      es: "Estructura periodística que coloca la información más importante al inicio del texto.",
+      en: "Journalistic structure that places the most important information at the beginning of the text.",
+    },
+  },
+  acotacion: {
+    term: {
+      es: "Acotación",
+      en: "Stage direction",
+    },
+    definition: {
+      es: "Indicación en el texto dramático sobre movimientos, gestos o ambientación escénica.",
+      en: "Indication in dramatic text about movements, gestures or stage setting.",
+    },
+  },
+  aliteracion: {
+    term: {
+      es: "Aliteración",
+      en: "Alliteration",
+    },
+    definition: {
+      es: "Recurso poético que consiste en la repetición de sonidos consonánticos para crear efectos sonoros.",
+      en: "Poetic device consisting of the repetition of consonant sounds to create sound effects.",
+    },
+  },
+  "genero lirico": {
+    term: {
+      es: "Género lírico",
+      en: "Lyric genre",
+    },
+    definition: {
+      es: "Género literario que expresa sentimientos y emociones del hablante lírico, generalmente en verso.",
+      en: "Literary genre that expresses feelings and emotions of the lyric speaker, usually in verse.",
+    },
+  },
+  "genero epico": {
+    term: {
+      es: "Género épico",
+      en: "Epic genre",
+    },
+    definition: {
+      es: "Género narrativo que cuenta historias con presencia de un narrador.",
+      en: "Narrative genre that tells stories with the presence of a narrator.",
+    },
+  },
+  "genero dramatico": {
+    term: {
+      es: "Género dramático",
+      en: "Dramatic genre",
+    },
+    definition: {
+      es: "Género literario escrito para ser representado en escena, presenta conflictos mediante diálogos y acotaciones escénicas.",
+      en: "Literary genre written to be performed on stage, presents conflicts through dialogues and stage directions.",
+    },
+  },
+  metafora: {
+    term: {
+      es: "Metáfora",
+      en: "Metaphor",
+    },
+    definition: {
+      es: "Figura retórica que consiste en identificar dos términos entre los cuales existe alguna semejanza, sustituyendo uno por otro.",
+      en: "Rhetorical figure consisting of identifying two terms between which there is some similarity, substituting one for the other.",
+    },
+  },
+  "parafrasis": {
+    term: {
+      es: "Paráfrasis",
+      en: "Paraphrase",
+    },
+    definition: {
+      es: "Reformulación de un texto con palabras propias manteniendo el sentido original.",
+      en: "Reformulation of a text in own words while maintaining the original meaning.",
+    },
+  },
+  "ficha bibliografica": {
+    term: {
+      es: "Ficha bibliográfica",
+      en: "Bibliographic card",
+    },
+    definition: {
+      es: "Registro organizado de los datos de una fuente: autor, título, editorial, año, lugar de publicación.",
+      en: "Organized record of source data: author, title, publisher, year, place of publication.",
+    },
+  },
+};
+
 // Helper function to find glossary terms in text
 export function findGlossaryTerms(text: string): string[] {
   const terms: string[] = [];
   const lowerText = text.toLowerCase();
 
+  // Combine all glossaries
+  const allGlossaries = {
+    ...mathGlossary,
+    ...biologyGlossary,
+    ...geographyGlossary,
+    ...spanishGlossary,
+    ...literatureGlossary,
+  };
+
   // Sort terms by length (longest first) to match longer terms first
-  const sortedKeys = Object.keys(mathGlossary).sort(
+  const sortedKeys = Object.keys(allGlossaries).sort(
     (a, b) => b.length - a.length,
   );
 
