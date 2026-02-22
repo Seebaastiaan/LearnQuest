@@ -18,7 +18,7 @@ export default function LiteraturaPage() {
       />
 
       <div className="mt-8">
-        <StationMap topics={literaturaTopics} subjectSlug="literatura" />
+        <StationMap topics={literaturaTopics} subjectId="literatura" />
       </div>
     </div>
   );
