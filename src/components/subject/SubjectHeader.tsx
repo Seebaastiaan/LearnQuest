@@ -32,6 +32,16 @@ const subjectColors = {
       "from-teal-100 to-cyan-100 dark:from-teal-950/50 dark:to-cyan-950/30",
     text: "text-teal-700 dark:text-teal-300",
   },
+  Español: {
+    badge:
+      "from-orange-100 to-amber-100 dark:from-orange-950/50 dark:to-amber-950/30",
+    text: "text-orange-700 dark:text-orange-300",
+  },
+  Literatura: {
+    badge:
+      "from-indigo-100 to-purple-100 dark:from-indigo-950/50 dark:to-purple-950/30",
+    text: "text-indigo-700 dark:text-indigo-300",
+  },
   // Default fallback
   default: {
     badge:

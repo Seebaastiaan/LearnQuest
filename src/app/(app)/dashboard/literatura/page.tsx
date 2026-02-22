@@ -15,7 +15,6 @@ export default function LiteraturaPage() {
           es: "Domina los géneros literarios, corrientes y técnicas de investigación documental.",
           en: "Master literary genres, movements and documentary research techniques.",
         }}
-        icon="BookOpen"
       />
 
       <div className="mt-8">
