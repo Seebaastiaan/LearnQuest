@@ -40,10 +40,22 @@ export const funcionesLenguaTopic: Topic = {
             en: "Which of the following statements corresponds to the referential function of language?",
           },
           options: [
-            { es: "La temperatura en la Ciudad de México será de 22°C mañana", en: "The temperature in Mexico City will be 22°C tomorrow" },
-            { es: "¡Qué hermoso atardecer el de hoy!", en: "What a beautiful sunset today!" },
-            { es: "Te ordeno que guardes silencio", en: "I order you to be silent" },
-            { es: "La luna danza sobre el espejo del lago", en: "The moon dances on the mirror of the lake" },
+            {
+              es: "La temperatura en la Ciudad de México será de 22°C mañana",
+              en: "The temperature in Mexico City will be 22°C tomorrow",
+            },
+            {
+              es: "¡Qué hermoso atardecer el de hoy!",
+              en: "What a beautiful sunset today!",
+            },
+            {
+              es: "Te ordeno que guardes silencio",
+              en: "I order you to be silent",
+            },
+            {
+              es: "La luna danza sobre el espejo del lago",
+              en: "The moon dances on the mirror of the lake",
+            },
           ],
           correctAnswer: "0",
           explanation: {
@@ -66,10 +78,22 @@ export const funcionesLenguaTopic: Topic = {
             en: "The referential function of language focuses on:",
           },
           options: [
-            { es: "El emisor y sus emociones", en: "The sender and their emotions" },
-            { es: "El receptor y su comportamiento", en: "The receiver and their behavior" },
-            { es: "El contexto o referente del mensaje", en: "The context or referent of the message" },
-            { es: "La forma estética del mensaje", en: "The aesthetic form of the message" },
+            {
+              es: "El emisor y sus emociones",
+              en: "The sender and their emotions",
+            },
+            {
+              es: "El receptor y su comportamiento",
+              en: "The receiver and their behavior",
+            },
+            {
+              es: "El contexto o referente del mensaje",
+              en: "The context or referent of the message",
+            },
+            {
+              es: "La forma estética del mensaje",
+              en: "The aesthetic form of the message",
+            },
           ],
           correctAnswer: "2",
           explanation: {
@@ -86,10 +110,22 @@ export const funcionesLenguaTopic: Topic = {
             en: "Which is an example of referential function?",
           },
           options: [
-            { es: '"Por favor, cierra la ventana"', en: '"Please close the window"' },
-            { es: '"El agua hierve a 100°C al nivel del mar"', en: '"Water boils at 100°C at sea level"' },
-            { es: '"¡Estoy furioso con lo que pasó!"', en: '"I am furious with what happened!"' },
-            { es: '"Tres tristes tigres tragaban trigo"', en: '"Three sad tigers swallowed wheat"' },
+            {
+              es: '"Por favor, cierra la ventana"',
+              en: '"Please close the window"',
+            },
+            {
+              es: '"El agua hierve a 100°C al nivel del mar"',
+              en: '"Water boils at 100°C at sea level"',
+            },
+            {
+              es: '"¡Estoy furioso con lo que pasó!"',
+              en: '"I am furious with what happened!"',
+            },
+            {
+              es: '"Tres tristes tigres tragaban trigo"',
+              en: '"Three sad tigers swallowed wheat"',
+            },
           ],
           correctAnswer: "1",
           explanation: {
@@ -107,8 +143,14 @@ export const funcionesLenguaTopic: Topic = {
           },
           options: [
             { es: "Un poema de Octavio Paz", en: "A poem by Octavio Paz" },
-            { es: "Un anuncio publicitario de televisión", en: "A television advertisement" },
-            { es: "Una nota informativa de un periódico", en: "A news article in a newspaper" },
+            {
+              es: "Un anuncio publicitario de televisión",
+              en: "A television advertisement",
+            },
+            {
+              es: "Una nota informativa de un periódico",
+              en: "A news article in a newspaper",
+            },
             { es: "Una carta de amor", en: "A love letter" },
           ],
           correctAnswer: "2",
@@ -157,10 +199,19 @@ export const funcionesLenguaTopic: Topic = {
             en: "Which of the following statements uses the appellative function?",
           },
           options: [
-            { es: "México tiene 32 entidades federativas", en: "Mexico has 32 federal entities" },
-            { es: "Compra ahora y obtén un 50% de descuento", en: "Buy now and get 50% off" },
+            {
+              es: "México tiene 32 entidades federativas",
+              en: "Mexico has 32 federal entities",
+            },
+            {
+              es: "Compra ahora y obtén un 50% de descuento",
+              en: "Buy now and get 50% off",
+            },
             { es: "Me siento muy triste hoy", en: "I feel very sad today" },
-            { es: "Sus cabellos eran hilos de oro", en: "Her hair was threads of gold" },
+            {
+              es: "Sus cabellos eran hilos de oro",
+              en: "Her hair was threads of gold",
+            },
           ],
           correctAnswer: "1",
           explanation: {
@@ -199,8 +250,14 @@ export const funcionesLenguaTopic: Topic = {
           options: [
             { es: "Un artículo enciclopédico", en: "An encyclopedia article" },
             { es: "Un diario personal", en: "A personal diary" },
-            { es: "Un cartel de propaganda política", en: "A political propaganda poster" },
-            { es: "Una novela de ciencia ficción", en: "A science fiction novel" },
+            {
+              es: "Un cartel de propaganda política",
+              en: "A political propaganda poster",
+            },
+            {
+              es: "Una novela de ciencia ficción",
+              en: "A science fiction novel",
+            },
           ],
           correctAnswer: "2",
           explanation: {
@@ -274,10 +331,22 @@ export const funcionesLenguaTopic: Topic = {
             en: "Which of the following statements corresponds to the poetic function of language?",
           },
           options: [
-            { es: "El río Amazonas es el más caudaloso del mundo", en: "The Amazon River is the most voluminous in the world" },
-            { es: "Caminante, no hay camino, se hace camino al andar", en: "Traveler, there is no path, the path is made by walking" },
-            { es: "Cierra la puerta al salir, por favor", en: "Close the door when you leave, please" },
-            { es: "La reunión será a las tres de la tarde", en: "The meeting will be at three in the afternoon" },
+            {
+              es: "El río Amazonas es el más caudaloso del mundo",
+              en: "The Amazon River is the most voluminous in the world",
+            },
+            {
+              es: "Caminante, no hay camino, se hace camino al andar",
+              en: "Traveler, there is no path, the path is made by walking",
+            },
+            {
+              es: "Cierra la puerta al salir, por favor",
+              en: "Close the door when you leave, please",
+            },
+            {
+              es: "La reunión será a las tres de la tarde",
+              en: "The meeting will be at three in the afternoon",
+            },
           ],
           correctAnswer: "1",
           explanation: {
@@ -295,8 +364,14 @@ export const funcionesLenguaTopic: Topic = {
           },
           options: [
             { es: "El referente o contexto", en: "The referent or context" },
-            { es: "El receptor del mensaje", en: "The receiver of the message" },
-            { es: "La forma del mensaje mismo", en: "The form of the message itself" },
+            {
+              es: "El receptor del mensaje",
+              en: "The receiver of the message",
+            },
+            {
+              es: "La forma del mensaje mismo",
+              en: "The form of the message itself",
+            },
             { es: "El canal de comunicación", en: "The communication channel" },
           ],
           correctAnswer: "2",
@@ -316,7 +391,10 @@ export const funcionesLenguaTopic: Topic = {
           options: [
             { es: "Datos estadísticos", en: "Statistical data" },
             { es: "Uso del modo imperativo", en: "Use of imperative mood" },
-            { es: "Metáforas y figuras retóricas", en: "Metaphors and rhetorical figures" },
+            {
+              es: "Metáforas y figuras retóricas",
+              en: "Metaphors and rhetorical figures",
+            },
             { es: "Tecnicismos científicos", en: "Scientific technicalities" },
           ],
           correctAnswer: "2",
@@ -356,8 +434,14 @@ export const funcionesLenguaTopic: Topic = {
           options: [
             { es: "En los textos periodísticos", en: "In journalistic texts" },
             { es: "En los textos científicos", en: "In scientific texts" },
-            { es: "En la poesía y la literatura en general", en: "In poetry and literature in general" },
-            { es: "En los manuales de instrucciones", en: "In instruction manuals" },
+            {
+              es: "En la poesía y la literatura en general",
+              en: "In poetry and literature in general",
+            },
+            {
+              es: "En los manuales de instrucciones",
+              en: "In instruction manuals",
+            },
           ],
           correctAnswer: "2",
           explanation: {

@@ -1,9 +1,7 @@
 "use client";
 
-import { Card } from "@/components/ui/card";
-import { Progress } from "@/components/ui/progress";
-import { SubjectHeader } from "@/components/subject/SubjectHeader";
 import { StationMap } from "@/components/learning-path/StationMap";
+import { SubjectHeader } from "@/components/subject/SubjectHeader";
 import { literaturaTopics } from "@/lib/data/topics/literatura";
 
 export default function LiteraturaPage() {

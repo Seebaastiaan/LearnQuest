@@ -3,9 +3,13 @@
 import { QuizEngine } from "@/components/quiz/QuizEngine";
 import { allTopics } from "@/lib/data/topics";
 import { allBiologyTopics } from "@/lib/data/topics/biologia";
-import { allGeographyTopics } from "@/lib/data/topics/geografia";
 import { allSpanishTopics } from "@/lib/data/topics/espanol";
+import { allPhysicsTopics } from "@/lib/data/topics/fisica";
+import { allGeographyTopics } from "@/lib/data/topics/geografia";
+import { allMexicanHistoryTopics } from "@/lib/data/topics/historia-mexico";
+import { allWorldHistoryTopics } from "@/lib/data/topics/historia-universal";
 import { literaturaTopics } from "@/lib/data/topics/literatura";
+import { allChemistryTopics } from "@/lib/data/topics/quimica";
 import type { Lesson, Topic } from "@/lib/types";
 import { useProgressStore, useSettingsStore } from "@/stores";
 import { useRouter } from "next/navigation";
@@ -17,7 +21,11 @@ const allSubjectTopics = [
   ...allBiologyTopics,
   ...allGeographyTopics,
   ...allSpanishTopics,
+  ...allPhysicsTopics,
+  ...allChemistryTopics,
   ...literaturaTopics,
+  ...allWorldHistoryTopics,
+  ...allMexicanHistoryTopics,
 ];
 
 function findLessonById(

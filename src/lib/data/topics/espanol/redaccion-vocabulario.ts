@@ -40,15 +40,27 @@ export const redaccionVocabularioTopic: Topic = {
             en: "Which of the following sentences is correctly written?",
           },
           options: [
-            { es: "Se venden vestidos para señoras de seda", en: "Dresses for silk ladies are sold" },
-            { es: "Se venden vestidos de seda para señoras", en: "Silk dresses for ladies are sold" },
-            { es: "Para señoras se venden de seda vestidos", en: "For ladies silk dresses are sold" },
-            { es: "Vestidos de seda para señoras se venden", en: "Silk dresses for ladies are sold" },
+            {
+              es: "Se venden vestidos para señoras de seda",
+              en: "Dresses for silk ladies are sold",
+            },
+            {
+              es: "Se venden vestidos de seda para señoras",
+              en: "Silk dresses for ladies are sold",
+            },
+            {
+              es: "Para señoras se venden de seda vestidos",
+              en: "For ladies silk dresses are sold",
+            },
+            {
+              es: "Vestidos de seda para señoras se venden",
+              en: "Silk dresses for ladies are sold",
+            },
           ],
           correctAnswer: "1",
           explanation: {
-            es: "La opción correcta evita la ambigüedad. \"Se venden vestidos de seda para señoras\" deja claro que los vestidos son de seda, mientras que \"vestidos para señoras de seda\" genera confusión sobre quién es de seda.",
-            en: "The correct option avoids ambiguity. \"Silk dresses for ladies are sold\" makes it clear that the dresses are silk, while \"dresses for silk ladies\" creates confusion about what is silk.",
+            es: 'La opción correcta evita la ambigüedad. "Se venden vestidos de seda para señoras" deja claro que los vestidos son de seda, mientras que "vestidos para señoras de seda" genera confusión sobre quién es de seda.',
+            en: 'The correct option avoids ambiguity. "Silk dresses for ladies are sold" makes it clear that the dresses are silk, while "dresses for silk ladies" creates confusion about what is silk.',
           },
           difficulty: 2,
         },
@@ -60,15 +72,27 @@ export const redaccionVocabularioTopic: Topic = {
             en: "Which of the following sentences has a concordance error?",
           },
           options: [
-            { es: "La mayoría de los estudiantes aprobó el examen", en: "The majority of students passed the exam" },
-            { es: "El grupo de niños jugaban en el parque", en: "The group of children were playing in the park" },
-            { es: "Las flores del jardín están marchitas", en: "The flowers in the garden are withered" },
-            { es: "Los resultados del estudio fueron reveladores", en: "The results of the study were revealing" },
+            {
+              es: "La mayoría de los estudiantes aprobó el examen",
+              en: "The majority of students passed the exam",
+            },
+            {
+              es: "El grupo de niños jugaban en el parque",
+              en: "The group of children were playing in the park",
+            },
+            {
+              es: "Las flores del jardín están marchitas",
+              en: "The flowers in the garden are withered",
+            },
+            {
+              es: "Los resultados del estudio fueron reveladores",
+              en: "The results of the study were revealing",
+            },
           ],
           correctAnswer: "1",
           explanation: {
-            es: "Hay un error de concordancia: el sujeto \"El grupo\" es singular, por lo que el verbo debe ser singular: \"El grupo de niños jugaba en el parque\". El núcleo del sujeto es \"grupo\", no \"niños\".",
-            en: "There is a concordance error: the subject \"The group\" is singular, so the verb should be singular: \"The group of children was playing in the park\". The nucleus of the subject is \"group\", not \"children\".",
+            es: 'Hay un error de concordancia: el sujeto "El grupo" es singular, por lo que el verbo debe ser singular: "El grupo de niños jugaba en el parque". El núcleo del sujeto es "grupo", no "niños".',
+            en: 'There is a concordance error: the subject "The group" is singular, so the verb should be singular: "The group of children was playing in the park". The nucleus of the subject is "group", not "children".',
           },
           difficulty: 2,
         },
@@ -76,8 +100,8 @@ export const redaccionVocabularioTopic: Topic = {
           id: "esp_re_3",
           type: "multiple-choice",
           prompt: {
-            es: "¿Qué error de redacción presenta la oración \"El paciente dijo de que se sentía mejor\"?",
-            en: "What writing error does the sentence \"The patient said of that he felt better\" present?",
+            es: '¿Qué error de redacción presenta la oración "El paciente dijo de que se sentía mejor"?',
+            en: 'What writing error does the sentence "The patient said of that he felt better" present?',
           },
           options: [
             { es: "Falta de concordancia", en: "Lack of concordance" },
@@ -87,8 +111,8 @@ export const redaccionVocabularioTopic: Topic = {
           ],
           correctAnswer: "1",
           explanation: {
-            es: "El dequeísmo es el uso indebido de \"de que\" donde solo corresponde \"que\". Lo correcto es \"El paciente dijo que se sentía mejor\", pues el verbo \"decir\" no requiere la preposición \"de\".",
-            en: "Dequeism is the improper use of \"of that\" where only \"that\" is appropriate. The correct form is \"The patient said that he felt better\", as the verb \"to say\" does not require the preposition \"of\".",
+            es: 'El dequeísmo es el uso indebido de "de que" donde solo corresponde "que". Lo correcto es "El paciente dijo que se sentía mejor", pues el verbo "decir" no requiere la preposición "de".',
+            en: 'Dequeism is the improper use of "of that" where only "that" is appropriate. The correct form is "The patient said that he felt better", as the verb "to say" does not require the preposition "of".',
           },
           difficulty: 2,
         },
@@ -100,15 +124,27 @@ export const redaccionVocabularioTopic: Topic = {
             en: "Which of the following sentences has a redundancy error?",
           },
           options: [
-            { es: "El resultado fue inesperado para todos", en: "The result was unexpected for everyone" },
-            { es: "Subió arriba para buscar las llaves", en: "He went up upwards to look for the keys" },
-            { es: "La conferencia fue muy interesante", en: "The conference was very interesting" },
-            { es: "Llegaron puntuales a la reunión", en: "They arrived punctually to the meeting" },
+            {
+              es: "El resultado fue inesperado para todos",
+              en: "The result was unexpected for everyone",
+            },
+            {
+              es: "Subió arriba para buscar las llaves",
+              en: "He went up upwards to look for the keys",
+            },
+            {
+              es: "La conferencia fue muy interesante",
+              en: "The conference was very interesting",
+            },
+            {
+              es: "Llegaron puntuales a la reunión",
+              en: "They arrived punctually to the meeting",
+            },
           ],
           correctAnswer: "1",
           explanation: {
-            es: "\"Subió arriba\" es redundante (pleonasmo vicioso) porque \"subir\" ya implica ir hacia arriba. Lo correcto es simplemente \"Subió para buscar las llaves\".",
-            en: "\"Went up upwards\" is redundant (vicious pleonasm) because \"to go up\" already implies moving upwards. The correct form is simply \"He went up to look for the keys\".",
+            es: '"Subió arriba" es redundante (pleonasmo vicioso) porque "subir" ya implica ir hacia arriba. Lo correcto es simplemente "Subió para buscar las llaves".',
+            en: '"Went up upwards" is redundant (vicious pleonasm) because "to go up" already implies moving upwards. The correct form is simply "He went up to look for the keys".',
           },
           difficulty: 2,
         },
@@ -230,8 +266,8 @@ export const redaccionVocabularioTopic: Topic = {
           id: "esp_vo_6",
           type: "multiple-choice",
           prompt: {
-            es: "¿Cuál es el sinónimo de \"efímero\"?",
-            en: "What is the synonym of \"ephemeral\"?",
+            es: '¿Cuál es el sinónimo de "efímero"?',
+            en: 'What is the synonym of "ephemeral"?',
           },
           options: [
             { es: "Eterno", en: "Eternal" },
@@ -241,8 +277,8 @@ export const redaccionVocabularioTopic: Topic = {
           ],
           correctAnswer: "1",
           explanation: {
-            es: "\"Efímero\" significa de corta duración, que desaparece rápidamente. Su sinónimo es \"pasajero\", que también indica algo transitorio y breve.",
-            en: "\"Ephemeral\" means short-lived, disappearing quickly. Its synonym is \"fleeting\", which also indicates something transitory and brief.",
+            es: '"Efímero" significa de corta duración, que desaparece rápidamente. Su sinónimo es "pasajero", que también indica algo transitorio y breve.',
+            en: '"Ephemeral" means short-lived, disappearing quickly. Its synonym is "fleeting", which also indicates something transitory and brief.',
           },
           difficulty: 2,
         },
@@ -250,8 +286,8 @@ export const redaccionVocabularioTopic: Topic = {
           id: "esp_vo_7",
           type: "multiple-choice",
           prompt: {
-            es: "¿Cuál es el sinónimo de \"prolijo\"?",
-            en: "What is the synonym of \"meticulous\"?",
+            es: '¿Cuál es el sinónimo de "prolijo"?',
+            en: 'What is the synonym of "meticulous"?',
           },
           options: [
             { es: "Breve", en: "Brief" },
@@ -261,8 +297,8 @@ export const redaccionVocabularioTopic: Topic = {
           ],
           correctAnswer: "1",
           explanation: {
-            es: "\"Prolijo\" significa detallado, minucioso, que se hace con gran cuidado y atención a los detalles. \"Minucioso\" es su sinónimo más cercano.",
-            en: "\"Meticulous\" means detailed, thorough, done with great care and attention to detail. \"Detailed\" is its closest synonym.",
+            es: '"Prolijo" significa detallado, minucioso, que se hace con gran cuidado y atención a los detalles. "Minucioso" es su sinónimo más cercano.',
+            en: '"Meticulous" means detailed, thorough, done with great care and attention to detail. "Detailed" is its closest synonym.',
           },
           difficulty: 2,
         },
@@ -270,8 +306,8 @@ export const redaccionVocabularioTopic: Topic = {
           id: "esp_vo_11",
           type: "multiple-choice",
           prompt: {
-            es: "¿Cuál es el antónimo de \"próspero\"?",
-            en: "What is the antonym of \"prosperous\"?",
+            es: '¿Cuál es el antónimo de "próspero"?',
+            en: 'What is the antonym of "prosperous"?',
           },
           options: [
             { es: "Rico", en: "Rich" },
@@ -281,8 +317,8 @@ export const redaccionVocabularioTopic: Topic = {
           ],
           correctAnswer: "2",
           explanation: {
-            es: "\"Próspero\" significa que tiene éxito, que progresa favorablemente. Su antónimo es \"decadente\", que indica deterioro, declive o pérdida de calidad.",
-            en: "\"Prosperous\" means successful, progressing favorably. Its antonym is \"decadent\", which indicates deterioration, decline or loss of quality.",
+            es: '"Próspero" significa que tiene éxito, que progresa favorablemente. Su antónimo es "decadente", que indica deterioro, declive o pérdida de calidad.',
+            en: '"Prosperous" means successful, progressing favorably. Its antonym is "decadent", which indicates deterioration, decline or loss of quality.',
           },
           difficulty: 2,
         },
@@ -290,8 +326,8 @@ export const redaccionVocabularioTopic: Topic = {
           id: "esp_vo_12",
           type: "multiple-choice",
           prompt: {
-            es: "¿Cuál es el antónimo de \"elocuente\"?",
-            en: "What is the antonym of \"eloquent\"?",
+            es: '¿Cuál es el antónimo de "elocuente"?',
+            en: 'What is the antonym of "eloquent"?',
           },
           options: [
             { es: "Expresivo", en: "Expressive" },
@@ -301,8 +337,8 @@ export const redaccionVocabularioTopic: Topic = {
           ],
           correctAnswer: "2",
           explanation: {
-            es: "\"Elocuente\" significa que se expresa con fluidez, claridad y poder de persuasión. Su antónimo es \"inarticulado\", que indica incapacidad para expresarse con claridad.",
-            en: "\"Eloquent\" means expressing oneself with fluency, clarity and persuasive power. Its antonym is \"inarticulate\", which indicates inability to express oneself clearly.",
+            es: '"Elocuente" significa que se expresa con fluidez, claridad y poder de persuasión. Su antónimo es "inarticulado", que indica incapacidad para expresarse con claridad.',
+            en: '"Eloquent" means expressing oneself with fluency, clarity and persuasive power. Its antonym is "inarticulate", which indicates inability to express oneself clearly.',
           },
           difficulty: 2,
         },

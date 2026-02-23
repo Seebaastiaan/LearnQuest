@@ -16,7 +16,8 @@ const shadowBySubject: Record<string, string> = {
   fisica: "#7c3aed", // violet-600
   quimica: "#e11d48", // rose-600
   biologia: "#059669", // emerald-600
-  historia: "#d97706", // amber-600
+  "historia-universal": "#d97706", // amber-600
+  "historia-mexico": "#e11d48", // rose-600
   geografia: "#0891b2", // cyan-600
   literatura: "#7c3aed", // violet-600
   espanol: "#059669", // emerald-600
@@ -30,7 +31,8 @@ const bgBySubject: Record<string, string> = {
   fisica: "bg-purple-500",
   quimica: "bg-pink-500",
   biologia: "bg-emerald-500",
-  historia: "bg-amber-500",
+  "historia-universal": "bg-amber-500",
+  "historia-mexico": "bg-red-500",
   geografia: "bg-teal-500",
   literatura: "bg-indigo-500",
   espanol: "bg-green-500",

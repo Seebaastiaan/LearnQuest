@@ -3,10 +3,14 @@
 import { GlossaryDialog } from "@/components/glossary/GlossaryDialog";
 import {
   biologyGlossary,
+  chemistryGlossary,
   geographyGlossary,
   literatureGlossary,
   mathGlossary,
+  mexicanHistoryGlossary,
+  physicsGlossary,
   spanishGlossary,
+  worldHistoryGlossary,
   type GlossaryEntry,
 } from "@/lib/data/glossary";
 import type { LocalizedString } from "@/lib/types";
@@ -28,10 +32,14 @@ interface SubjectBannerProps {
 // Map subject IDs to their glossaries
 const glossariesBySubject: Record<string, Record<string, GlossaryEntry>> = {
   matematicas: mathGlossary,
+  fisica: physicsGlossary,
+  quimica: chemistryGlossary,
   biologia: biologyGlossary,
   geografia: geographyGlossary,
   espanol: spanishGlossary,
   literatura: literatureGlossary,
+  "historia-universal": worldHistoryGlossary,
+  "historia-mexico": mexicanHistoryGlossary,
 };
 
 export function SubjectBanner({

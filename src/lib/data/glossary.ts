@@ -1924,8 +1924,8 @@ export const spanishGlossary: Record<string, GlossaryEntry> = {
       en: "Dequeism",
     },
     definition: {
-      es: "Error que consiste en añadir la preposición \"de\" antes de \"que\" cuando no es necesaria. Ejemplo incorrecto: \"Dijo de que vendría\" (correcto: \"Dijo que vendría\").",
-      en: "Error consisting of adding the preposition \"de\" before \"que\" when it is not necessary. Incorrect example: \"He said of that he would come\" (correct: \"He said that he would come\").",
+      es: 'Error que consiste en añadir la preposición "de" antes de "que" cuando no es necesaria. Ejemplo incorrecto: "Dijo de que vendría" (correcto: "Dijo que vendría").',
+      en: 'Error consisting of adding the preposition "de" before "que" when it is not necessary. Incorrect example: "He said of that he would come" (correct: "He said that he would come").',
     },
   },
   queísmo: {
@@ -1934,8 +1934,8 @@ export const spanishGlossary: Record<string, GlossaryEntry> = {
       en: "Queism",
     },
     definition: {
-      es: "Error que consiste en omitir la preposición \"de\" antes de \"que\" cuando sí es necesaria. Ejemplo incorrecto: \"Estoy seguro que vendrá\" (correcto: \"Estoy seguro de que vendrá\").",
-      en: "Error consisting of omitting the preposition \"de\" before \"que\" when it is necessary. Incorrect example: \"I am sure that he will come\" (correct: \"I am sure of that he will come\").",
+      es: 'Error que consiste en omitir la preposición "de" antes de "que" cuando sí es necesaria. Ejemplo incorrecto: "Estoy seguro que vendrá" (correcto: "Estoy seguro de que vendrá").',
+      en: 'Error consisting of omitting the preposition "de" before "que" when it is necessary. Incorrect example: "I am sure that he will come" (correct: "I am sure of that he will come").',
     },
   },
   analogía: {
@@ -2099,7 +2099,7 @@ export const spanishGlossary: Record<string, GlossaryEntry> = {
       en: "Words that sound the same but are spelled differently and have different meanings. Examples: two/too/to, there/their/they're, hear/here, break/brake.",
     },
   },
-  "analogia": {
+  analogia: {
     term: {
       es: "Analogía",
       en: "Analogy",
@@ -2423,7 +2423,7 @@ export const literatureGlossary: Record<string, GlossaryEntry> = {
       en: "Rhetorical figure consisting of identifying two terms between which there is some similarity, substituting one for the other.",
     },
   },
-  "parafrasis": {
+  parafrasis: {
     term: {
       es: "Paráfrasis",
       en: "Paraphrase",
@@ -2445,6 +2445,1278 @@ export const literatureGlossary: Record<string, GlossaryEntry> = {
   },
 };
 
+export const physicsGlossary: Record<string, GlossaryEntry> = {
+  velocidad: {
+    term: {
+      es: "Velocidad",
+      en: "Velocity",
+    },
+    definition: {
+      es: "Magnitud vectorial que indica la rapidez de cambio de posición de un objeto. Se mide en m/s. v = d/t.",
+      en: "Vector quantity indicating rate of position change. Measured in m/s. v = d/t.",
+    },
+  },
+  velocity: {
+    term: {
+      es: "Velocidad",
+      en: "Velocity",
+    },
+    definition: {
+      es: "Magnitud vectorial que indica la rapidez de cambio de posición de un objeto. Se mide en m/s. v = d/t.",
+      en: "Vector quantity indicating rate of position change. Measured in m/s. v = d/t.",
+    },
+  },
+  aceleracion: {
+    term: {
+      es: "Aceleración",
+      en: "Acceleration",
+    },
+    definition: {
+      es: "Cambio de velocidad por unidad de tiempo. Se mide en m/s². a = Δv/Δt.",
+      en: "Change in velocity per unit time. Measured in m/s². a = Δv/Δt.",
+    },
+  },
+  acceleration: {
+    term: {
+      es: "Aceleración",
+      en: "Acceleration",
+    },
+    definition: {
+      es: "Cambio de velocidad por unidad de tiempo. Se mide en m/s². a = Δv/Δt.",
+      en: "Change in velocity per unit time. Measured in m/s². a = Δv/Δt.",
+    },
+  },
+  fuerza: {
+    term: {
+      es: "Fuerza",
+      en: "Force",
+    },
+    definition: {
+      es: "Magnitud vectorial capaz de causar aceleración en un cuerpo. Segunda Ley de Newton: F = ma. Se mide en Newtons (N).",
+      en: "Vector quantity capable of causing acceleration in a body. Newton's Second Law: F = ma. Measured in Newtons (N).",
+    },
+  },
+  force: {
+    term: {
+      es: "Fuerza",
+      en: "Force",
+    },
+    definition: {
+      es: "Magnitud vectorial capaz de causar aceleración en un cuerpo. Segunda Ley de Newton: F = ma. Se mide en Newtons (N).",
+      en: "Vector quantity capable of causing acceleration in a body. Newton's Second Law: F = ma. Measured in Newtons (N).",
+    },
+  },
+  inercia: {
+    term: {
+      es: "Inercia",
+      en: "Inertia",
+    },
+    definition: {
+      es: "Tendencia de un cuerpo a mantener su estado de reposo o movimiento rectilíneo uniforme. Primera Ley de Newton.",
+      en: "Tendency of a body to maintain its state of rest or uniform linear motion. Newton's First Law.",
+    },
+  },
+  inertia: {
+    term: {
+      es: "Inercia",
+      en: "Inertia",
+    },
+    definition: {
+      es: "Tendencia de un cuerpo a mantener su estado de reposo o movimiento rectilíneo uniforme. Primera Ley de Newton.",
+      en: "Tendency of a body to maintain its state of rest or uniform linear motion. Newton's First Law.",
+    },
+  },
+  "trabajo mecanico": {
+    term: {
+      es: "Trabajo mecánico",
+      en: "Work",
+    },
+    definition: {
+      es: "Energía transferida cuando una fuerza desplaza un objeto. W = F·d·cos(θ). Se mide en Joules (J).",
+      en: "Energy transferred when a force displaces an object. W = F·d·cos(θ). Measured in Joules (J).",
+    },
+  },
+  work: {
+    term: {
+      es: "Trabajo mecánico",
+      en: "Work",
+    },
+    definition: {
+      es: "Energía transferida cuando una fuerza desplaza un objeto. W = F·d·cos(θ). Se mide en Joules (J).",
+      en: "Energy transferred when a force displaces an object. W = F·d·cos(θ). Measured in Joules (J).",
+    },
+  },
+  "energia cinetica": {
+    term: {
+      es: "Energía cinética",
+      en: "Kinetic energy",
+    },
+    definition: {
+      es: "Energía asociada al movimiento de un cuerpo. Ek = ½mv². Se mide en Joules (J).",
+      en: "Energy associated with motion of a body. Ek = ½mv². Measured in Joules (J).",
+    },
+  },
+  "kinetic energy": {
+    term: {
+      es: "Energía cinética",
+      en: "Kinetic energy",
+    },
+    definition: {
+      es: "Energía asociada al movimiento de un cuerpo. Ek = ½mv². Se mide en Joules (J).",
+      en: "Energy associated with motion of a body. Ek = ½mv². Measured in Joules (J).",
+    },
+  },
+  "energia potencial": {
+    term: {
+      es: "Energía potencial",
+      en: "Potential energy",
+    },
+    definition: {
+      es: "Energía almacenada por la posición o configuración de un cuerpo. Gravitatoria: Ep = mgh.",
+      en: "Energy stored by position or configuration of a body. Gravitational: Ep = mgh.",
+    },
+  },
+  "potential energy": {
+    term: {
+      es: "Energía potencial",
+      en: "Potential energy",
+    },
+    definition: {
+      es: "Energía almacenada por la posición o configuración de un cuerpo. Gravitatoria: Ep = mgh.",
+      en: "Energy stored by position or configuration of a body. Gravitational: Ep = mgh.",
+    },
+  },
+  potencia: {
+    term: {
+      es: "Potencia",
+      en: "Power",
+    },
+    definition: {
+      es: "Trabajo realizado por unidad de tiempo. P = W/t. Se mide en Watts (W).",
+      en: "Work done per unit time. P = W/t. Measured in Watts (W).",
+    },
+  },
+  power: {
+    term: {
+      es: "Potencia",
+      en: "Power",
+    },
+    definition: {
+      es: "Trabajo realizado por unidad de tiempo. P = W/t. Se mide en Watts (W).",
+      en: "Work done per unit time. P = W/t. Measured in Watts (W).",
+    },
+  },
+  calor: {
+    term: {
+      es: "Calor",
+      en: "Heat",
+    },
+    definition: {
+      es: "Energía térmica en tránsito de un cuerpo de mayor a menor temperatura. Q = mcΔT.",
+      en: "Thermal energy in transit from higher to lower temperature body. Q = mcΔT.",
+    },
+  },
+  heat: {
+    term: {
+      es: "Calor",
+      en: "Heat",
+    },
+    definition: {
+      es: "Energía térmica en tránsito de un cuerpo de mayor a menor temperatura. Q = mcΔT.",
+      en: "Thermal energy in transit from higher to lower temperature body. Q = mcΔT.",
+    },
+  },
+  temperatura: {
+    term: {
+      es: "Temperatura",
+      en: "Temperature",
+    },
+    definition: {
+      es: "Medida de la energía cinética promedio de las moléculas. Se mide en Kelvin (K), Celsius (°C) o Fahrenheit (°F).",
+      en: "Measure of average kinetic energy of molecules. Measured in Kelvin (K), Celsius (°C) or Fahrenheit (°F).",
+    },
+  },
+  temperature: {
+    term: {
+      es: "Temperatura",
+      en: "Temperature",
+    },
+    definition: {
+      es: "Medida de la energía cinética promedio de las moléculas. Se mide en Kelvin (K), Celsius (°C) o Fahrenheit (°F).",
+      en: "Measure of average kinetic energy of molecules. Measured in Kelvin (K), Celsius (°C) or Fahrenheit (°F).",
+    },
+  },
+  onda: {
+    term: {
+      es: "Onda",
+      en: "Wave",
+    },
+    definition: {
+      es: "Perturbación que se propaga en el espacio transportando energía sin transporte neto de materia. v = fλ.",
+      en: "Disturbance propagating through space transporting energy without net matter transport. v = fλ.",
+    },
+  },
+  wave: {
+    term: {
+      es: "Onda",
+      en: "Wave",
+    },
+    definition: {
+      es: "Perturbación que se propaga en el espacio transportando energía sin transporte neto de materia. v = fλ.",
+      en: "Disturbance propagating through space transporting energy without net matter transport. v = fλ.",
+    },
+  },
+  frecuencia: {
+    term: {
+      es: "Frecuencia",
+      en: "Frequency",
+    },
+    definition: {
+      es: "Número de ciclos u oscilaciones por unidad de tiempo. Se mide en Hertz (Hz). f = 1/T.",
+      en: "Number of cycles or oscillations per unit time. Measured in Hertz (Hz). f = 1/T.",
+    },
+  },
+  frequency: {
+    term: {
+      es: "Frecuencia",
+      en: "Frequency",
+    },
+    definition: {
+      es: "Número de ciclos u oscilaciones por unidad de tiempo. Se mide en Hertz (Hz). f = 1/T.",
+      en: "Number of cycles or oscillations per unit time. Measured in Hertz (Hz). f = 1/T.",
+    },
+  },
+  "longitud de onda": {
+    term: {
+      es: "Longitud de onda",
+      en: "Wavelength",
+    },
+    definition: {
+      es: "Distancia entre dos crestas o valles consecutivos de una onda. Se representa con λ (lambda).",
+      en: "Distance between two consecutive crests or troughs of a wave. Represented by λ (lambda).",
+    },
+  },
+  wavelength: {
+    term: {
+      es: "Longitud de onda",
+      en: "Wavelength",
+    },
+    definition: {
+      es: "Distancia entre dos crestas o valles consecutivos de una onda. Se representa con λ (lambda).",
+      en: "Distance between two consecutive crests or troughs of a wave. Represented by λ (lambda).",
+    },
+  },
+  amplitud: {
+    term: {
+      es: "Amplitud",
+      en: "Amplitude",
+    },
+    definition: {
+      es: "Máximo desplazamiento desde la posición de equilibrio en una onda u oscilación.",
+      en: "Maximum displacement from equilibrium position in a wave or oscillation.",
+    },
+  },
+  amplitude: {
+    term: {
+      es: "Amplitud",
+      en: "Amplitude",
+    },
+    definition: {
+      es: "Máximo desplazamiento desde la posición de equilibrio en una onda u oscilación.",
+      en: "Maximum displacement from equilibrium position in a wave or oscillation.",
+    },
+  },
+  interferencia: {
+    term: {
+      es: "Interferencia",
+      en: "Interference",
+    },
+    definition: {
+      es: "Superposición de dos o más ondas. Constructiva cuando se suman, destructiva cuando se cancelan.",
+      en: "Superposition of two or more waves. Constructive when they add, destructive when they cancel.",
+    },
+  },
+  interference: {
+    term: {
+      es: "Interferencia",
+      en: "Interference",
+    },
+    definition: {
+      es: "Superposición de dos o más ondas. Constructiva cuando se suman, destructiva cuando se cancelan.",
+      en: "Superposition of two or more waves. Constructive when they add, destructive when they cancel.",
+    },
+  },
+  difraccion: {
+    term: {
+      es: "Difracción",
+      en: "Diffraction",
+    },
+    definition: {
+      es: "Capacidad de las ondas para rodear obstáculos o pasar por aperturas estrechas.",
+      en: "Ability of waves to bend around obstacles or pass through narrow openings.",
+    },
+  },
+  diffraction: {
+    term: {
+      es: "Difracción",
+      en: "Diffraction",
+    },
+    definition: {
+      es: "Capacidad de las ondas para rodear obstáculos o pasar por aperturas estrechas.",
+      en: "Ability of waves to bend around obstacles or pass through narrow openings.",
+    },
+  },
+  "carga electrica": {
+    term: {
+      es: "Carga eléctrica",
+      en: "Electric charge",
+    },
+    definition: {
+      es: "Propiedad de la materia que causa fuerzas eléctricas. Hay dos tipos: positiva (+) y negativa (-). Se mide en Coulombs (C).",
+      en: "Property of matter causing electric forces. Two types: positive (+) and negative (-). Measured in Coulombs (C).",
+    },
+  },
+  "electric charge": {
+    term: {
+      es: "Carga eléctrica",
+      en: "Electric charge",
+    },
+    definition: {
+      es: "Propiedad de la materia que causa fuerzas eléctricas. Hay dos tipos: positiva (+) y negativa (-). Se mide en Coulombs (C).",
+      en: "Property of matter causing electric forces. Two types: positive (+) and negative (-). Measured in Coulombs (C).",
+    },
+  },
+  "campo electrico": {
+    term: {
+      es: "Campo eléctrico",
+      en: "Electric field",
+    },
+    definition: {
+      es: "Región donde actúan fuerzas sobre cargas eléctricas. E = F/q. Se mide en N/C o V/m.",
+      en: "Region where forces act on electric charges. E = F/q. Measured in N/C or V/m.",
+    },
+  },
+  "electric field": {
+    term: {
+      es: "Campo eléctrico",
+      en: "Electric field",
+    },
+    definition: {
+      es: "Región donde actúan fuerzas sobre cargas eléctricas. E = F/q. Se mide en N/C o V/m.",
+      en: "Region where forces act on electric charges. E = F/q. Measured in N/C or V/m.",
+    },
+  },
+  "campo magnetico": {
+    term: {
+      es: "Campo magnético",
+      en: "Magnetic field",
+    },
+    definition: {
+      es: "Región donde actúan fuerzas sobre cargas en movimiento o imanes. Producido por corrientes eléctricas o imanes.",
+      en: "Region where forces act on moving charges or magnets. Produced by electric currents or magnets.",
+    },
+  },
+  "magnetic field": {
+    term: {
+      es: "Campo magnético",
+      en: "Magnetic field",
+    },
+    definition: {
+      es: "Región donde actúan fuerzas sobre cargas en movimiento o imanes. Producido por corrientes eléctricas o imanes.",
+      en: "Region where forces act on moving charges or magnets. Produced by electric currents or magnets.",
+    },
+  },
+  "corriente electrica": {
+    term: {
+      es: "Corriente eléctrica",
+      en: "Electric current",
+    },
+    definition: {
+      es: "Flujo de carga eléctrica por unidad de tiempo. I = Q/t. Se mide en Amperes (A).",
+      en: "Flow of electric charge per unit time. I = Q/t. Measured in Amperes (A).",
+    },
+  },
+  "electric current": {
+    term: {
+      es: "Corriente eléctrica",
+      en: "Electric current",
+    },
+    definition: {
+      es: "Flujo de carga eléctrica por unidad de tiempo. I = Q/t. Se mide en Amperes (A).",
+      en: "Flow of electric charge per unit time. I = Q/t. Measured in Amperes (A).",
+    },
+  },
+  voltaje: {
+    term: {
+      es: "Voltaje",
+      en: "Voltage",
+    },
+    definition: {
+      es: "Diferencia de potencial eléctrico entre dos puntos. V = IR. Se mide en Volts (V).",
+      en: "Electric potential difference between two points. V = IR. Measured in Volts (V).",
+    },
+  },
+  voltage: {
+    term: {
+      es: "Voltaje",
+      en: "Voltage",
+    },
+    definition: {
+      es: "Diferencia de potencial eléctrico entre dos puntos. V = IR. Se mide en Volts (V).",
+      en: "Electric potential difference between two points. V = IR. Measured in Volts (V).",
+    },
+  },
+  resistencia: {
+    term: {
+      es: "Resistencia",
+      en: "Resistance",
+    },
+    definition: {
+      es: "Oposición al flujo de corriente eléctrica. Ley de Ohm: R = V/I. Se mide en Ohms (Ω).",
+      en: "Opposition to electric current flow. Ohm's Law: R = V/I. Measured in Ohms (Ω).",
+    },
+  },
+  resistance: {
+    term: {
+      es: "Resistencia",
+      en: "Resistance",
+    },
+    definition: {
+      es: "Oposición al flujo de corriente eléctrica. Ley de Ohm: R = V/I. Se mide en Ohms (Ω).",
+      en: "Opposition to electric current flow. Ohm's Law: R = V/I. Measured in Ohms (Ω).",
+    },
+  },
+  presion: {
+    term: {
+      es: "Presión",
+      en: "Pressure",
+    },
+    definition: {
+      es: "Fuerza perpendicular por unidad de área. P = F/A. Se mide en Pascales (Pa) o N/m².",
+      en: "Perpendicular force per unit area. P = F/A. Measured in Pascals (Pa) or N/m².",
+    },
+  },
+  pressure: {
+    term: {
+      es: "Presión",
+      en: "Pressure",
+    },
+    definition: {
+      es: "Fuerza perpendicular por unidad de área. P = F/A. Se mide en Pascales (Pa) o N/m².",
+      en: "Perpendicular force per unit area. P = F/A. Measured in Pascals (Pa) or N/m².",
+    },
+  },
+  densidad: {
+    term: {
+      es: "Densidad",
+      en: "Density",
+    },
+    definition: {
+      es: "Masa por unidad de volumen. ρ = m/V. Se mide en kg/m³ o g/cm³.",
+      en: "Mass per unit volume. ρ = m/V. Measured in kg/m³ or g/cm³.",
+    },
+  },
+  density: {
+    term: {
+      es: "Densidad",
+      en: "Density",
+    },
+    definition: {
+      es: "Masa por unidad de volumen. ρ = m/V. Se mide en kg/m³ o g/cm³.",
+      en: "Mass per unit volume. ρ = m/V. Measured in kg/m³ or g/cm³.",
+    },
+  },
+  empuje: {
+    term: {
+      es: "Empuje",
+      en: "Buoyancy",
+    },
+    definition: {
+      es: "Fuerza hacia arriba sobre un cuerpo sumergido en un fluido. Principio de Arquímedes: F = ρ_fluido × V_sumergido × g.",
+      en: "Upward force on a body submerged in a fluid. Archimedes' Principle: F = ρ_fluid × V_submerged × g.",
+    },
+  },
+  buoyancy: {
+    term: {
+      es: "Empuje",
+      en: "Buoyancy",
+    },
+    definition: {
+      es: "Fuerza hacia arriba sobre un cuerpo sumergido en un fluido. Principio de Arquímedes: F = ρ_fluido × V_sumergido × g.",
+      en: "Upward force on a body submerged in a fluid. Archimedes' Principle: F = ρ_fluid × V_submerged × g.",
+    },
+  },
+  reflexion: {
+    term: {
+      es: "Reflexión",
+      en: "Reflection",
+    },
+    definition: {
+      es: "Cambio de dirección de una onda al chocar con una superficie. Ley: ángulo de incidencia = ángulo de reflexión.",
+      en: "Change of direction of a wave when hitting a surface. Law: angle of incidence = angle of reflection.",
+    },
+  },
+  reflection: {
+    term: {
+      es: "Reflexión",
+      en: "Reflection",
+    },
+    definition: {
+      es: "Cambio de dirección de una onda al chocar con una superficie. Ley: ángulo de incidencia = ángulo de reflexión.",
+      en: "Change of direction of a wave when hitting a surface. Law: angle of incidence = angle of reflection.",
+    },
+  },
+  refraccion: {
+    term: {
+      es: "Refracción",
+      en: "Refraction",
+    },
+    definition: {
+      es: "Cambio de dirección de una onda al pasar de un medio a otro. Ley de Snell: n₁ sin θ₁ = n₂ sin θ₂.",
+      en: "Change of direction of a wave when passing from one medium to another. Snell's Law: n₁ sin θ₁ = n₂ sin θ₂.",
+    },
+  },
+  refraction: {
+    term: {
+      es: "Refracción",
+      en: "Refraction",
+    },
+    definition: {
+      es: "Cambio de dirección de una onda al pasar de un medio a otro. Ley de Snell: n₁ sin θ₁ = n₂ sin θ₂.",
+      en: "Change of direction of a wave when passing from one medium to another. Snell's Law: n₁ sin θ₁ = n₂ sin θ₂.",
+    },
+  },
+  "indice de refraccion": {
+    term: {
+      es: "Índice de refracción",
+      en: "Refractive index",
+    },
+    definition: {
+      es: "Relación entre la velocidad de la luz en el vacío y en un medio. n = c/v.",
+      en: "Ratio between speed of light in vacuum and in a medium. n = c/v.",
+    },
+  },
+  "refractive index": {
+    term: {
+      es: "Índice de refracción",
+      en: "Refractive index",
+    },
+    definition: {
+      es: "Relación entre la velocidad de la luz en el vacío y en un medio. n = c/v.",
+      en: "Ratio between speed of light in vacuum and in a medium. n = c/v.",
+    },
+  },
+  atomo: {
+    term: {
+      es: "Átomo",
+      en: "Atom",
+    },
+    definition: {
+      es: "Unidad básica de materia, compuesto por un núcleo (protones y neutrones) rodeado de electrones.",
+      en: "Basic unit of matter, composed of a nucleus (protons and neutrons) surrounded by electrons.",
+    },
+  },
+  atom: {
+    term: {
+      es: "Átomo",
+      en: "Atom",
+    },
+    definition: {
+      es: "Unidad básica de materia, compuesto por un núcleo (protones y neutrones) rodeado de electrones.",
+      en: "Basic unit of matter, composed of a nucleus (protons and neutrons) surrounded by electrons.",
+    },
+  },
+  nucleo: {
+    term: {
+      es: "Núcleo",
+      en: "Nucleus",
+    },
+    definition: {
+      es: "Centro del átomo que contiene protones y neutrones. Concentra >99.9% de la masa atómica.",
+      en: "Center of atom containing protons and neutrons. Concentrates >99.9% of atomic mass.",
+    },
+  },
+  nucleus: {
+    term: {
+      es: "Núcleo",
+      en: "Nucleus",
+    },
+    definition: {
+      es: "Centro del átomo que contiene protones y neutrones. Concentra >99.9% de la masa atómica.",
+      en: "Center of atom containing protons and neutrons. Concentrates >99.9% of atomic mass.",
+    },
+  },
+  radiactividad: {
+    term: {
+      es: "Radiactividad",
+      en: "Radioactivity",
+    },
+    definition: {
+      es: "Desintegración espontánea de núcleos inestables emitiendo radiación (alfa, beta o gamma).",
+      en: "Spontaneous disintegration of unstable nuclei emitting radiation (alpha, beta or gamma).",
+    },
+  },
+  radioactivity: {
+    term: {
+      es: "Radiactividad",
+      en: "Radioactivity",
+    },
+    definition: {
+      es: "Desintegración espontánea de núcleos inestables emitiendo radiación (alfa, beta o gamma).",
+      en: "Spontaneous disintegration of unstable nuclei emitting radiation (alpha, beta or gamma).",
+    },
+  },
+  fision: {
+    term: {
+      es: "Fisión",
+      en: "Fission",
+    },
+    definition: {
+      es: "División de un núcleo pesado en núcleos más ligeros, liberando energía. Usada en reactores nucleares.",
+      en: "Splitting of heavy nucleus into lighter nuclei, releasing energy. Used in nuclear reactors.",
+    },
+  },
+  fission: {
+    term: {
+      es: "Fisión",
+      en: "Fission",
+    },
+    definition: {
+      es: "División de un núcleo pesado en núcleos más ligeros, liberando energía. Usada en reactores nucleares.",
+      en: "Splitting of heavy nucleus into lighter nuclei, releasing energy. Used in nuclear reactors.",
+    },
+  },
+  fusion: {
+    term: {
+      es: "Fusión",
+      en: "Fusion",
+    },
+    definition: {
+      es: "Unión de núcleos ligeros para formar uno más pesado, liberando energía. Ocurre en el Sol.",
+      en: "Union of light nuclei to form heavier one, releasing energy. Occurs in the Sun.",
+    },
+  },
+  "espectro electromagnetico": {
+    term: {
+      es: "Espectro electromagnético",
+      en: "Electromagnetic spectrum",
+    },
+    definition: {
+      es: "Conjunto de todas las ondas electromagnéticas ordenadas por frecuencia: radio, microondas, infrarrojo, visible, UV, rayos X, rayos gamma.",
+      en: "Set of all electromagnetic waves ordered by frequency: radio, microwaves, infrared, visible, UV, X-rays, gamma rays.",
+    },
+  },
+  "electromagnetic spectrum": {
+    term: {
+      es: "Espectro electromagnético",
+      en: "Electromagnetic spectrum",
+    },
+    definition: {
+      es: "Conjunto de todas las ondas electromagnéticas ordenadas por frecuencia: radio, microondas, infrarrojo, visible, UV, rayos X, rayos gamma.",
+      en: "Set of all electromagnetic waves ordered by frequency: radio, microwaves, infrared, visible, UV, X-rays, gamma rays.",
+    },
+  },
+};
+
+export const chemistryGlossary: Record<string, GlossaryEntry> = {
+  atomo: {
+    term: {
+      es: "Átomo",
+      en: "Atom",
+    },
+    definition: {
+      es: "Unidad básica de materia, compuesto por un núcleo (protones y neutrones) rodeado de electrones.",
+      en: "Basic unit of matter, composed of a nucleus (protons and neutrons) surrounded by electrons.",
+    },
+  },
+  atom: {
+    term: {
+      es: "Átomo",
+      en: "Atom",
+    },
+    definition: {
+      es: "Unidad básica de materia, compuesto por un núcleo (protones y neutrones) rodeado de electrones.",
+      en: "Basic unit of matter, composed of a nucleus (protons and neutrons) surrounded by electrons.",
+    },
+  },
+  molecula: {
+    term: {
+      es: "Molécula",
+      en: "Molecule",
+    },
+    definition: {
+      es: "Grupo de dos o más átomos unidos por enlaces químicos. Ejemplo: H₂O (agua).",
+      en: "Group of two or more atoms joined by chemical bonds. Example: H₂O (water).",
+    },
+  },
+  molecule: {
+    term: {
+      es: "Molécula",
+      en: "Molecule",
+    },
+    definition: {
+      es: "Grupo de dos o más átomos unidos por enlaces químicos. Ejemplo: H₂O (agua).",
+      en: "Group of two or more atoms joined by chemical bonds. Example: H₂O (water).",
+    },
+  },
+  elemento: {
+    term: {
+      es: "Elemento",
+      en: "Element",
+    },
+    definition: {
+      es: "Sustancia pura formada por átomos del mismo tipo (mismo número atómico Z). Ejemplo: oxígeno (O), carbono (C).",
+      en: "Pure substance formed by atoms of the same type (same atomic number Z). Example: oxygen (O), carbon (C).",
+    },
+  },
+  element: {
+    term: {
+      es: "Elemento",
+      en: "Element",
+    },
+    definition: {
+      es: "Sustancia pura formada por átomos del mismo tipo (mismo número atómico Z). Ejemplo: oxígeno (O), carbono (C).",
+      en: "Pure substance formed by atoms of the same type (same atomic number Z). Example: oxygen (O), carbon (C).",
+    },
+  },
+  compuesto: {
+    term: {
+      es: "Compuesto",
+      en: "Compound",
+    },
+    definition: {
+      es: "Sustancia formada por dos o más elementos químicos unidos en proporciones fijas. Ejemplo: NaCl (sal).",
+      en: "Substance formed by two or more chemical elements joined in fixed proportions. Example: NaCl (salt).",
+    },
+  },
+  compound: {
+    term: {
+      es: "Compuesto",
+      en: "Compound",
+    },
+    definition: {
+      es: "Sustancia formada por dos o más elementos químicos unidos en proporciones fijas. Ejemplo: NaCl (sal).",
+      en: "Substance formed by two or more chemical elements joined in fixed proportions. Example: NaCl (salt).",
+    },
+  },
+  ion: {
+    term: {
+      es: "Ion",
+      en: "Ion",
+    },
+    definition: {
+      es: "Átomo o molécula con carga eléctrica. Catión: carga positiva (+). Anión: carga negativa (−).",
+      en: "Atom or molecule with electric charge. Cation: positive charge (+). Anion: negative charge (−).",
+    },
+  },
+  isotopo: {
+    term: {
+      es: "Isótopo",
+      en: "Isotope",
+    },
+    definition: {
+      es: "Átomos del mismo elemento (mismo Z) con diferente número de neutrones. Ejemplo: C-12 y C-14 son isótopos del carbono.",
+      en: "Atoms of the same element (same Z) with different number of neutrons. Example: C-12 and C-14 are carbon isotopes.",
+    },
+  },
+  isotope: {
+    term: {
+      es: "Isótopo",
+      en: "Isotope",
+    },
+    definition: {
+      es: "Átomos del mismo elemento (mismo Z) con diferente número de neutrones. Ejemplo: C-12 y C-14 son isótopos del carbono.",
+      en: "Atoms of the same element (same Z) with different number of neutrons. Example: C-12 and C-14 are carbon isotopes.",
+    },
+  },
+  "numero atomico": {
+    term: {
+      es: "Número atómico",
+      en: "Atomic number",
+    },
+    definition: {
+      es: "Número de protones en el núcleo de un átomo. Simbolizado como Z. Define la identidad del elemento.",
+      en: "Number of protons in atom's nucleus. Symbolized as Z. Defines element's identity.",
+    },
+  },
+  "atomic number": {
+    term: {
+      es: "Número atómico",
+      en: "Atomic number",
+    },
+    definition: {
+      es: "Número de protones en el núcleo de un átomo. Simbolizado como Z. Define la identidad del elemento.",
+      en: "Number of protons in atom's nucleus. Symbolized as Z. Defines element's identity.",
+    },
+  },
+  "masa atomica": {
+    term: {
+      es: "Masa atómica",
+      en: "Atomic mass",
+    },
+    definition: {
+      es: "Masa promedio de los átomos de un elemento, medida en unidades de masa atómica (uma). A = Z + N.",
+      en: "Average mass of element's atoms, measured in atomic mass units (amu). A = Z + N.",
+    },
+  },
+  "atomic mass": {
+    term: {
+      es: "Masa atómica",
+      en: "Atomic mass",
+    },
+    definition: {
+      es: "Masa promedio de los átomos de un elemento, medida en unidades de masa atómica (uma). A = Z + N.",
+      en: "Average mass of element's atoms, measured in atomic mass units (amu). A = Z + N.",
+    },
+  },
+  "tabla periodica": {
+    term: {
+      es: "Tabla periódica",
+      en: "Periodic table",
+    },
+    definition: {
+      es: "Organización de elementos químicos por número atómico creciente y propiedades similares. Grupos (columnas) y períodos (filas).",
+      en: "Organization of chemical elements by increasing atomic number and similar properties. Groups (columns) and periods (rows).",
+    },
+  },
+  "periodic table": {
+    term: {
+      es: "Tabla periódica",
+      en: "Periodic table",
+    },
+    definition: {
+      es: "Organización de elementos químicos por número atómico creciente y propiedades similares. Grupos (columnas) y períodos (filas).",
+      en: "Organization of chemical elements by increasing atomic number and similar properties. Groups (columns) and periods (rows).",
+    },
+  },
+  mol: {
+    term: {
+      es: "Mol",
+      en: "Mole",
+    },
+    definition: {
+      es: "Unidad de cantidad de sustancia. 1 mol = 6.022×10²³ entidades (número de Avogadro).",
+      en: "Unit of amount of substance. 1 mole = 6.022×10²³ entities (Avogadro's number).",
+    },
+  },
+  mole: {
+    term: {
+      es: "Mol",
+      en: "Mole",
+    },
+    definition: {
+      es: "Unidad de cantidad de sustancia. 1 mol = 6.022×10²³ entidades (número de Avogadro).",
+      en: "Unit of amount of substance. 1 mole = 6.022×10²³ entities (Avogadro's number).",
+    },
+  },
+  estequiometria: {
+    term: {
+      es: "Estequiometría",
+      en: "Stoichiometry",
+    },
+    definition: {
+      es: "Cálculo de cantidades de reactivos y productos en reacciones químicas usando relaciones molares.",
+      en: "Calculation of reactant and product amounts in chemical reactions using molar relationships.",
+    },
+  },
+  stoichiometry: {
+    term: {
+      es: "Estequiometría",
+      en: "Stoichiometry",
+    },
+    definition: {
+      es: "Cálculo de cantidades de reactivos y productos en reacciones químicas usando relaciones molares.",
+      en: "Calculation of reactant and product amounts in chemical reactions using molar relationships.",
+    },
+  },
+  "enlace ionico": {
+    term: {
+      es: "Enlace iónico",
+      en: "Ionic bond",
+    },
+    definition: {
+      es: "Unión electrostática entre iones de cargas opuestas. Metal + no metal. Ejemplo: NaCl.",
+      en: "Electrostatic union between ions of opposite charges. Metal + nonmetal. Example: NaCl.",
+    },
+  },
+  "ionic bond": {
+    term: {
+      es: "Enlace iónico",
+      en: "Ionic bond",
+    },
+    definition: {
+      es: "Unión electrostática entre iones de cargas opuestas. Metal + no metal. Ejemplo: NaCl.",
+      en: "Electrostatic union between ions of opposite charges. Metal + nonmetal. Example: NaCl.",
+    },
+  },
+  "enlace covalente": {
+    term: {
+      es: "Enlace covalente",
+      en: "Covalent bond",
+    },
+    definition: {
+      es: "Unión química por compartición de electrones. Entre no metales. Puede ser polar o no polar.",
+      en: "Chemical bond by electron sharing. Between nonmetals. Can be polar or nonpolar.",
+    },
+  },
+  "covalent bond": {
+    term: {
+      es: "Enlace covalente",
+      en: "Covalent bond",
+    },
+    definition: {
+      es: "Unión química por compartición de electrones. Entre no metales. Puede ser polar o no polar.",
+      en: "Chemical bond by electron sharing. Between nonmetals. Can be polar or nonpolar.",
+    },
+  },
+  acido: {
+    term: {
+      es: "Ácido",
+      en: "Acid",
+    },
+    definition: {
+      es: "Sustancia que libera iones H⁺ en solución acuosa. pH < 7. Ejemplo: HCl (ácido clorhídrico).",
+      en: "Substance that releases H⁺ ions in aqueous solution. pH < 7. Example: HCl (hydrochloric acid).",
+    },
+  },
+  acid: {
+    term: {
+      es: "Ácido",
+      en: "Acid",
+    },
+    definition: {
+      es: "Sustancia que libera iones H⁺ en solución acuosa. pH < 7. Ejemplo: HCl (ácido clorhídrico).",
+      en: "Substance that releases H⁺ ions in aqueous solution. pH < 7. Example: HCl (hydrochloric acid).",
+    },
+  },
+  base: {
+    term: {
+      es: "Base",
+      en: "Base",
+    },
+    definition: {
+      es: "Sustancia que libera iones OH⁻ en solución acuosa. pH > 7. Ejemplo: NaOH (hidróxido de sodio).",
+      en: "Substance that releases OH⁻ ions in aqueous solution. pH > 7. Example: NaOH (sodium hydroxide).",
+    },
+  },
+  ph: {
+    term: {
+      es: "pH",
+      en: "pH",
+    },
+    definition: {
+      es: "Medida de acidez o basicidad. Escala 0-14. pH < 7 (ácido), pH = 7 (neutro), pH > 7 (básico).",
+      en: "Measure of acidity or basicity. Scale 0-14. pH < 7 (acidic), pH = 7 (neutral), pH > 7 (basic).",
+    },
+  },
+  oxidacion: {
+    term: {
+      es: "Oxidación",
+      en: "Oxidation",
+    },
+    definition: {
+      es: "Pérdida de electrones en una reacción química. Aumenta el número de oxidación.",
+      en: "Loss of electrons in chemical reaction. Increases oxidation number.",
+    },
+  },
+  oxidation: {
+    term: {
+      es: "Oxidación",
+      en: "Oxidation",
+    },
+    definition: {
+      es: "Pérdida de electrones en una reacción química. Aumenta el número de oxidación.",
+      en: "Loss of electrons in chemical reaction. Increases oxidation number.",
+    },
+  },
+  reduccion: {
+    term: {
+      es: "Reducción",
+      en: "Reduction",
+    },
+    definition: {
+      es: "Ganancia de electrones en una reacción química. Disminuye el número de oxidación.",
+      en: "Gain of electrons in chemical reaction. Decreases oxidation number.",
+    },
+  },
+  reduction: {
+    term: {
+      es: "Reducción",
+      en: "Reduction",
+    },
+    definition: {
+      es: "Ganancia de electrones en una reacción química. Disminuye el número de oxidación.",
+      en: "Gain of electrons in chemical reaction. Decreases oxidation number.",
+    },
+  },
+  entalpia: {
+    term: {
+      es: "Entalpía",
+      en: "Enthalpy",
+    },
+    definition: {
+      es: "Contenido energético de un sistema. ΔH < 0: exotérmica (libera calor). ΔH > 0: endotérmica (absorbe calor).",
+      en: "Energy content of system. ΔH < 0: exothermic (releases heat). ΔH > 0: endothermic (absorbs heat).",
+    },
+  },
+  enthalpy: {
+    term: {
+      es: "Entalpía",
+      en: "Enthalpy",
+    },
+    definition: {
+      es: "Contenido energético de un sistema. ΔH < 0: exotérmica (libera calor). ΔH > 0: endotérmica (absorbe calor).",
+      en: "Energy content of system. ΔH < 0: exothermic (releases heat). ΔH > 0: endothermic (absorbs heat).",
+    },
+  },
+  entropia: {
+    term: {
+      es: "Entropía",
+      en: "Entropy",
+    },
+    definition: {
+      es: "Medida del desorden o aleatoriedad de un sistema. Simbolizada como S. Mayor desorden → mayor S.",
+      en: "Measure of disorder or randomness of system. Symbolized as S. Greater disorder → greater S.",
+    },
+  },
+  entropy: {
+    term: {
+      es: "Entropía",
+      en: "Entropy",
+    },
+    definition: {
+      es: "Medida del desorden o aleatoriedad de un sistema. Simbolizada como S. Mayor desorden → mayor S.",
+      en: "Measure of disorder or randomness of system. Symbolized as S. Greater disorder → greater S.",
+    },
+  },
+  "equilibrio quimico": {
+    term: {
+      es: "Equilibrio químico",
+      en: "Chemical equilibrium",
+    },
+    definition: {
+      es: "Estado donde velocidades de reacción directa e inversa son iguales. Concentraciones constantes. Keq.",
+      en: "State where forward and reverse reaction rates are equal. Constant concentrations. Keq.",
+    },
+  },
+  "chemical equilibrium": {
+    term: {
+      es: "Equilibrio químico",
+      en: "Chemical equilibrium",
+    },
+    definition: {
+      es: "Estado donde velocidades de reacción directa e inversa son iguales. Concentraciones constantes. Keq.",
+      en: "State where forward and reverse reaction rates are equal. Constant concentrations. Keq.",
+    },
+  },
+  catalizador: {
+    term: {
+      es: "Catalizador",
+      en: "Catalyst",
+    },
+    definition: {
+      es: "Sustancia que acelera una reacción química sin consumirse. Disminuye energía de activación.",
+      en: "Substance that speeds chemical reaction without being consumed. Lowers activation energy.",
+    },
+  },
+  catalyst: {
+    term: {
+      es: "Catalizador",
+      en: "Catalyst",
+    },
+    definition: {
+      es: "Sustancia que acelera una reacción química sin consumirse. Disminuye energía de activación.",
+      en: "Substance that speeds chemical reaction without being consumed. Lowers activation energy.",
+    },
+  },
+  hidrocarburo: {
+    term: {
+      es: "Hidrocarburo",
+      en: "Hydrocarbon",
+    },
+    definition: {
+      es: "Compuesto orgánico formado solo por carbono e hidrógeno. Alcanos, alquenos, alquinos, aromáticos.",
+      en: "Organic compound formed only by carbon and hydrogen. Alkanes, alkenes, alkynes, aromatics.",
+    },
+  },
+  hydrocarbon: {
+    term: {
+      es: "Hidrocarburo",
+      en: "Hydrocarbon",
+    },
+    definition: {
+      es: "Compuesto orgánico formado solo por carbono e hidrógeno. Alcanos, alquenos, alquinos, aromáticos.",
+      en: "Organic compound formed only by carbon and hydrogen. Alkanes, alkenes, alkynes, aromatics.",
+    },
+  },
+  isomero: {
+    term: {
+      es: "Isómero",
+      en: "Isomer",
+    },
+    definition: {
+      es: "Compuestos con misma fórmula molecular pero diferente estructura. Diferentes propiedades físicas y químicas.",
+      en: "Compounds with same molecular formula but different structure. Different physical and chemical properties.",
+    },
+  },
+  isomer: {
+    term: {
+      es: "Isómero",
+      en: "Isomer",
+    },
+    definition: {
+      es: "Compuestos con misma fórmula molecular pero diferente estructura. Diferentes propiedades físicas y químicas.",
+      en: "Compounds with same molecular formula but different structure. Different physical and chemical properties.",
+    },
+  },
+  polimero: {
+    term: {
+      es: "Polímero",
+      en: "Polymer",
+    },
+    definition: {
+      es: "Macromolécula formada por unión de muchas unidades pequeñas (monómeros). Ejemplos: plásticos, proteínas, ADN.",
+      en: "Macromolecule formed by union of many small units (monomers). Examples: plastics, proteins, DNA.",
+    },
+  },
+  polymer: {
+    term: {
+      es: "Polímero",
+      en: "Polymer",
+    },
+    definition: {
+      es: "Macromolécula formada por unión de muchas unidades pequeñas (monómeros). Ejemplos: plásticos, proteínas, ADN.",
+      en: "Macromolecule formed by union of many small units (monomers). Examples: plastics, proteins, DNA.",
+    },
+  },
+};
+
+export const worldHistoryGlossary: Record<string, GlossaryEntry> = {
+  ilustración: {
+    term: { es: "Ilustración", en: "Enlightenment" },
+    definition: { es: "Movimiento intelectual del siglo XVIII que defendía la razón, la ciencia y la libertad individual frente al dogma y la tradición. Pensadores como Voltaire, Rousseau y Montesquieu cuestionaron el absolutismo y la Iglesia.", en: "18th-century intellectual movement that championed reason, science, and individual freedom over dogma and tradition. Thinkers like Voltaire, Rousseau, and Montesquieu questioned absolutism and the Church." },
+  },
+  enlightenment: {
+    term: { es: "Ilustración", en: "Enlightenment" },
+    definition: { es: "Movimiento intelectual del siglo XVIII que defendía la razón, la ciencia y la libertad individual frente al dogma y la tradición.", en: "18th-century intellectual movement that championed reason, science, and individual freedom over dogma and tradition." },
+  },
+  burguesía: {
+    term: { es: "Burguesía", en: "Bourgeoisie" },
+    definition: { es: "Clase social surgida en la Edad Media en las ciudades (burgos), que con la Revolución Industrial se convirtió en la clase dominante gracias a la propiedad de los medios de producción.", en: "Social class that emerged in the Middle Ages in cities (bourgs), which with the Industrial Revolution became the dominant class through ownership of the means of production." },
+  },
+  imperialismo: {
+    term: { es: "Imperialismo", en: "Imperialism" },
+    definition: { es: "Política de expansión de una nación sobre otras, estableciendo dominación política, económica y cultural. En el siglo XIX, las potencias europeas colonizaron África y Asia mediante el imperialismo.", en: "Policy of expansion of one nation over others, establishing political, economic, and cultural domination. In the 19th century, European powers colonized Africa and Asia through imperialism." },
+  },
+  totalitarismo: {
+    term: { es: "Totalitarismo", en: "Totalitarianism" },
+    definition: { es: "Sistema político en el que el Estado controla todos los aspectos de la vida pública y privada. El fascismo, el nazismo y el estalinismo son ejemplos de regímenes totalitarios del siglo XX.", en: "Political system in which the State controls all aspects of public and private life. Fascism, Nazism, and Stalinism are examples of 20th-century totalitarian regimes." },
+  },
+  fascismo: {
+    term: { es: "Fascismo", en: "Fascism" },
+    definition: { es: "Ideología y régimen político autoritario-nacionalista surgido en Italia con Benito Mussolini en 1922. Caracterizado por el partido único, el culto al líder, el corporativismo y el anti-marxismo.", en: "Authoritarian-nationalist political ideology and regime that arose in Italy under Benito Mussolini in 1922. Characterized by single party, cult of the leader, corporatism, and anti-Marxism." },
+  },
+  nazismo: {
+    term: { es: "Nazismo", en: "Nazism" },
+    definition: { es: "Variante alemana del fascismo, liderada por Adolf Hitler y el NSDAP. Combinó ultranacionalismo, antisemitismo y racismo con la ideología del espacio vital (Lebensraum). Condujo al Holocausto y la Segunda Guerra Mundial.", en: "German variant of fascism, led by Adolf Hitler and the NSDAP. Combined ultra-nationalism, antisemitism, and racism with the ideology of living space (Lebensraum). Led to the Holocaust and World War II." },
+  },
+  holocausto: {
+    term: { es: "Holocausto", en: "Holocaust" },
+    definition: { es: "El genocidio sistemático de seis millones de judíos (y otros grupos) perpetrado por la Alemania nazi y sus colaboradores entre 1941 y 1945.", en: "The systematic genocide of six million Jews (and other groups) perpetrated by Nazi Germany and its collaborators between 1941 and 1945." },
+  },
+  "guerra fría": {
+    term: { es: "Guerra Fría", en: "Cold War" },
+    definition: { es: "Conflicto político, ideológico y estratégico entre EUA (capitalismo) y la URSS (comunismo) de 1947 a 1991. Sin enfrentamiento armado directo, se manifestó en guerras proxy, la carrera armamentista y espacial.", en: "Political, ideological, and strategic conflict between the USA (capitalism) and USSR (communism) from 1947 to 1991. Without direct armed confrontation, it manifested in proxy wars, the arms race, and the space race." },
+  },
+  "cold war": {
+    term: { es: "Guerra Fría", en: "Cold War" },
+    definition: { es: "Conflicto político, ideológico y estratégico entre EUA (capitalismo) y la URSS (comunismo) de 1947 a 1991.", en: "Political, ideological, and strategic conflict between the USA (capitalism) and USSR (communism) from 1947 to 1991." },
+  },
+  perestroika: {
+    term: { es: "Perestroika", en: "Perestroika" },
+    definition: { es: "Política de 'reestructuración' económica impulsada por Mikhail Gorbachov en la URSS desde 1986, que junto con la glásnost (transparencia) aceleró la caída del bloque soviético.", en: "Policy of economic 'restructuring' promoted by Mikhail Gorbachev in the USSR from 1986 which, combined with glasnost (transparency), accelerated the fall of the Soviet bloc." },
+  },
+  globalización: {
+    term: { es: "Globalización", en: "Globalization" },
+    definition: { es: "Proceso de interdependencia e integración mundial económica, cultural, política y tecnológica, acelerado desde los años 1990 con el fin de la Guerra Fría y la expansión de internet.", en: "Process of worldwide economic, cultural, political, and technological interdependence and integration, accelerated since the 1990s with the end of the Cold War and the expansion of the internet." },
+  },
+  proletariado: {
+    term: { es: "Proletariado", en: "Proletariat" },
+    definition: { es: "Clase obrera industrial que, según Marx y Engels, vende su fuerza de trabajo al capitalista. El Manifiesto Comunista (1848) llamaba al proletariado a derrocar a la burguesía.", en: "Industrial working class that, according to Marx and Engels, sells its labor power to the capitalist. The Communist Manifesto (1848) called on the proletariat to overthrow the bourgeoisie." },
+  },
+  imperialismo2: {
+    term: { es: "Colonialismo", en: "Colonialism" },
+    definition: { es: "Sistema de dominio político y económico de un país sobre territorios y pueblos extranjeros, especialmente el europeo sobre África, Asia y América (siglos XV-XX).", en: "System of political and economic domination of one country over foreign territories and peoples, especially European over Africa, Asia, and the Americas (15th-20th centuries)." },
+  },
+  "revolución industrial": {
+    term: { es: "Revolución Industrial", en: "Industrial Revolution" },
+    definition: { es: "Transformación económica y social iniciada en Gran Bretaña en el siglo XVIII, basada en la mecanización de la producción, el uso del vapor y la fábrica como unidad productiva.", en: "Economic and social transformation that began in Britain in the 18th century, based on the mechanization of production, the use of steam power, and the factory as the productive unit." },
+  },
+  "tratado de versalles": {
+    term: { es: "Tratado de Versalles", en: "Treaty of Versailles" },
+    definition: { es: "Tratado de paz de 1919 que puso fin a la Primera Guerra Mundial. Impuso severas sanciones a Alemania (Artículo 231, 'cláusula de culpabilidad de guerra'), contribuyendo al surgimiento del nazismo.", en: "1919 peace treaty that ended World War I. It imposed severe sanctions on Germany (Article 231, 'war guilt clause'), contributing to the rise of Nazism." },
+  },
+};
+
+export const mexicanHistoryGlossary: Record<string, GlossaryEntry> = {
+  mesoamérica: {
+    term: { es: "Mesoamérica", en: "Mesoamerica" },
+    definition: { es: "Área cultural que abarca el centro y sur de México y Centroamérica, donde florecieron civilizaciones como olmecas, mayas, teotihuacanos y aztecas con rasgos culturales comunes.", en: "Cultural area encompassing central and southern Mexico and Central America, where civilizations like the Olmecs, Maya, Teotihuacanos, and Aztecs flourished with shared cultural traits." },
+  },
+  virreinato: {
+    term: { es: "Virreinato", en: "Viceroyalty" },
+    definition: { es: "División administrativa del Imperio Español gobernada por un virrey en nombre del rey. El Virreinato de la Nueva España (1535-1821) abarcó México, Centroamérica y partes de EUA y el Caribe.", en: "Administrative division of the Spanish Empire governed by a viceroy in the king's name. The Viceroyalty of New Spain (1535-1821) encompassed Mexico, Central America, and parts of the USA and Caribbean." },
+  },
+  encomienda: {
+    term: { es: "Encomienda", en: "Encomienda" },
+    definition: { es: "Sistema colonial español en el que un conquistador (encomendero) recibía el trabajo y tributo de los indígenas a cambio de protegerlos y evangelizarlos, creando de facto una servidumbre.", en: "Spanish colonial system in which a conquistador (encomendero) received the labor and tribute of indigenous people in exchange for protecting and converting them, creating de facto serfdom." },
+  },
+  maderismo: {
+    term: { es: "Maderismo", en: "Maderism" },
+    definition: { es: "Movimiento político y social encabezado por Francisco I. Madero, que derrocó a Porfirio Díaz con el lema 'Sufragio efectivo, no reelección' e inició la Revolución Mexicana en 1910.", en: "Political and social movement led by Francisco I. Madero, which overthrew Porfirio Díaz with the slogan 'Effective suffrage, no re-election' and initiated the Mexican Revolution in 1910." },
+  },
+  zapatismo: {
+    term: { es: "Zapatismo", en: "Zapatism" },
+    definition: { es: "Movimiento agrario radical liderado por Emiliano Zapata ('Tierra y Libertad') que exigía la restitución de tierras a los campesinos. Su Plan de Ayala (1911) fue el programa agrario más radical de la Revolución.", en: "Radical agrarian movement led by Emiliano Zapata ('Land and Liberty') that demanded land restitution to peasants. Its Plan of Ayala (1911) was the most radical agrarian program of the Revolution." },
+  },
+  constitucionalismo: {
+    term: { es: "Constitucionalismo", en: "Constitutionalism" },
+    definition: { es: "Facción revolucionaria liderada por Venustiano Carranza que buscaba restablecer el orden constitucional tras el golpe de Huerta. Su victoria llevó a la promulgación de la Constitución de 1917.", en: "Revolutionary faction led by Venustiano Carranza that sought to restore constitutional order after Huerta's coup. Their victory led to the promulgation of the Constitution of 1917." },
+  },
+  cardenismo: {
+    term: { es: "Cardenismo", en: "Cardenism" },
+    definition: { es: "Política reformista del presidente Lázaro Cárdenas (1934-1940) que incluyó la expropiación petrolera (1938), la reforma agraria masiva, la educación socialista y la organización corporativa de trabajadores y campesinos.", en: "Reformist policy of President Lázaro Cárdenas (1934-1940) that included the oil expropriation (1938), massive agrarian reform, socialist education, and corporate organization of workers and peasants." },
+  },
+  "expropiación petrolera": {
+    term: { es: "Expropiación Petrolera", en: "Oil Expropriation" },
+    definition: { es: "Decreto del presidente Lázaro Cárdenas del 18 de marzo de 1938 que nationalizó la industria petrolera mexicana, creando PEMEX. Fue el acto nationalism más importante del siglo XX mexicano.", en: "Decree by President Lázaro Cárdenas on March 18, 1938 that nationalized the Mexican oil industry, creating PEMEX. It was the most important nationalist act of 20th-century Mexico." },
+  },
+  "desarrollo estabilizador": {
+    term: { es: "Desarrollo Estabilizador", en: "Stabilizing Development" },
+    definition: { es: "Modelo económico mexicano (1954-1970) caracterizado por crecimiento del 6-7% anual, baja inflación, tipo de cambio fijo de 12.50 pesos por dólar e industrialización por sustitución de importaciones.", en: "Mexican economic model (1954-1970) characterized by 6-7% annual growth, low inflation, fixed exchange rate of 12.50 pesos per dollar, and industrialization by import substitution." },
+  },
+  ejido: {
+    term: { es: "Ejido", en: "Ejido" },
+    definition: { es: "Forma de propiedad social agraria en México donde la tierra pertenece a la nación y es explotada colectivamente por los ejidatarios. Institución central de la reforma agraria post-revolucionaria.", en: "Form of social agrarian property in Mexico where land belongs to the nation and is collectively exploited by ejidatarios. Central institution of post-revolutionary agrarian reform." },
+  },
+  reforma: {
+    term: { es: "La Reforma (Revolución Liberal)", en: "The Reform (Liberal Revolution)" },
+    definition: { es: "Período (1855-1876) de transformación del Estado mexicano impulsado por liberales como Benito Juárez. Incluyó la separación Iglesia-Estado, la Constitución de 1857 y las Leyes de Reforma.", en: "Period (1855-1876) of transformation of the Mexican state promoted by liberals like Benito Juárez. It included Church-State separation, the Constitution of 1857, and the Reform Laws." },
+  },
+  porfiriato: {
+    term: { es: "Porfiriato", en: "Porfiriato" },
+    definition: { es: "Período de dominio político de Porfirio Díaz en México (1876-1911), caracterizado por la modernización económica basada en inversión extranjera, la represión política y la enorme desigualdad social.", en: "Period of Porfirio Díaz's political dominance in Mexico (1876-1911), characterized by economic modernization based on foreign investment, political repression, and enormous social inequality." },
+  },
+  tlatelolco: {
+    term: { es: "Masacre de Tlatelolco", en: "Tlatelolco Massacre" },
+    definition: { es: "El 2 de octubre de 1968, el ejército mexicano abrió fuego contra estudiantes y civiles que se manifestaban en la Plaza de las Tres Culturas, días antes de los Juegos Olímpicos de México.", en: "On October 2, 1968, the Mexican army opened fire on students and civilians demonstrating at the Plaza de las Tres Culturas, days before the Mexico Olympic Games." },
+  },
+  "plan de ayutla": {
+    term: { es: "Plan de Ayutla", en: "Plan of Ayutla" },
+    definition: { es: "Documento político de 1854 que desconoció el gobierno de Santa Anna y convocó a un Congreso Constituyente, iniciando el período de la Reforma Liberal en México.", en: "1854 political document that rejected Santa Anna's government and called for a Constituent Congress, initiating the Liberal Reform period in Mexico." },
+  },
+};
+
 // Helper function to find glossary terms in text
 export function findGlossaryTerms(text: string): string[] {
   const terms: string[] = [];
@@ -2457,6 +3729,10 @@ export function findGlossaryTerms(text: string): string[] {
     ...geographyGlossary,
     ...spanishGlossary,
     ...literatureGlossary,
+    ...physicsGlossary,
+    ...chemistryGlossary,
+    ...worldHistoryGlossary,
+    ...mexicanHistoryGlossary,
   };
 
   // Sort terms by length (longest first) to match longer terms first

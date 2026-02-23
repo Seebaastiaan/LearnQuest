@@ -65,7 +65,7 @@ export function StationMap({ topics, subjectId = "default" }: StationMapProps) {
   const isTopicUnlocked = useProgressStore((s) => s.isTopicUnlocked);
 
   const getTopicStatus = (topic: Topic): StationStatus => {
-    if (!isTopicUnlocked(topic.id, topic.prerequisites)) return "locked";
+    if (!isTopicUnlocked(topic.id, topic.prerequisites ?? [])) return "locked";
 
     const topicLessons = topic.lessons;
     const completedLessons = topicLessons.filter((l) => {

@@ -1,16 +1,16 @@
-export { funcionesLenguaTopic } from "./funciones-lengua";
-export { formasDiscursoTopic } from "./formas-discurso";
 export { comprensionLecturaTopic } from "./comprension-lectura";
+export { formasDiscursoTopic } from "./formas-discurso";
+export { funcionesLenguaTopic } from "./funciones-lengua";
 export { gramaticaTopic } from "./gramatica";
-export { redaccionVocabularioTopic } from "./redaccion-vocabulario";
 export { ortografiaTopic } from "./ortografia";
+export { redaccionVocabularioTopic } from "./redaccion-vocabulario";
 
-import { funcionesLenguaTopic } from "./funciones-lengua";
-import { formasDiscursoTopic } from "./formas-discurso";
 import { comprensionLecturaTopic } from "./comprension-lectura";
+import { formasDiscursoTopic } from "./formas-discurso";
+import { funcionesLenguaTopic } from "./funciones-lengua";
 import { gramaticaTopic } from "./gramatica";
-import { redaccionVocabularioTopic } from "./redaccion-vocabulario";
 import { ortografiaTopic } from "./ortografia";
+import { redaccionVocabularioTopic } from "./redaccion-vocabulario";
 
 export const allSpanishTopics = [
   funcionesLenguaTopic,

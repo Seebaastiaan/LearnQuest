@@ -41,9 +41,15 @@ export const comprensionLecturaTopic: Topic = {
           },
           options: [
             { es: "Verso, estrofa y rima", en: "Verse, stanza and rhyme" },
-            { es: "Introducción, desarrollo y conclusión", en: "Introduction, development and conclusion" },
+            {
+              es: "Introducción, desarrollo y conclusión",
+              en: "Introduction, development and conclusion",
+            },
             { es: "Acto, escena y cuadro", en: "Act, scene and tableau" },
-            { es: "Planteamiento, nudo y desenlace", en: "Exposition, climax and resolution" },
+            {
+              es: "Planteamiento, nudo y desenlace",
+              en: "Exposition, climax and resolution",
+            },
           ],
           correctAnswer: "1",
           explanation: {
@@ -60,10 +66,22 @@ export const comprensionLecturaTopic: Topic = {
             en: 'Read the following text:\n\n"Water pollution is a serious problem. Rivers receive industrial waste that damages aquatic flora and fauna. Additionally, excessive use of pesticides filters toxic substances into the subsoil. In conclusion, it is urgent to implement water protection policies."\n\nWhat is the conclusion of the text?',
           },
           options: [
-            { es: "La contaminación del agua es un problema grave", en: "Water pollution is a serious problem" },
-            { es: "Los ríos reciben desechos industriales", en: "Rivers receive industrial waste" },
-            { es: "El uso excesivo de pesticidas filtra sustancias tóxicas", en: "Excessive use of pesticides filters toxic substances" },
-            { es: "Es urgente implementar políticas de protección hídrica", en: "It is urgent to implement water protection policies" },
+            {
+              es: "La contaminación del agua es un problema grave",
+              en: "Water pollution is a serious problem",
+            },
+            {
+              es: "Los ríos reciben desechos industriales",
+              en: "Rivers receive industrial waste",
+            },
+            {
+              es: "El uso excesivo de pesticidas filtra sustancias tóxicas",
+              en: "Excessive use of pesticides filters toxic substances",
+            },
+            {
+              es: "Es urgente implementar políticas de protección hídrica",
+              en: "It is urgent to implement water protection policies",
+            },
           ],
           correctAnswer: "3",
           explanation: {
@@ -80,9 +98,18 @@ export const comprensionLecturaTopic: Topic = {
             en: "What function does the introductory paragraph serve in a text?",
           },
           options: [
-            { es: "Resumir todos los argumentos presentados", en: "Summarize all arguments presented" },
-            { es: "Presentar el tema y captar la atención del lector", en: "Present the topic and capture the reader's attention" },
-            { es: "Dar ejemplos detallados del tema", en: "Give detailed examples of the topic" },
+            {
+              es: "Resumir todos los argumentos presentados",
+              en: "Summarize all arguments presented",
+            },
+            {
+              es: "Presentar el tema y captar la atención del lector",
+              en: "Present the topic and capture the reader's attention",
+            },
+            {
+              es: "Dar ejemplos detallados del tema",
+              en: "Give detailed examples of the topic",
+            },
             { es: "Refutar las ideas contrarias", en: "Refute opposing ideas" },
           ],
           correctAnswer: "1",
@@ -117,15 +144,27 @@ export const comprensionLecturaTopic: Topic = {
             en: 'Read the following text:\n\n"Regular exercise improves cardiovascular health. Studies show that 30 minutes daily of physical activity reduces the risk of heart disease. Walking, swimming or cycling are accessible options for anyone."\n\nWhat is the main idea?',
           },
           options: [
-            { es: "Caminar es una opción accesible", en: "Walking is an accessible option" },
-            { es: "El ejercicio regular mejora la salud cardiovascular", en: "Regular exercise improves cardiovascular health" },
-            { es: "Los estudios demuestran que 30 minutos son suficientes", en: "Studies show that 30 minutes are enough" },
-            { es: "Nadar y andar en bicicleta son opciones válidas", en: "Swimming and cycling are valid options" },
+            {
+              es: "Caminar es una opción accesible",
+              en: "Walking is an accessible option",
+            },
+            {
+              es: "El ejercicio regular mejora la salud cardiovascular",
+              en: "Regular exercise improves cardiovascular health",
+            },
+            {
+              es: "Los estudios demuestran que 30 minutos son suficientes",
+              en: "Studies show that 30 minutes are enough",
+            },
+            {
+              es: "Nadar y andar en bicicleta son opciones válidas",
+              en: "Swimming and cycling are valid options",
+            },
           ],
           correctAnswer: "1",
           explanation: {
-            es: "La idea principal es la que contiene el mensaje central del texto: \"El ejercicio regular mejora la salud cardiovascular\". Las demás oraciones son ideas secundarias que la complementan con datos y ejemplos.",
-            en: "The main idea is the one that contains the central message of the text: \"Regular exercise improves cardiovascular health\". The other sentences are secondary ideas that complement it with data and examples.",
+            es: 'La idea principal es la que contiene el mensaje central del texto: "El ejercicio regular mejora la salud cardiovascular". Las demás oraciones son ideas secundarias que la complementan con datos y ejemplos.',
+            en: 'The main idea is the one that contains the central message of the text: "Regular exercise improves cardiovascular health". The other sentences are secondary ideas that complement it with data and examples.',
           },
           difficulty: 2,
         },
@@ -137,10 +176,19 @@ export const comprensionLecturaTopic: Topic = {
             en: "What is the function of secondary ideas in a text?",
           },
           options: [
-            { es: "Contradecir la idea principal", en: "Contradict the main idea" },
-            { es: "Ampliar, ejemplificar o apoyar la idea principal", en: "Expand, exemplify or support the main idea" },
+            {
+              es: "Contradecir la idea principal",
+              en: "Contradict the main idea",
+            },
+            {
+              es: "Ampliar, ejemplificar o apoyar la idea principal",
+              en: "Expand, exemplify or support the main idea",
+            },
             { es: "Sustituir la idea principal", en: "Replace the main idea" },
-            { es: "Presentar un tema diferente al del texto", en: "Present a different topic from the text" },
+            {
+              es: "Presentar un tema diferente al del texto",
+              en: "Present a different topic from the text",
+            },
           ],
           correctAnswer: "1",
           explanation: {
@@ -157,9 +205,18 @@ export const comprensionLecturaTopic: Topic = {
             en: 'Read the following text:\n\n"Bees are fundamental to agriculture. They pollinate 75% of the world\'s food crops. Without their work, foods like apples, strawberries and almonds would disappear from our diet. However, their population has decreased drastically due to pesticide use."\n\nWhich is a secondary idea?',
           },
           options: [
-            { es: "Las abejas son fundamentales para la agricultura", en: "Bees are fundamental to agriculture" },
-            { es: "Polinizan el 75% de los cultivos alimentarios del mundo", en: "They pollinate 75% of the world's food crops" },
-            { es: "Su población ha disminuido drásticamente", en: "Their population has decreased drastically" },
+            {
+              es: "Las abejas son fundamentales para la agricultura",
+              en: "Bees are fundamental to agriculture",
+            },
+            {
+              es: "Polinizan el 75% de los cultivos alimentarios del mundo",
+              en: "They pollinate 75% of the world's food crops",
+            },
+            {
+              es: "Su población ha disminuido drásticamente",
+              en: "Their population has decreased drastically",
+            },
             { es: "Todas son ideas principales", en: "All are main ideas" },
           ],
           correctAnswer: "1",
@@ -194,10 +251,22 @@ export const comprensionLecturaTopic: Topic = {
             en: 'Read the following text:\n\n"When Maria arrived at the office, the lights were off, the computers seemed not to have been turned on and her coffee was still cold on the desk. She looked at the clock: it was 6:15 a.m."\n\nWhat can be inferred?',
           },
           options: [
-            { es: "María llegó tarde a trabajar", en: "Maria arrived late to work" },
-            { es: "Hubo un apagón en la oficina", en: "There was a power outage in the office" },
-            { es: "María llegó antes que sus compañeros", en: "Maria arrived before her colleagues" },
-            { es: "María olvidó encender las luces", en: "Maria forgot to turn on the lights" },
+            {
+              es: "María llegó tarde a trabajar",
+              en: "Maria arrived late to work",
+            },
+            {
+              es: "Hubo un apagón en la oficina",
+              en: "There was a power outage in the office",
+            },
+            {
+              es: "María llegó antes que sus compañeros",
+              en: "Maria arrived before her colleagues",
+            },
+            {
+              es: "María olvidó encender las luces",
+              en: "Maria forgot to turn on the lights",
+            },
           ],
           correctAnswer: "2",
           explanation: {
@@ -214,15 +283,27 @@ export const comprensionLecturaTopic: Topic = {
             en: '"Corn production fell 40% compared to the previous year. Farmers reported insufficient rainfall throughout the production cycle."\n\nWhat can be inferred from this data?',
           },
           options: [
-            { es: "El precio del maíz bajará", en: "The price of corn will decrease" },
-            { es: "La sequía fue una causa probable de la baja producción", en: "Drought was a probable cause of low production" },
-            { es: "Los agricultores no sembraron suficiente", en: "Farmers didn't plant enough" },
-            { es: "El maíz ya no se cultiva en esa región", en: "Corn is no longer grown in that region" },
+            {
+              es: "El precio del maíz bajará",
+              en: "The price of corn will decrease",
+            },
+            {
+              es: "La sequía fue una causa probable de la baja producción",
+              en: "Drought was a probable cause of low production",
+            },
+            {
+              es: "Los agricultores no sembraron suficiente",
+              en: "Farmers didn't plant enough",
+            },
+            {
+              es: "El maíz ya no se cultiva en esa región",
+              en: "Corn is no longer grown in that region",
+            },
           ],
           correctAnswer: "1",
           explanation: {
-            es: "Al relacionar la caída en producción con las \"lluvias insuficientes\", se infiere que la falta de agua (sequía) fue una causa probable de la disminución en la producción de maíz.",
-            en: "By relating the drop in production to \"insufficient rainfall\", it can be inferred that lack of water (drought) was a probable cause of the decrease in corn production.",
+            es: 'Al relacionar la caída en producción con las "lluvias insuficientes", se infiere que la falta de agua (sequía) fue una causa probable de la disminución en la producción de maíz.',
+            en: 'By relating the drop in production to "insufficient rainfall", it can be inferred that lack of water (drought) was a probable cause of the decrease in corn production.',
           },
           difficulty: 2,
         },
@@ -234,10 +315,22 @@ export const comprensionLecturaTopic: Topic = {
             en: "What does it mean to infer in the context of reading comprehension?",
           },
           options: [
-            { es: "Copiar textualmente lo que dice el autor", en: "Copy verbatim what the author says" },
-            { es: "Deducir información que no está explícita a partir de los datos del texto", en: "Deduce information that is not explicit from the data in the text" },
-            { es: "Inventar datos que no están en el texto", en: "Invent data that is not in the text" },
-            { es: "Resumir el texto en pocas palabras", en: "Summarize the text in a few words" },
+            {
+              es: "Copiar textualmente lo que dice el autor",
+              en: "Copy verbatim what the author says",
+            },
+            {
+              es: "Deducir información que no está explícita a partir de los datos del texto",
+              en: "Deduce information that is not explicit from the data in the text",
+            },
+            {
+              es: "Inventar datos que no están en el texto",
+              en: "Invent data that is not in the text",
+            },
+            {
+              es: "Resumir el texto en pocas palabras",
+              en: "Summarize the text in a few words",
+            },
           ],
           correctAnswer: "1",
           explanation: {
@@ -254,15 +347,18 @@ export const comprensionLecturaTopic: Topic = {
             en: 'Read the following fragment:\n\n"Pedro clenched his fists while watching his brother receive the recognition. When everyone applauded, he left the room without saying a word and slammed the door."\n\nWhat feeling can be inferred in Pedro?',
           },
           options: [
-            { es: "Alegría y orgullo por su hermano", en: "Joy and pride for his brother" },
+            {
+              es: "Alegría y orgullo por su hermano",
+              en: "Joy and pride for his brother",
+            },
             { es: "Envidia o resentimiento", en: "Envy or resentment" },
             { es: "Indiferencia total", en: "Total indifference" },
             { es: "Miedo y preocupación", en: "Fear and concern" },
           ],
           correctAnswer: "1",
           explanation: {
-            es: "Los indicios de \"apretaba los puños\", salir sin decir nada y cerrar la puerta con fuerza sugieren enojo, envidia o resentimiento hacia el reconocimiento de su hermano.",
-            en: "The clues of \"clenched his fists\", leaving without saying anything and slamming the door suggest anger, envy or resentment towards his brother's recognition.",
+            es: 'Los indicios de "apretaba los puños", salir sin decir nada y cerrar la puerta con fuerza sugieren enojo, envidia o resentimiento hacia el reconocimiento de su hermano.',
+            en: 'The clues of "clenched his fists", leaving without saying anything and slamming the door suggest anger, envy or resentment towards his brother\'s recognition.',
           },
           difficulty: 2,
         },
@@ -288,18 +384,30 @@ export const comprensionLecturaTopic: Topic = {
           type: "multiple-choice",
           prompt: {
             es: 'Lee el siguiente texto:\n\n"Las redes sociales, lejos de acercarnos, nos han aislado más que nunca. Pasamos horas frente a una pantalla mientras ignoramos a quienes están a nuestro alrededor. Es hora de reconsiderar nuestra relación con la tecnología."\n\n¿Cuál es el punto de vista del autor?',
-            en: 'Read the following text:\n\n"Social networks, far from bringing us closer, have isolated us more than ever. We spend hours in front of a screen while ignoring those around us. It\'s time to reconsider our relationship with technology."\n\nWhat is the author\'s point of view?',
+            en: "Read the following text:\n\n\"Social networks, far from bringing us closer, have isolated us more than ever. We spend hours in front of a screen while ignoring those around us. It's time to reconsider our relationship with technology.\"\n\nWhat is the author's point of view?",
           },
           options: [
-            { es: "Las redes sociales son completamente positivas", en: "Social networks are completely positive" },
-            { es: "Las redes sociales nos están aislando y debemos reconsiderar su uso", en: "Social networks are isolating us and we must reconsider their use" },
-            { es: "La tecnología no tiene ningún efecto en nuestras relaciones", en: "Technology has no effect on our relationships" },
-            { es: "Debemos usar más las redes sociales", en: "We should use social networks more" },
+            {
+              es: "Las redes sociales son completamente positivas",
+              en: "Social networks are completely positive",
+            },
+            {
+              es: "Las redes sociales nos están aislando y debemos reconsiderar su uso",
+              en: "Social networks are isolating us and we must reconsider their use",
+            },
+            {
+              es: "La tecnología no tiene ningún efecto en nuestras relaciones",
+              en: "Technology has no effect on our relationships",
+            },
+            {
+              es: "Debemos usar más las redes sociales",
+              en: "We should use social networks more",
+            },
           ],
           correctAnswer: "1",
           explanation: {
-            es: "El autor presenta una postura crítica: considera que las redes sociales nos aíslan (\"lejos de acercarnos\") y propone que reconsideremos nuestra relación con la tecnología.",
-            en: "The author presents a critical stance: considers that social networks isolate us (\"far from bringing us closer\") and proposes that we reconsider our relationship with technology.",
+            es: 'El autor presenta una postura crítica: considera que las redes sociales nos aíslan ("lejos de acercarnos") y propone que reconsideremos nuestra relación con la tecnología.',
+            en: 'The author presents a critical stance: considers that social networks isolate us ("far from bringing us closer") and proposes that we reconsider our relationship with technology.',
           },
           difficulty: 2,
         },
@@ -311,10 +419,22 @@ export const comprensionLecturaTopic: Topic = {
             en: "How is the author's point of view identified in a text?",
           },
           options: [
-            { es: "Se busca únicamente en el título del texto", en: "It is sought only in the title of the text" },
-            { es: "Se identifica a través de las opiniones, valoraciones y la postura que sostiene sobre el tema", en: "It is identified through the opinions, evaluations and the position held on the topic" },
-            { es: "Solo aparece en la última línea del texto", en: "It only appears in the last line of the text" },
-            { es: "Siempre se expresa de forma directa con la frase \"yo opino que\"", en: "It is always expressed directly with the phrase \"I think that\"" },
+            {
+              es: "Se busca únicamente en el título del texto",
+              en: "It is sought only in the title of the text",
+            },
+            {
+              es: "Se identifica a través de las opiniones, valoraciones y la postura que sostiene sobre el tema",
+              en: "It is identified through the opinions, evaluations and the position held on the topic",
+            },
+            {
+              es: "Solo aparece en la última línea del texto",
+              en: "It only appears in the last line of the text",
+            },
+            {
+              es: 'Siempre se expresa de forma directa con la frase "yo opino que"',
+              en: 'It is always expressed directly with the phrase "I think that"',
+            },
           ],
           correctAnswer: "1",
           explanation: {
@@ -331,15 +451,27 @@ export const comprensionLecturaTopic: Topic = {
             en: '"Investment in renewable energy is not an expense, but an imperative necessity. Countries that do not act now will face irreversible environmental consequences."\n\nWhat is the author\'s position?',
           },
           options: [
-            { es: "Está en contra de las energías renovables", en: "Is against renewable energy" },
-            { es: "Considera que la inversión en energías renovables es urgente e indispensable", en: "Considers that investment in renewable energy is urgent and indispensable" },
-            { es: "Piensa que las consecuencias ambientales son exageradas", en: "Thinks environmental consequences are exaggerated" },
-            { es: "Es neutral respecto al tema energético", en: "Is neutral regarding the energy issue" },
+            {
+              es: "Está en contra de las energías renovables",
+              en: "Is against renewable energy",
+            },
+            {
+              es: "Considera que la inversión en energías renovables es urgente e indispensable",
+              en: "Considers that investment in renewable energy is urgent and indispensable",
+            },
+            {
+              es: "Piensa que las consecuencias ambientales son exageradas",
+              en: "Thinks environmental consequences are exaggerated",
+            },
+            {
+              es: "Es neutral respecto al tema energético",
+              en: "Is neutral regarding the energy issue",
+            },
           ],
           correctAnswer: "1",
           explanation: {
-            es: "El autor usa expresiones como \"necesidad imperante\" y \"consecuencias irreversibles\" para manifestar que la inversión en energías renovables es urgente e indispensable.",
-            en: "The author uses expressions like \"imperative necessity\" and \"irreversible consequences\" to express that investment in renewable energy is urgent and indispensable.",
+            es: 'El autor usa expresiones como "necesidad imperante" y "consecuencias irreversibles" para manifestar que la inversión en energías renovables es urgente e indispensable.',
+            en: 'The author uses expressions like "imperative necessity" and "irreversible consequences" to express that investment in renewable energy is urgent and indispensable.',
           },
           difficulty: 2,
         },

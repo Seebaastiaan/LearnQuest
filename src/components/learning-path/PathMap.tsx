@@ -34,7 +34,7 @@ export function PathMap({ topics }: PathMapProps) {
   const isTopicUnlocked = useProgressStore((s) => s.isTopicUnlocked);
 
   const getTopicStatus = (topic: Topic): TopicNodeStatus => {
-    if (!isTopicUnlocked(topic.id, topic.prerequisites)) return "locked";
+    if (!isTopicUnlocked(topic.id, topic.prerequisites ?? [])) return "locked";
 
     const topicLessons = topic.lessons;
     const completedLessons = topicLessons.filter((l) => {

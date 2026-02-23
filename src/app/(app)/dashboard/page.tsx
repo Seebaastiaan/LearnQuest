@@ -6,9 +6,13 @@ import { ZigzagPath } from "@/components/dashboard/ZigzagPath";
 import { subjects } from "@/lib/data/subjects";
 import { allTopics } from "@/lib/data/topics";
 import { allBiologyTopics } from "@/lib/data/topics/biologia";
-import { allGeographyTopics } from "@/lib/data/topics/geografia";
 import { allSpanishTopics } from "@/lib/data/topics/espanol";
+import { allPhysicsTopics } from "@/lib/data/topics/fisica";
+import { allGeographyTopics } from "@/lib/data/topics/geografia";
+import { allMexicanHistoryTopics } from "@/lib/data/topics/historia-mexico";
+import { allWorldHistoryTopics } from "@/lib/data/topics/historia-universal";
 import { literaturaTopics } from "@/lib/data/topics/literatura";
+import { allChemistryTopics } from "@/lib/data/topics/quimica";
 import type { Topic } from "@/lib/types";
 import type { Subject } from "@/lib/types/subject";
 import { useGameStore, useProgressStore, useSettingsStore } from "@/stores";
@@ -20,7 +24,11 @@ const topicsBySubject: Record<string, Topic[]> = {
   biologia: allBiologyTopics,
   geografia: allGeographyTopics,
   espanol: allSpanishTopics,
+  fisica: allPhysicsTopics,
+  quimica: allChemistryTopics,
   literatura: literaturaTopics,
+  "historia-universal": allWorldHistoryTopics,
+  "historia-mexico": allMexicanHistoryTopics,
 };
 
 export default function DashboardPage() {

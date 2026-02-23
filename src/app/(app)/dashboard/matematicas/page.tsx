@@ -26,7 +26,7 @@ export default function MatematicasPage() {
 
     // Ensure first lessons of unlocked topics are available
     allTopics.forEach((topic: Topic) => {
-      if (isTopicUnlocked(topic.id, topic.prerequisites)) {
+      if (isTopicUnlocked(topic.id, topic.prerequisites ?? [])) {
         const firstLesson = topic.lessons[0];
         if (firstLesson && !lessonProgress[firstLesson.id]) {
           unlockLesson(topic.id, firstLesson.id);

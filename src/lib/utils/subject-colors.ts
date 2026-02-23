@@ -51,7 +51,8 @@ const colorMap: Record<string, SubjectColorTokens> = {
   },
   biologia: {
     surface: "from-emerald-50 via-green-50/80 to-emerald-50",
-    surfaceDark: "dark:from-emerald-950/40 dark:via-green-950/30 dark:to-emerald-950/40",
+    surfaceDark:
+      "dark:from-emerald-950/40 dark:via-green-950/30 dark:to-emerald-950/40",
     border: "border-emerald-200/60",
     borderDark: "dark:border-emerald-800/40",
     progressTrack: "bg-emerald-200/50",
@@ -67,7 +68,8 @@ const colorMap: Record<string, SubjectColorTokens> = {
   },
   fisica: {
     surface: "from-purple-50 via-violet-50/80 to-purple-50",
-    surfaceDark: "dark:from-purple-950/40 dark:via-violet-950/30 dark:to-purple-950/40",
+    surfaceDark:
+      "dark:from-purple-950/40 dark:via-violet-950/30 dark:to-purple-950/40",
     border: "border-purple-200/60",
     borderDark: "dark:border-purple-800/40",
     progressTrack: "bg-purple-200/50",
@@ -83,7 +85,8 @@ const colorMap: Record<string, SubjectColorTokens> = {
   },
   quimica: {
     surface: "from-pink-50 via-rose-50/80 to-pink-50",
-    surfaceDark: "dark:from-pink-950/40 dark:via-rose-950/30 dark:to-pink-950/40",
+    surfaceDark:
+      "dark:from-pink-950/40 dark:via-rose-950/30 dark:to-pink-950/40",
     border: "border-pink-200/60",
     borderDark: "dark:border-pink-800/40",
     progressTrack: "bg-pink-200/50",
@@ -97,9 +100,10 @@ const colorMap: Record<string, SubjectColorTokens> = {
     iconShadow: "shadow-pink-500/20 dark:shadow-pink-500/10",
     pulseColor: "rgba(236, 72, 153, 0.3)",
   },
-  historia: {
+  "historia-universal": {
     surface: "from-amber-50 via-orange-50/80 to-amber-50",
-    surfaceDark: "dark:from-amber-950/40 dark:via-orange-950/30 dark:to-amber-950/40",
+    surfaceDark:
+      "dark:from-amber-950/40 dark:via-orange-950/30 dark:to-amber-950/40",
     border: "border-amber-200/60",
     borderDark: "dark:border-amber-800/40",
     progressTrack: "bg-amber-200/50",
@@ -113,9 +117,26 @@ const colorMap: Record<string, SubjectColorTokens> = {
     iconShadow: "shadow-amber-500/20 dark:shadow-amber-500/10",
     pulseColor: "rgba(245, 158, 11, 0.3)",
   },
+  "historia-mexico": {
+    surface: "from-red-50 via-rose-50/80 to-red-50",
+    surfaceDark: "dark:from-red-950/40 dark:via-rose-950/30 dark:to-red-950/40",
+    border: "border-red-200/60",
+    borderDark: "dark:border-red-800/40",
+    progressTrack: "bg-red-200/50",
+    progressTrackDark: "dark:bg-red-800/40",
+    progressFill: "from-red-400 to-rose-500",
+    accentText: "text-red-600",
+    accentTextDark: "dark:text-red-400",
+    ctaBg: "bg-red-500 dark:bg-red-600",
+    ctaHover: "group-hover:bg-red-600",
+    ctaHoverDark: "dark:group-hover:bg-red-500",
+    iconShadow: "shadow-red-500/20 dark:shadow-red-500/10",
+    pulseColor: "rgba(239, 68, 68, 0.3)",
+  },
   geografia: {
     surface: "from-teal-50 via-cyan-50/80 to-teal-50",
-    surfaceDark: "dark:from-teal-950/40 dark:via-cyan-950/30 dark:to-teal-950/40",
+    surfaceDark:
+      "dark:from-teal-950/40 dark:via-cyan-950/30 dark:to-teal-950/40",
     border: "border-teal-200/60",
     borderDark: "dark:border-teal-800/40",
     progressTrack: "bg-teal-200/50",
@@ -131,7 +152,8 @@ const colorMap: Record<string, SubjectColorTokens> = {
   },
   literatura: {
     surface: "from-indigo-50 via-purple-50/80 to-indigo-50",
-    surfaceDark: "dark:from-indigo-950/40 dark:via-purple-950/30 dark:to-indigo-950/40",
+    surfaceDark:
+      "dark:from-indigo-950/40 dark:via-purple-950/30 dark:to-indigo-950/40",
     border: "border-indigo-200/60",
     borderDark: "dark:border-indigo-800/40",
     progressTrack: "bg-indigo-200/50",
@@ -147,7 +169,8 @@ const colorMap: Record<string, SubjectColorTokens> = {
   },
   espanol: {
     surface: "from-green-50 via-emerald-50/80 to-green-50",
-    surfaceDark: "dark:from-green-950/40 dark:via-emerald-950/30 dark:to-green-950/40",
+    surfaceDark:
+      "dark:from-green-950/40 dark:via-emerald-950/30 dark:to-green-950/40",
     border: "border-green-200/60",
     borderDark: "dark:border-green-800/40",
     progressTrack: "bg-green-200/50",
@@ -166,7 +189,8 @@ const colorMap: Record<string, SubjectColorTokens> = {
 /** Default fallback (slate) if subject ID isn't mapped */
 const fallback: SubjectColorTokens = {
   surface: "from-slate-50 via-gray-50/80 to-slate-50",
-  surfaceDark: "dark:from-slate-950/40 dark:via-gray-950/30 dark:to-slate-950/40",
+  surfaceDark:
+    "dark:from-slate-950/40 dark:via-gray-950/30 dark:to-slate-950/40",
   border: "border-slate-200/60",
   borderDark: "dark:border-slate-800/40",
   progressTrack: "bg-slate-200/50",

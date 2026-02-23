@@ -40,10 +40,22 @@ export const formasDiscursoTopic: Topic = {
             en: "Which of the following fragments corresponds to descriptive discourse?",
           },
           options: [
-            { es: "La casa tenía paredes blancas, un techo de teja roja y un jardín lleno de buganvilias moradas", en: "The house had white walls, a red tile roof and a garden full of purple bougainvillea" },
-            { es: "Primero fue al mercado, luego cocinó y finalmente sirvió la cena", en: "First he went to the market, then cooked and finally served dinner" },
-            { es: "Es necesario invertir en educación porque el futuro del país depende de ello", en: "It is necessary to invest in education because the future of the country depends on it" },
-            { es: "Entonces el caballero desenvainó su espada y enfrentó al dragón", en: "Then the knight unsheathed his sword and faced the dragon" },
+            {
+              es: "La casa tenía paredes blancas, un techo de teja roja y un jardín lleno de buganvilias moradas",
+              en: "The house had white walls, a red tile roof and a garden full of purple bougainvillea",
+            },
+            {
+              es: "Primero fue al mercado, luego cocinó y finalmente sirvió la cena",
+              en: "First he went to the market, then cooked and finally served dinner",
+            },
+            {
+              es: "Es necesario invertir en educación porque el futuro del país depende de ello",
+              en: "It is necessary to invest in education because the future of the country depends on it",
+            },
+            {
+              es: "Entonces el caballero desenvainó su espada y enfrentó al dragón",
+              en: "Then the knight unsheathed his sword and faced the dragon",
+            },
           ],
           correctAnswer: "0",
           explanation: {
@@ -60,10 +72,19 @@ export const formasDiscursoTopic: Topic = {
             en: "What type of words predominate in descriptive discourse?",
           },
           options: [
-            { es: "Verbos de acción en pasado", en: "Action verbs in past tense" },
-            { es: "Adjetivos calificativos y adverbios", en: "Qualifying adjectives and adverbs" },
+            {
+              es: "Verbos de acción en pasado",
+              en: "Action verbs in past tense",
+            },
+            {
+              es: "Adjetivos calificativos y adverbios",
+              en: "Qualifying adjectives and adverbs",
+            },
             { es: "Conjunciones adversativas", en: "Adversative conjunctions" },
-            { es: "Conectores de causa y consecuencia", en: "Cause and consequence connectors" },
+            {
+              es: "Conectores de causa y consecuencia",
+              en: "Cause and consequence connectors",
+            },
           ],
           correctAnswer: "1",
           explanation: {
@@ -80,8 +101,14 @@ export const formasDiscursoTopic: Topic = {
             en: "Prosopography is a type of description that refers to:",
           },
           options: [
-            { es: "Las cualidades morales de una persona", en: "The moral qualities of a person" },
-            { es: "Los rasgos físicos de una persona", en: "The physical features of a person" },
+            {
+              es: "Las cualidades morales de una persona",
+              en: "The moral qualities of a person",
+            },
+            {
+              es: "Los rasgos físicos de una persona",
+              en: "The physical features of a person",
+            },
             { es: "Un lugar o paisaje", en: "A place or landscape" },
             { es: "Una época histórica", en: "A historical period" },
           ],
@@ -100,10 +127,22 @@ export const formasDiscursoTopic: Topic = {
             en: "What is the difference between objective and subjective description?",
           },
           options: [
-            { es: "La objetiva usa adjetivos y la subjetiva no", en: "Objective uses adjectives and subjective doesn't" },
-            { es: "La objetiva presenta datos verificables y la subjetiva incluye valoraciones personales", en: "Objective presents verifiable data and subjective includes personal evaluations" },
-            { es: "La objetiva es literaria y la subjetiva es científica", en: "Objective is literary and subjective is scientific" },
-            { es: "No hay diferencia, son lo mismo", en: "There is no difference, they are the same" },
+            {
+              es: "La objetiva usa adjetivos y la subjetiva no",
+              en: "Objective uses adjectives and subjective doesn't",
+            },
+            {
+              es: "La objetiva presenta datos verificables y la subjetiva incluye valoraciones personales",
+              en: "Objective presents verifiable data and subjective includes personal evaluations",
+            },
+            {
+              es: "La objetiva es literaria y la subjetiva es científica",
+              en: "Objective is literary and subjective is scientific",
+            },
+            {
+              es: "No hay diferencia, son lo mismo",
+              en: "There is no difference, they are the same",
+            },
           ],
           correctAnswer: "1",
           explanation: {
@@ -157,10 +196,22 @@ export const formasDiscursoTopic: Topic = {
             en: "What is the main characteristic of narrative discourse?",
           },
           options: [
-            { es: "Presenta las cualidades de un objeto", en: "Presents the qualities of an object" },
-            { es: "Relata una sucesión de hechos o acciones en el tiempo", en: "Relates a succession of facts or actions in time" },
-            { es: "Defiende una postura mediante razones", en: "Defends a position through reasons" },
-            { es: "Explica un concepto de manera técnica", en: "Explains a concept in a technical way" },
+            {
+              es: "Presenta las cualidades de un objeto",
+              en: "Presents the qualities of an object",
+            },
+            {
+              es: "Relata una sucesión de hechos o acciones en el tiempo",
+              en: "Relates a succession of facts or actions in time",
+            },
+            {
+              es: "Defiende una postura mediante razones",
+              en: "Defends a position through reasons",
+            },
+            {
+              es: "Explica un concepto de manera técnica",
+              en: "Explains a concept in a technical way",
+            },
           ],
           correctAnswer: "1",
           explanation: {
@@ -177,10 +228,22 @@ export const formasDiscursoTopic: Topic = {
             en: "What are the fundamental elements of narration?",
           },
           options: [
-            { es: "Tesis, argumento y conclusión", en: "Thesis, argument and conclusion" },
-            { es: "Narrador, personajes, espacio, tiempo y acción", en: "Narrator, characters, space, time and action" },
-            { es: "Introducción, desarrollo y conclusión", en: "Introduction, development and conclusion" },
-            { es: "Sujeto, verbo y complemento", en: "Subject, verb and complement" },
+            {
+              es: "Tesis, argumento y conclusión",
+              en: "Thesis, argument and conclusion",
+            },
+            {
+              es: "Narrador, personajes, espacio, tiempo y acción",
+              en: "Narrator, characters, space, time and action",
+            },
+            {
+              es: "Introducción, desarrollo y conclusión",
+              en: "Introduction, development and conclusion",
+            },
+            {
+              es: "Sujeto, verbo y complemento",
+              en: "Subject, verb and complement",
+            },
           ],
           correctAnswer: "1",
           explanation: {
@@ -237,10 +300,22 @@ export const formasDiscursoTopic: Topic = {
             en: "In the narrative structure, the climax corresponds to:",
           },
           options: [
-            { es: "La presentación de los personajes y el escenario", en: "The presentation of characters and setting" },
-            { es: "El momento de mayor tensión o conflicto en la historia", en: "The moment of greatest tension or conflict in the story" },
-            { es: "La resolución final del conflicto", en: "The final resolution of the conflict" },
-            { es: "La moraleja o enseñanza del relato", en: "The moral or lesson of the story" },
+            {
+              es: "La presentación de los personajes y el escenario",
+              en: "The presentation of characters and setting",
+            },
+            {
+              es: "El momento de mayor tensión o conflicto en la historia",
+              en: "The moment of greatest tension or conflict in the story",
+            },
+            {
+              es: "La resolución final del conflicto",
+              en: "The final resolution of the conflict",
+            },
+            {
+              es: "La moraleja o enseñanza del relato",
+              en: "The moral or lesson of the story",
+            },
           ],
           correctAnswer: "1",
           explanation: {
@@ -274,10 +349,22 @@ export const formasDiscursoTopic: Topic = {
             en: "What is the purpose of argumentative discourse?",
           },
           options: [
-            { es: "Relatar una historia con personajes", en: "Tell a story with characters" },
-            { es: "Describir las características de un objeto", en: "Describe the characteristics of an object" },
-            { es: "Defender una postura o idea mediante razones y evidencias", en: "Defend a position or idea through reasons and evidence" },
-            { es: "Dar instrucciones paso a paso", en: "Give step-by-step instructions" },
+            {
+              es: "Relatar una historia con personajes",
+              en: "Tell a story with characters",
+            },
+            {
+              es: "Describir las características de un objeto",
+              en: "Describe the characteristics of an object",
+            },
+            {
+              es: "Defender una postura o idea mediante razones y evidencias",
+              en: "Defend a position or idea through reasons and evidence",
+            },
+            {
+              es: "Dar instrucciones paso a paso",
+              en: "Give step-by-step instructions",
+            },
           ],
           correctAnswer: "2",
           explanation: {
@@ -294,10 +381,22 @@ export const formasDiscursoTopic: Topic = {
             en: "What is the basic structure of an argumentative text?",
           },
           options: [
-            { es: "Inicio, nudo y desenlace", en: "Beginning, climax and resolution" },
-            { es: "Tesis, argumentos y conclusión", en: "Thesis, arguments and conclusion" },
-            { es: "Sujeto, verbo y predicado", en: "Subject, verb and predicate" },
-            { es: "Título, desarrollo y bibliografía", en: "Title, development and bibliography" },
+            {
+              es: "Inicio, nudo y desenlace",
+              en: "Beginning, climax and resolution",
+            },
+            {
+              es: "Tesis, argumentos y conclusión",
+              en: "Thesis, arguments and conclusion",
+            },
+            {
+              es: "Sujeto, verbo y predicado",
+              en: "Subject, verb and predicate",
+            },
+            {
+              es: "Título, desarrollo y bibliografía",
+              en: "Title, development and bibliography",
+            },
           ],
           correctAnswer: "1",
           explanation: {
@@ -335,9 +434,18 @@ export const formasDiscursoTopic: Topic = {
           },
           options: [
             { es: "Érase una vez", en: "Once upon a time" },
-            { es: "De color azul y forma redonda", en: "Blue in color and round in shape" },
-            { es: "Por lo tanto, en consecuencia, sin embargo", en: "Therefore, consequently, however" },
-            { es: "Al día siguiente, después de eso", en: "The next day, after that" },
+            {
+              es: "De color azul y forma redonda",
+              en: "Blue in color and round in shape",
+            },
+            {
+              es: "Por lo tanto, en consecuencia, sin embargo",
+              en: "Therefore, consequently, however",
+            },
+            {
+              es: "Al día siguiente, después de eso",
+              en: "The next day, after that",
+            },
           ],
           correctAnswer: "2",
           explanation: {

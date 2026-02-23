@@ -44,7 +44,7 @@ export default function FisicaPage() {
 
     // Lógica para desbloquear lecciones (igual para todas las materias)
     allTopics.forEach((topic: Topic) => {
-      if (isTopicUnlocked(topic.id, topic.prerequisites)) {
+      if (isTopicUnlocked(topic.id, topic.prerequisites ?? [])) {
         const firstLesson = topic.lessons[0];
         if (firstLesson && !lessonProgress[firstLesson.id]) {
           unlockLesson(topic.id, firstLesson.id);

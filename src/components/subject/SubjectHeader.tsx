@@ -14,6 +14,7 @@ interface SubjectHeaderProps {
     es: string;
     en: string;
   };
+  subjectId?: string;
 }
 
 // Color mapping for each subject
@@ -21,6 +22,16 @@ const subjectColors = {
   Matemáticas: {
     badge: "from-sky-100 to-blue-100 dark:from-sky-950/50 dark:to-blue-950/30",
     text: "text-sky-700 dark:text-sky-300",
+  },
+  Física: {
+    badge:
+      "from-purple-100 to-violet-100 dark:from-purple-950/50 dark:to-violet-950/30",
+    text: "text-purple-700 dark:text-purple-300",
+  },
+  Química: {
+    badge:
+      "from-pink-100 to-rose-100 dark:from-pink-950/50 dark:to-rose-950/30",
+    text: "text-pink-700 dark:text-pink-300",
   },
   Biología: {
     badge:
@@ -41,6 +52,15 @@ const subjectColors = {
     badge:
       "from-indigo-100 to-purple-100 dark:from-indigo-950/50 dark:to-purple-950/30",
     text: "text-indigo-700 dark:text-indigo-300",
+  },
+  "Historia Universal": {
+    badge:
+      "from-amber-100 to-orange-100 dark:from-amber-950/50 dark:to-orange-950/30",
+    text: "text-amber-700 dark:text-amber-300",
+  },
+  "Historia de México": {
+    badge: "from-red-100 to-rose-100 dark:from-red-950/50 dark:to-rose-950/30",
+    text: "text-red-700 dark:text-red-300",
   },
   // Default fallback
   default: {

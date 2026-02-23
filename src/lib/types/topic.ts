@@ -24,7 +24,7 @@ export interface Question {
   correctAnswer: string | string[]; // Single or ordered array
   explanation: LocalizedString; // Shown after answering
   steps?: LocalizedString[]; // Step-by-step solution (KaTeX)
-  difficulty: Difficulty;
+  difficulty?: Difficulty;
   hints?: LocalizedString[];
   matchPairs?: {
     // For match-pairs type
@@ -41,10 +41,11 @@ export interface Lesson {
   topicId: string;
   order: number;
   title: LocalizedString;
-  description: LocalizedString;
+  description?: LocalizedString;
+  content?: LocalizedString; // Optional narrative content for learn-type lessons
   type: LessonType;
   questions: Question[];
-  xpReward: number; // Base XP for completing
+  xpReward?: number; // Base XP for completing
 }
 
 export type TopicStatus =
@@ -56,13 +57,14 @@ export type TopicStatus =
 
 export interface Topic {
   id: string;
-  slug: string;
+  slug?: string;
+  subjectId?: string;
   title: LocalizedString;
   description: LocalizedString;
   icon: string; // Lucide icon name
   color: string; // Tailwind color class
   bgGradient: string; // Tailwind gradient classes
-  prerequisites: string[]; // IDs of prerequisite topics
+  prerequisites?: string[]; // IDs of prerequisite topics
   order: number;
   lessons: Lesson[];
 }

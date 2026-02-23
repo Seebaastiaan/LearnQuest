@@ -3,7 +3,10 @@ import type { Topic } from "@/lib/types";
 export const redaccionInvestigacionTopic: Topic = {
   id: "literatura-redaccion",
   slug: "literatura-redaccion",
-  title: { es: "Redacción y técnicas de investigación", en: "Writing and Research Techniques" },
+  title: {
+    es: "Redacción y técnicas de investigación",
+    en: "Writing and Research Techniques",
+  },
   description: {
     es: "Técnicas de resumen, paráfrasis, cita textual, comentario y registro de fuentes documentales.",
     en: "Techniques for summarizing, paraphrasing, direct quotation, commentary and registration of documentary sources.",
@@ -37,10 +40,19 @@ export const redaccionInvestigacionTopic: Topic = {
           },
           type: "multiple-choice",
           options: [
-            { es: "Incluir todos los detalles del texto original", en: "Include all details of the original text" },
-            { es: "Mantener solo las ideas principales", en: "Keep only the main ideas" },
+            {
+              es: "Incluir todos los detalles del texto original",
+              en: "Include all details of the original text",
+            },
+            {
+              es: "Mantener solo las ideas principales",
+              en: "Keep only the main ideas",
+            },
             { es: "Agregar opiniones personales", en: "Add personal opinions" },
-            { es: "Cambiar el orden de las ideas", en: "Change the order of ideas" },
+            {
+              es: "Cambiar el orden de las ideas",
+              en: "Change the order of ideas",
+            },
           ],
           correctAnswer: "1",
           explanation: {
@@ -58,8 +70,14 @@ export const redaccionInvestigacionTopic: Topic = {
           type: "multiple-choice",
           options: [
             { es: "La paráfrasis es más breve", en: "Paraphrase is briefer" },
-            { es: "La paráfrasis mantiene la extensión aproximada del original", en: "Paraphrase maintains approximate length of original" },
-            { es: "La paráfrasis copia textualmente", en: "Paraphrase copies verbatim" },
+            {
+              es: "La paráfrasis mantiene la extensión aproximada del original",
+              en: "Paraphrase maintains approximate length of original",
+            },
+            {
+              es: "La paráfrasis copia textualmente",
+              en: "Paraphrase copies verbatim",
+            },
             { es: "No hay diferencia", en: "There is no difference" },
           ],
           correctAnswer: "1",
@@ -142,10 +160,19 @@ export const redaccionInvestigacionTopic: Topic = {
           },
           type: "multiple-choice",
           options: [
-            { es: "Siempre que se mencione otro autor", en: "Whenever another author is mentioned" },
-            { es: "Cuando la forma original es relevante o contundente", en: "When the original form is relevant or compelling" },
+            {
+              es: "Siempre que se mencione otro autor",
+              en: "Whenever another author is mentioned",
+            },
+            {
+              es: "Cuando la forma original es relevante o contundente",
+              en: "When the original form is relevant or compelling",
+            },
             { es: "Solo en textos académicos", en: "Only in academic texts" },
-            { es: "Nunca, es mejor parafrasear", en: "Never, it's better to paraphrase" },
+            {
+              es: "Nunca, es mejor parafrasear",
+              en: "Never, it's better to paraphrase",
+            },
           ],
           correctAnswer: "1",
           explanation: {
@@ -164,7 +191,10 @@ export const redaccionInvestigacionTopic: Topic = {
           options: [
             { es: "Asterisco (*)", en: "Asterisk (*)" },
             { es: "Guion (−)", en: "Dash (−)" },
-            { es: "Puntos suspensivos (...) o corchetes [...] ", en: "Ellipsis (...) or brackets [...]" },
+            {
+              es: "Puntos suspensivos (...) o corchetes [...] ",
+              en: "Ellipsis (...) or brackets [...]",
+            },
             { es: "Paréntesis ()", en: "Parentheses ()" },
           ],
           correctAnswer: "2",
@@ -184,8 +214,14 @@ export const redaccionInvestigacionTopic: Topic = {
           options: [
             { es: "Análisis de ideas", en: "Analysis of ideas" },
             { es: "Opiniones fundamentadas", en: "Substantiated opinions" },
-            { es: "Copia de fragmentos sin interpretación", en: "Copy of fragments without interpretation" },
-            { es: "Valoración personal argumentada", en: "Argued personal evaluation" },
+            {
+              es: "Copia de fragmentos sin interpretación",
+              en: "Copy of fragments without interpretation",
+            },
+            {
+              es: "Valoración personal argumentada",
+              en: "Argued personal evaluation",
+            },
           ],
           correctAnswer: "2",
           explanation: {
@@ -216,10 +252,19 @@ export const redaccionInvestigacionTopic: Topic = {
           },
           type: "multiple-choice",
           options: [
-            { es: "Nada, la cita habla por sí misma", en: "Nothing, the quote speaks for itself" },
-            { es: "La referencia o fuente de donde se extrajo", en: "The reference or source from which it was extracted" },
+            {
+              es: "Nada, la cita habla por sí misma",
+              en: "Nothing, the quote speaks for itself",
+            },
+            {
+              es: "La referencia o fuente de donde se extrajo",
+              en: "The reference or source from which it was extracted",
+            },
             { es: "Otro ejemplo similar", en: "Another similar example" },
-            { es: "Un resumen del texto completo", en: "A summary of the complete text" },
+            {
+              es: "Un resumen del texto completo",
+              en: "A summary of the complete text",
+            },
           ],
           correctAnswer: "1",
           explanation: {
@@ -254,9 +299,15 @@ export const redaccionInvestigacionTopic: Topic = {
           type: "multiple-choice",
           options: [
             { es: "Solo el autor y el título", en: "Only author and title" },
-            { es: "Autor, título, editorial, año y lugar de publicación", en: "Author, title, publisher, year and place of publication" },
+            {
+              es: "Autor, título, editorial, año y lugar de publicación",
+              en: "Author, title, publisher, year and place of publication",
+            },
             { es: "Solo el título y el año", en: "Only title and year" },
-            { es: "Autor y número de páginas", en: "Author and number of pages" },
+            {
+              es: "Autor y número de páginas",
+              en: "Author and number of pages",
+            },
           ],
           correctAnswer: "1",
           explanation: {
@@ -296,7 +347,10 @@ export const redaccionInvestigacionTopic: Topic = {
             { es: "(Apellido, año)", en: "(Last name, year)" },
             { es: "[Apellido-año]", en: "[Last name-year]" },
             { es: "Apellido (año)", en: "Last name (year)" },
-            { es: "Solo el año entre paréntesis", en: "Only the year in parentheses" },
+            {
+              es: "Solo el año entre paréntesis",
+              en: "Only the year in parentheses",
+            },
           ],
           correctAnswer: "0",
           explanation: {
@@ -313,10 +367,22 @@ export const redaccionInvestigacionTopic: Topic = {
           },
           type: "multiple-choice",
           options: [
-            { es: "Solo para registrar bibliografía", en: "Only to record bibliography" },
-            { es: "Para organizar ideas, citas y resúmenes durante la investigación", en: "To organize ideas, quotes and summaries during research" },
-            { es: "Para hacer índices automáticos", en: "To make automatic indexes" },
-            { es: "Para decorar el trabajo final", en: "To decorate the final work" },
+            {
+              es: "Solo para registrar bibliografía",
+              en: "Only to record bibliography",
+            },
+            {
+              es: "Para organizar ideas, citas y resúmenes durante la investigación",
+              en: "To organize ideas, quotes and summaries during research",
+            },
+            {
+              es: "Para hacer índices automáticos",
+              en: "To make automatic indexes",
+            },
+            {
+              es: "Para decorar el trabajo final",
+              en: "To decorate the final work",
+            },
           ],
           correctAnswer: "1",
           explanation: {

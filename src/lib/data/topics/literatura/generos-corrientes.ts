@@ -3,7 +3,10 @@ import type { Topic } from "@/lib/types";
 export const generosCorrientesTopic: Topic = {
   id: "literatura-generos",
   slug: "literatura-generos",
-  title: { es: "Géneros y corrientes literarias", en: "Literary Genres and Movements" },
+  title: {
+    es: "Géneros y corrientes literarias",
+    en: "Literary Genres and Movements",
+  },
   description: {
     es: "Clasificación de géneros literarios (épico, lírico, dramático) y principales corrientes desde el Barroco hasta la actualidad.",
     en: "Classification of literary genres (epic, lyric, dramatic) and main literary movements from Baroque to the present.",
@@ -38,8 +41,14 @@ export const generosCorrientesTopic: Topic = {
           type: "multiple-choice",
           options: [
             { es: "Presencia de narrador", en: "Presence of narrator" },
-            { es: "Expresión de sentimientos del yo poético", en: "Expression of feelings of the poetic self" },
-            { es: "Diálogos entre personajes", en: "Dialogues between characters" },
+            {
+              es: "Expresión de sentimientos del yo poético",
+              en: "Expression of feelings of the poetic self",
+            },
+            {
+              es: "Diálogos entre personajes",
+              en: "Dialogues between characters",
+            },
             { es: "Estructura en actos", en: "Structure in acts" },
           ],
           correctAnswer: "1",
@@ -149,7 +158,10 @@ export const generosCorrientesTopic: Topic = {
           type: "multiple-choice",
           options: [
             { es: "Sencillez expresiva", en: "Expressive simplicity" },
-            { es: "Recargamiento ornamental y conceptual", en: "Ornamental and conceptual overloading" },
+            {
+              es: "Recargamiento ornamental y conceptual",
+              en: "Ornamental and conceptual overloading",
+            },
             { es: "Imitación de la naturaleza", en: "Imitation of nature" },
             { es: "Exaltación de la razón", en: "Exaltation of reason" },
           ],
@@ -208,10 +220,22 @@ export const generosCorrientesTopic: Topic = {
           },
           type: "multiple-choice",
           options: [
-            { es: "Renovación del lenguaje poético y búsqueda de la belleza", en: "Renewal of poetic language and search for beauty" },
-            { es: "Imitación de modelos clásicos", en: "Imitation of classical models" },
-            { es: "Descripción realista de costumbres", en: "Realistic description of customs" },
-            { es: "Predominio de temas religiosos", en: "Predominance of religious themes" },
+            {
+              es: "Renovación del lenguaje poético y búsqueda de la belleza",
+              en: "Renewal of poetic language and search for beauty",
+            },
+            {
+              es: "Imitación de modelos clásicos",
+              en: "Imitation of classical models",
+            },
+            {
+              es: "Descripción realista de costumbres",
+              en: "Realistic description of customs",
+            },
+            {
+              es: "Predominio de temas religiosos",
+              en: "Predominance of religious themes",
+            },
           ],
           correctAnswer: "0",
           explanation: {
@@ -279,10 +303,22 @@ export const generosCorrientesTopic: Topic = {
           },
           type: "multiple-choice",
           options: [
-            { es: "Conoce todo sobre todos los personajes", en: "Knows everything about all characters" },
-            { es: "Participa en la historia como personaje", en: "Participates in the story as a character" },
-            { es: "Solo describe objetivamente", en: "Only describes objectively" },
-            { es: "Permanece fuera de la historia", en: "Remains outside the story" },
+            {
+              es: "Conoce todo sobre todos los personajes",
+              en: "Knows everything about all characters",
+            },
+            {
+              es: "Participa en la historia como personaje",
+              en: "Participates in the story as a character",
+            },
+            {
+              es: "Solo describe objetivamente",
+              en: "Only describes objectively",
+            },
+            {
+              es: "Permanece fuera de la historia",
+              en: "Remains outside the story",
+            },
           ],
           correctAnswer: "1",
           explanation: {
@@ -320,7 +356,10 @@ export const generosCorrientesTopic: Topic = {
           type: "multiple-choice",
           options: [
             { es: "Anticipación o prolepsis", en: "Anticipation or prolepsis" },
-            { es: "Retrospección o analepsis", en: "Retrospection or analepsis" },
+            {
+              es: "Retrospección o analepsis",
+              en: "Retrospection or analepsis",
+            },
             { es: "Narración lineal", en: "Linear narration" },
             { es: "Monólogo interior", en: "Interior monologue" },
           ],
